@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T07:28:46.424675Z",
+ "generated_at": "2026-11-19T07:55:13.768727Z",
  "count": 65,
  "items": [
   {
@@ -131,7 +131,7 @@
    "guid": "oHGBQrBrddqJQiZsazTPg9",
    "url": "https://www.tomshardware.com/pc-components/cpus/nvidia-says-its-absurd-to-assume-it-predicted-the-agentic-moment-during-veras-development-product-intuition-helped-drive-cpu-design-superior-memory-bandwidth-will-play-critical-role-in-future-ai-agents-cpu-boss-claims",
    "title": "Nvidia says it’s ‘absurd’ to assume it predicted the agentic moment during Vera’s development",
-   "summary": "AMD has criticized Nvidia, and to a lesser extent Arm, for claims about creating a CPU designed for agentic AI. Nvidia is pushing back on that characterization, instead saying Vera was designed with “base principles, product intuition, and oftentimes simple allegorical laws of computer science” in a recent interview…",
+   "summary": "AMD has criticized Nvidia, and to a lesser extent Arm, for claims about creating a CPU designed for agentic AI. Nvidia is pushing back on that characterization, instead saying Vera was designed with “base principles, product intuition, and oftentimes simple allegorical laws of computer science” in a recent interview with Tom’s Hardware.",
    "categories": [
     "CPUs",
     "PC Components"
@@ -467,7 +467,7 @@
    "guid": "yd2N7QwdyXpdEPbXQMm34H",
    "url": "https://www.tomshardware.com/tech-industry/data-centers/former-nvidia-ceo-jensen-huang-will-appear-before-a-house-foreign-affairs-panel-amid-concerns-over-his-affair-with-a-suspected-chinese-spy-will-testify-behind-closed-doors-december-1-nvidia-lawyer-will-also-appear",
    "title": "Former Nvidia CEO Jensen Huang will appear before a House Foreign Affairs panel amid concerns over his affair with a suspected Chinese spy",
-   "summary": "Former Nvidia CEO Jensen Huang will appear before the House Foreign Affairs, Intelligence, and China Select Committees on December 1, with Nvidia's lawyer following him on December 2.",
+   "summary": "Former Nvidia CEO Jensen Huang will appear before the House Foreign Affairs, Intelligence, and China Select Committees on December 1, with Nvidia's lawyer following him on December 2. The appearances follow Huang's admission of an affair with a woman who worked for an Nvidia customer who is also believed to be a Chinese spy.",
    "categories": [
     "Data Centers",
     "Tech Industry"
@@ -531,7 +531,7 @@
    "guid": "4vDxJs5WSc8ftRG6eB6urn",
    "url": "https://www.tomshardware.com/tech-industry/data-centers/us-government-confirms-criminal-investigation-into-singapore-company-at-the-heart-of-jensen-huang-scandal-megaspeed-identified-over-suspicious-activity-company-placed-on-no-sell-list-by-nvidia",
    "title": "US government confirms criminal investigation into Singapore company at the heart of Jensen Huang scandal",
-   "summary": "The Justice and Commerce Departments have announced an investigation into Megaspeed over concerns that it may have been involved in the illegal export of Nvidia's AI hardware.",
+   "summary": "The Justice and Commerce Departments have announced an investigation into Megaspeed over concerns that it may have been involved in the illegal export of Nvidia's AI hardware. The company was previously run by the woman officials have accused of being a Chinese spy while having an affair with Jensen Huang while he was Nvidia CEO.",
    "categories": [
     "Data Centers",
     "Tech Industry"

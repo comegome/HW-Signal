@@ -78,6 +78,6 @@ python3 generate.py --no-translate   # 只渲染，不调 API
 ## 设计取舍
 
 - 类目白名单在 `config.json`：Tom's Hardware 有一半条目是礼品导购和行业八卦，纯硬件白名单只留 22/50，硬件+算力留 35/50
-- 摘要上限 320 字，按句号切；源摘要本身没有结束标点时会出现半句
+- 摘要不截断存储（上限 800 字只是防跑飞），列表显示时按 150 字在标点处收口，详情页给全文
 - 详情页保留英文原标题，`isBasedOn` 指向原文
 - 超过 `retention_days` 的条目不再进 sitemap，但页面保留、加 `noindex,follow`

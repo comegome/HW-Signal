@@ -289,6 +289,22 @@ def source_badge(it):
     return '<span class="src">%s</span>' % esc(it["source_name"])
 
 
+def clip(s, n):
+    """Shorten for list display only, preferring a sentence/clause boundary."""
+    s = (s or "").strip()
+    if len(s) <= n:
+        return s
+    cut = s[:n]
+    m = None
+    for ch in "。！？!?；;，、,":
+        idx = cut.rfind(ch)
+        if idx > n * 0.55 and (m is None or idx > m):
+            m = idx
+    if m is not None:
+        return cut[:m + 1].rstrip()
+    return cut.rstrip() + "…"
+
+
 def row_html(it):
     href = "/item/%s/%s.html" % (month_key(it["published_at"]), it["id"])
     title = it["title_zh"] or it["title_en"]
@@ -296,7 +312,7 @@ def row_html(it):
     cats = json.loads(it["categories"] or "[]")
     cat = cats[0] if cats else ""
     return render("row.html",
-                  href=href, title=esc(title), summary=esc(summ),
+                  href=href, title=esc(title), summary=esc(clip(summ, CFG["summary_list_chars"])),
                   source=esc(it["source_name"]), time=esc(fmt_time(it["published_at"])),
                   category_html=('<span class="cat">%s</span>' % esc(cat)) if cat else "")
 

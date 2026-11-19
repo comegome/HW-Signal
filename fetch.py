@@ -54,6 +54,7 @@ def clean(raw):
 
 
 def trim_summary(s, limit):
+    """Hard safety cap only; the list truncates for display, the item page shows it all."""
     s = s.strip()
     if len(s) <= limit:
         return s
@@ -97,7 +98,7 @@ def parse_feed(key, cfg):
         summary = clean(body)
         # VideoCardz appends a self-link trailer to every description
         summary = re.sub(r"\s*Keep on reading:.*$", "", summary, flags=re.S | re.I)
-        summary = trim_summary(summary, cfg["summary_max_chars"])
+        summary = trim_summary(summary, cfg["summary_store_max_chars"])
 
         cats = [clean(text_of(c)) for c in it.findall("category")]
         dt = parse_date(text_of(it.find("pubDate")))

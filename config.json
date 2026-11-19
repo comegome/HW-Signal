@@ -6,7 +6,6 @@
   "index_count": 30,
   "archive_months_on_index": 12,
   "retention_days": 365,
-  "summary_max_chars": 320,
   "timezone": "Asia/Shanghai",
   "sources": {
     "videocardz": {
@@ -21,14 +20,36 @@
     }
   },
   "categories_allow": [
-    "PC Components", "GPUs", "CPUs", "SSDs", "Storage", "GPU Drivers",
-    "Monitors", "Gaming Monitors", "Peripherals", "Mice", "Gaming Mice",
-    "Laptops", "Gaming Laptops", "Desktops", "Gaming PCs", "Semiconductors",
-    "Manufacturing", "3D Printing", "Wearable Tech",
-    "Video Games", "Console Gaming", "Xbox", "Retro Gaming",
-    "Data Centers", "Supercomputers", "Artificial Intelligence"
+    "PC Components",
+    "GPUs",
+    "CPUs",
+    "SSDs",
+    "Storage",
+    "GPU Drivers",
+    "Monitors",
+    "Gaming Monitors",
+    "Peripherals",
+    "Mice",
+    "Gaming Mice",
+    "Laptops",
+    "Gaming Laptops",
+    "Desktops",
+    "Gaming PCs",
+    "Semiconductors",
+    "Manufacturing",
+    "3D Printing",
+    "Wearable Tech",
+    "Video Games",
+    "Console Gaming",
+    "Xbox",
+    "Retro Gaming",
+    "Data Centers",
+    "Supercomputers",
+    "Artificial Intelligence"
   ],
-  "categories_deny": ["Gift Guides and Seasonal Sales"],
+  "categories_deny": [
+    "Gift Guides and Seasonal Sales"
+  ],
   "translate": {
     "endpoint": "https://o2.ducto.net:13425/v1/chat/completions",
     "model": "hy4flash-free",
@@ -36,5 +57,7 @@
     "batch": 5,
     "max_tokens": 12000,
     "reasoning_effort": "low"
-  }
+  },
+  "summary_store_max_chars": 800,
+  "summary_list_chars": 150
 }

@@ -39,12 +39,12 @@ sudo mkdir -p "$WWW"
 sudo chown "$(id -u):$(id -g)" "$WWW"
 
 echo "==> cron"
-CRON_LINE='23 * * * * cd '"$DEST"' && set -a && . /etc/hwsignal/env && set +a && HW_OUT='"$WWW"' python3 generate.py >> /var/log/hwsignal.log 2>&1'
-( crontab -l 2>/dev/null | grep -vF "cd $DEST && set -a" ; echo "$CRON_LINE" ) | crontab -
-crontab -l | grep -F "$DEST"
+CRON_LINE='23 * * * * '"$DEST"'/run.sh >> /var/log/hwsignal.log 2>&1'
+( crontab -l 2>/dev/null | grep -vF "$DEST/run.sh" ; echo "$CRON_LINE" ) | crontab -
+crontab -l | grep -F "$DEST/run.sh"
 
 echo
 echo "Next:"
 echo "  1. put MAGPIE_KEY into $ENV_DIR/env"
-echo "  2. run once:  cd $DEST && set -a && . $ENV_DIR/env && set +a && HW_OUT=$WWW python3 generate.py"
+echo "  2. run once:  $DEST/run.sh"
 echo "  3. point Caddy at $WWW"

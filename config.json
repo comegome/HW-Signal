@@ -3,8 +3,7 @@
   "base_url": "https://hwsignal.yuzhaizu.com",
   "tagline": "Hardware news, checked hourly.",
   "description": "Hardware and silicon news from VideoCardz and Tom's Hardware, translated and checked hourly.",
-  "index_count": 30,
-  "archive_months_on_index": 12,
+  "index_count": 200,
   "retention_days": 365,
   "timezone": "Asia/Shanghai",
   "sources": {

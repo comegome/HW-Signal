@@ -60,15 +60,9 @@ def fmt_day(iso):
 
 
 def fmt_time(iso):
+    """列表上的时间：固定 MM-DD HH:MM，不随“今天/昨天”变化。"""
     d = to_local(iso)
-    if not d:
-        return ""
-    now = datetime.now(TZ)
-    if d.date() == now.date():
-        return "今天 %s" % d.strftime("%H:%M")
-    if d.date() == (now - timedelta(days=1)).date():
-        return "昨天 %s" % d.strftime("%H:%M")
-    return d.strftime("%m-%d %H:%M")
+    return d.strftime("%m-%d %H:%M") if d else ""
 
 
 def fmt_full(iso):
@@ -318,9 +312,12 @@ def row_html(it):
 
 
 def build_index(con):
-    rows = con.execute(
-        "SELECT * FROM items ORDER BY published_at DESC LIMIT ?", (CFG["index_count"],)).fetchall()
+    # 首页只放「北京时间当天」的条目，index_count 只作上限
     now = datetime.now(TZ)
+    today = now.strftime("%Y-%m-%d")
+    recent = con.execute(
+        "SELECT * FROM items ORDER BY published_at DESC LIMIT 800").fetchall()
+    rows = [r for r in recent if fmt_day(r["published_at"]) == today][:CFG["index_count"]]
     weekday = "一二三四五六日"[now.weekday()]
     head = render("list_head.html",
                   day=now.strftime("%Y年%m月%d日"),
@@ -369,23 +366,33 @@ def build_items(con):
     return n
 
 
+def day_label(day):
+    """2026-11-19 -> 11-19 周四"""
+    dt = datetime.strptime(day, "%Y-%m-%d")
+    return "%s %s" % (day[5:], "周" + "一二三四五六日"[dt.weekday()])
+
+
 def build_archive(con):
-    months = con.execute(
-        "SELECT substr(published_at,1,7) AS m, COUNT(*) c FROM items GROUP BY m ORDER BY m DESC").fetchall()
+    """归档按天：/archive/ 列出每一天，/archive/YYYY-MM-DD/ 是当天全部条目。"""
+    rows = con.execute("SELECT * FROM items ORDER BY published_at DESC").fetchall()
+    days = {}
+    for r in rows:
+        days.setdefault(fmt_day(r["published_at"]), []).append(r)
+    ordered = sorted(days.items(), reverse=True)
+
     cards = "".join(
-        render("archive_card.html", month=m["m"], count=str(m["c"])) for m in months)
-    page("/archive/", "归档 — %s" % SITE, "按月份浏览全部条目",
-         '<section class="list"><h1 class="page-h1">归档</h1><div class="months">%s</div></section>' % cards,
+        render("archive_card.html", day=d, label=day_label(d), count=str(len(v)))
+        for d, v in ordered)
+    page("/archive/", "归档 — %s" % SITE, "按天浏览全部条目",
+         '<section class="list"><h1 class="page-h1">归档</h1><div class="days">%s</div></section>' % cards,
          active="archive")
 
-    for m in months:
-        rows = con.execute(
-            "SELECT * FROM items WHERE substr(published_at,1,7)=? ORDER BY published_at DESC",
-            (m["m"],)).fetchall()
-        body = '<h1 class="page-h1">%s</h1>' % m["m"] + "".join(row_html(r) for r in rows)
-        page("/archive/%s/" % m["m"], "%s 归档 — %s" % (m["m"], SITE),
-             "%s 的全部条目" % m["m"], '<section class="list">%s</section>' % body, active="archive")
-    return months
+    for d, v in ordered:
+        body = ('<h1 class="page-h1">%s <span class="sub">%d 条</span></h1>' % (day_label(d), len(v))
+                + "".join(row_html(r) for r in v))
+        page("/archive/%s/" % d, "%s 归档 — %s" % (d, SITE),
+             "%s 的全部条目" % d, '<section class="list">%s</section>' % body, active="archive")
+    return ordered
 
 
 def build_about():

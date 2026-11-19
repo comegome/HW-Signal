@@ -367,9 +367,9 @@ def build_items(con):
 
 
 def day_label(day):
-    """2026-11-19 -> 11-19 周四"""
+    """2026-11-19 -> 2026-11-19 周四（保留年份，跨年也不歧义）"""
     dt = datetime.strptime(day, "%Y-%m-%d")
-    return "%s %s" % (day[5:], "周" + "一二三四五六日"[dt.weekday()])
+    return "%s %s" % (day, "周" + "一二三四五六日"[dt.weekday()])
 
 
 def build_archive(con):

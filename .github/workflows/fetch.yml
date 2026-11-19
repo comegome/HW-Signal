@@ -3,6 +3,12 @@ name: fetch
 on:
   schedule:
     - cron: "7 * * * *"
+  push:
+    branches: [main]
+    paths:
+      - "fetch.py"
+      - "config.json"
+      - ".github/workflows/fetch.yml"
   workflow_dispatch:
 
 permissions:

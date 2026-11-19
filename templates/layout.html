@@ -58,7 +58,7 @@ main{padding:40px 0 72px;min-height:60vh}
 .row .src{color:var(--accent);font-weight:600;letter-spacing:.04em}
 .row .src::before{content:"·";margin-right:9px;color:var(--faint)}
 .row .cat::before{content:"·";margin-right:9px;color:var(--faint)}
-.row .time{font-variant-numeric:tabular-nums;color:var(--faint);letter-spacing:0}
+.row .time{font-variant-numeric:tabular-nums;color:var(--faint);letter-spacing:0;white-space:nowrap}
 .row h2{margin:0 0 5px;font-size:20px;line-height:1.38;font-weight:600;letter-spacing:-.011em}
 .row p{margin:0;font-size:15px;line-height:1.6;color:var(--muted)}
 
@@ -99,6 +99,8 @@ footer.site .sp{margin-left:auto}
 
 @media (max-width:560px){
   .wrap{padding:0 18px}
+  .row .top{flex-wrap:wrap;row-gap:2px}
+  .row .src{letter-spacing:.02em}
   h1.headline{font-size:26px}
   .row h2{font-size:18px}
   nav.main{gap:16px}

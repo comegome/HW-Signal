@@ -1,0 +1,830 @@
+{
+ "generated_at": "2026-11-19T07:28:46.424675Z",
+ "count": 65,
+ "items": [
+  {
+   "id": "8e33e6f5b8",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/driver/amd-radeon-software-adrenalin-26-11-2",
+   "url": "https://videocardz.com/driver/amd-radeon-software-adrenalin-26-11-2",
+   "title": "(Driver) AMD Radeon Software Adrenalin 26.11.2",
+   "summary": "Stability and reliability improvements. New Feature Support Adds support for ROCm 10.2 New Game Support Crimson Desert Enhanced: Charting the Unknown DLC Phantom Blade Zero",
+   "categories": [],
+   "published_at": "2026-11-18T21:58:09Z"
+  },
+  {
+   "id": "896e11b389",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "bZRbMcCiA59Ci698BAKkDj",
+   "url": "https://www.tomshardware.com/pc-components/amds-twitter-brag-that-it-loves-gamers-met-with-savage-community-note-post-met-with-backlash-over-the-companys-pivot-to-ai",
+   "title": "AMD’s Twitter brag that it ‘loves gamers’ met with savage Community Note",
+   "summary": "Following a post on X, AMD Japan's claim that the company values gamers \"above all else\" saw those gamers point out that its own CEO believes the company is more focused on data centers.",
+   "categories": [
+    "PC Components"
+   ],
+   "published_at": "2026-11-18T21:00:00Z"
+  },
+  {
+   "id": "6baf470c99",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "anSPFNBatKYhYUxPWWMPAf",
+   "url": "https://www.tomshardware.com/pc-components/gpu-drivers/nvidia-geforce-driver-bug-reportedly-hammers-ssds-with-up-to-30gb-of-writes-per-hour-users-trace-massive-idle-wear-to-background-service-newer-driver-reportedly-still-affected",
+   "title": "Nvidia GeForce driver bug reportedly hammers SSDs with up to 30GB of writes per hour",
+   "summary": "Nvidia’s GeForce 621.14 and 621.24 drivers reportedly rewrite a log file nonstop, writing gigabytes to SSDs every hour.",
+   "categories": [
+    "GPU Drivers",
+    "PC Components",
+    "GPUs"
+   ],
+   "published_at": "2026-11-18T21:00:00Z"
+  },
+  {
+   "id": "070fe5579c",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/jedec-announces-ddr6-memory-modules-are-44-shorter-than-ddr5-speeds-up-to-14-4-gt-s",
+   "url": "https://videocardz.com/newz/jedec-announces-ddr6-memory-modules-are-44-shorter-than-ddr5-speeds-up-to-14-4-gt-s",
+   "title": "JEDEC announces DDR6 memory modules are 44% shorter than DDR5, speeds up to 14.4 GT/s",
+   "summary": "JEDEC previews DDR6 memory with 74 mm modules, 44% shorter than DDR5 DDR6 modules could be considerably smaller than standard DDR5 DIMMs. JEDEC has published an early preview of the...",
+   "categories": [],
+   "published_at": "2026-11-18T19:37:12Z"
+  },
+  {
+   "id": "d4d2486b7b",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/nvidia-rtx-pro-5500-blackwell-84gb-launches-in-japan",
+   "url": "https://videocardz.com/newz/nvidia-rtx-pro-5500-blackwell-84gb-launches-in-japan",
+   "title": "NVIDIA RTX PRO 5500 Blackwell 84GB launches in Japan",
+   "summary": "NVIDIA RTX PRO 5500 Blackwell launches in Japan as US listings top $20,000 Ryosan Ryoyo has launched the NVIDIA RTX PRO 5500 Blackwell Workstation Edition in Japan. The authorized NVIDIA...",
+   "categories": [],
+   "published_at": "2026-11-18T18:21:19Z"
+  },
+  {
+   "id": "5eded6ae04",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/lenovo-legion-go-beam-handheld-leaks-ahead-of-ces-2027",
+   "url": "https://videocardz.com/newz/lenovo-legion-go-beam-handheld-leaks-ahead-of-ces-2027",
+   "title": "Lenovo Legion Go Beam handheld leaks ahead of CES 2027",
+   "summary": "Lenovo Legion Go Beam leaks, could use Intel Panther Lake or AMD Ryzen Z3-series Windows Latest has published three images of an unannounced Lenovo gaming handheld reportedly called the Legion...",
+   "categories": [],
+   "published_at": "2026-11-18T17:37:04Z"
+  },
+  {
+   "id": "6ed9ea6dc5",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/nvidia-geforce-driver-bug-may-cause-continuous-ssd-writes-even-at-idle",
+   "url": "https://videocardz.com/newz/nvidia-geforce-driver-bug-may-cause-continuous-ssd-writes-even-at-idle",
+   "title": "NVIDIA GeForce driver bug may cause continuous SSD writes even at idle",
+   "summary": "NVIDIA GeForce drivers reportedly write GBs of data to SSDs, but only some systems are affected Users are reporting excessive SSD write activity caused by NVIDIA GeForce drivers, just days...",
+   "categories": [],
+   "published_at": "2026-11-18T16:34:29Z"
+  },
+  {
+   "id": "b71e02c663",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "FT4NgDk8LUxA8xVQHjfo5T",
+   "url": "https://www.tomshardware.com/video-games/console-gaming/gta-vi-runs-at-1440p-on-ps5-and-xbox-series-x-but-just-720p-with-upscaling-on-series-s-rockstar-details-upscaling-technologies-for-launch",
+   "title": "GTA VI runs at 1440p on PS5 and Xbox Series X, but just 720p with upscaling on Series S",
+   "summary": "GTA VI will target 30FPS across PlayStation and Xbox consoles, with Rockstar using its own temporal anti-aliasing solution on the PS5 and Xbox Series X, Sony's PSSR 2 on the PS5 Pro, and AMD's FSR 4 on the Xbox Series S.",
+   "categories": [
+    "Console Gaming",
+    "Video Games"
+   ],
+   "published_at": "2026-11-18T16:00:00Z"
+  },
+  {
+   "id": "132f5d39cd",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "ss9oBCEhWX5WjkhPYhjRoU",
+   "url": "https://www.tomshardware.com/tech-industry/data-centers/leaked-ohio-bill-could-allow-ai-data-center-companies-to-seize-private-land-for-their-buildouts-using-eminent-domain-law-proposed-law-would-expand-list-of-beneficiaries",
+   "title": "Leaked Ohio bill could allow AI data center companies to seize private land for their buildouts using eminent domain law",
+   "summary": "A leaked Ohio bill could allow data centers to qualify as public utilities for the purpose of eminent domain law, allowing companies to seize private land for building new facilities.",
+   "categories": [
+    "Data Centers",
+    "Tech Industry"
+   ],
+   "published_at": "2026-11-18T15:30:00Z"
+  },
+  {
+   "id": "d6dff8a63d",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/modders-bring-directx-12-and-geforce-rtx-50-radeon-rx-9000-gpu-support-to-windows-7",
+   "url": "https://videocardz.com/newz/modders-bring-directx-12-and-geforce-rtx-50-radeon-rx-9000-gpu-support-to-windows-7",
+   "title": "Modders bring DirectX 12 and GeForce RTX 50, Radeon RX 9000 GPU support to Windows 7",
+   "summary": "Windows 7 gains unofficial DirectX 12 support for modern NVIDIA, AMD and Intel GPUs Windows 7 is receiving unofficial support for modern graphics cards thanks to a community project that...",
+   "categories": [],
+   "published_at": "2026-11-18T15:26:26Z"
+  },
+  {
+   "id": "41c4d47149",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "oHGBQrBrddqJQiZsazTPg9",
+   "url": "https://www.tomshardware.com/pc-components/cpus/nvidia-says-its-absurd-to-assume-it-predicted-the-agentic-moment-during-veras-development-product-intuition-helped-drive-cpu-design-superior-memory-bandwidth-will-play-critical-role-in-future-ai-agents-cpu-boss-claims",
+   "title": "Nvidia says it’s ‘absurd’ to assume it predicted the agentic moment during Vera’s development",
+   "summary": "AMD has criticized Nvidia, and to a lesser extent Arm, for claims about creating a CPU designed for agentic AI. Nvidia is pushing back on that characterization, instead saying Vera was designed with “base principles, product intuition, and oftentimes simple allegorical laws of computer science” in a recent interview…",
+   "categories": [
+    "CPUs",
+    "PC Components"
+   ],
+   "published_at": "2026-11-18T15:00:00Z"
+  },
+  {
+   "id": "9aba141c66",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "RECwUGTJhRdG2gBMqGDHnR",
+   "url": "https://www.tomshardware.com/tech-industry/data-centers/elon-musks-spacexai-suffers-chemical-spill-at-mississippi-ai-data-center-up-to-6-000-gallons-of-propylene-glycol-heat-transfer-fluid-lost-environment-agency-says-no-threat-to-residents",
+   "title": "Elon Musk’s SpaceXAI suffers chemical spill at Mississippi AI data center",
+   "summary": "5,000 to 6,000 gallons of propylene glycol spilled from a SpaceXAI facility in Southaven, Mississippi, before reaching a nearby drainage ditch. State environmental officials have sought to ease the worries of locals, saying there is no risk to their health.",
+   "categories": [
+    "Data Centers",
+    "Tech Industry"
+   ],
+   "published_at": "2026-11-18T14:30:00Z"
+  },
+  {
+   "id": "af208a4866",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "jzTKqHaoPtLvcoHfhHg33i",
+   "url": "https://www.tomshardware.com/monitors/gaming-monitors/global-oled-monitor-shipments-doubled-year-over-year-in-q3-2026-gamers-turn-to-display-upgrades-as-technology-gets-cheaper-and-ai-squeezes-components",
+   "title": "Global OLED monitor shipments doubled year-over-year in Q3 2026",
+   "summary": "A TrendForce report reveals that gamers are buying OLED monitors in a big way, and ASUS leads the pack.",
+   "categories": [
+    "Gaming Monitors",
+    "Monitors"
+   ],
+   "published_at": "2026-11-18T14:00:00Z"
+  },
+  {
+   "id": "706170bec1",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/nvidia-launches-rtx-spark-mini-pc-desktops-with-windows-os-asus-dell-and-msi-first",
+   "url": "https://videocardz.com/newz/nvidia-launches-rtx-spark-mini-pc-desktops-with-windows-os-asus-dell-and-msi-first",
+   "title": "NVIDIA launches RTX Spark Mini-PC desktops with Windows OS, ASUS, Dell and MSI first",
+   "summary": "NVIDIA RTX Spark mini PCs now available from ASUS, Dell and MSI with up to 128GB memory NVIDIA has announced the availability of RTX Spark compact desktops from ASUS, Dell...",
+   "categories": [],
+   "published_at": "2026-11-18T13:44:20Z"
+  },
+  {
+   "id": "12b28bdb8d",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "UgSMXFevvkN9oXQzQidr8f",
+   "url": "https://www.tomshardware.com/tech-industry/data-centers/nvidia-board-faction-angling-for-jensen-huang-return-as-ceo-report-claims-company-defiant-at-earnings-calls-says-no-possibility-of-reinstatement",
+   "title": "Nvidia board faction angling for Jensen Huang return as CEO, report claims",
+   "summary": "Despite Nvidia's board saying it has no intention of bringing former CEO Jensen Huang back to the company, some directors are reportedly still pushing for that to happen.",
+   "categories": [
+    "Data Centers",
+    "Tech Industry"
+   ],
+   "published_at": "2026-11-18T13:30:00Z"
+  },
+  {
+   "id": "d42200effd",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/intel-confirms-5-4-ghz-boost-and-ddr5-6400-for-newegg-exclusive-core-ultra-7-260k",
+   "url": "https://videocardz.com/newz/intel-confirms-5-4-ghz-boost-and-ddr5-6400-for-newegg-exclusive-core-ultra-7-260k",
+   "title": "Intel confirms 5.4 GHz boost and DDR5-6400 for Newegg-exclusive Core Ultra 7 260K",
+   "summary": "Intel ARK confirms Core Ultra 7 260K supports up to 256 GB of DDR5-6400 Intel has added the Core Ultra 7 260K to its ARK specifications database. We previously covered...",
+   "categories": [],
+   "published_at": "2026-11-18T13:27:31Z"
+  },
+  {
+   "id": "73f3438dbd",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "MsBgmbFPVWmveWXGBERMrc",
+   "url": "https://www.tomshardware.com/pc-components/gpus/nvidias-revenue-hits-usd115-8-billion-as-vera-rubin-generates-usd20-billion-in-another-record-setting-quarter-commitments-increase-to-usd390-billion-fy28-forecast-raised",
+   "title": "Nvidia's revenue hits $115.8 billion as Vera Rubin generates $20 billion in another record-setting quarter",
+   "summary": "Nvidia's quarterly revenue surged to $115.8 billion as Vera Rubin achieved a record $20 billion debut, while total commitments to suppliers and customers climbed to $540 billion and rising costs prompted a revised pricing strategy for FY2028.",
+   "categories": [
+    "GPUs",
+    "PC Components"
+   ],
+   "published_at": "2026-11-18T13:00:00Z"
+  },
+  {
+   "id": "45dfbdc205",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "BYopD7vyKXbpLjXsMbpAvV",
+   "url": "https://www.tomshardware.com/video-games/retro-gaming/retro-kickstarter-speaker-can-play-soundtracks-directly-from-original-game-boy-cartridges-retro-song-bird-supports-over-1-900-with-physical-controls-for-media",
+   "title": "Retro Kickstarter speaker can play soundtracks directly from original Game Boy cartridges",
+   "summary": "Retro Song Bird can play music directly from original cartridges, export individual audio channels to a PC, back up game saves, flash writable cartridges, and sync two units for chiptune DJ performances.",
+   "categories": [
+    "Retro Gaming",
+    "Video Games"
+   ],
+   "published_at": "2026-11-18T12:45:00Z"
+  },
+  {
+   "id": "6e24146947",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "zFa2fWiyAkkxe5daq4fmDG",
+   "url": "https://www.tomshardware.com/3d-printing/save-usd251-on-this-beginner-friendly-elegoo-resin-3d-printer-right-now-saturn-4-ultra-16k-delivers-ultra-fast-print-speeds-and-a-built-in-vat-heater-for-usd399",
+   "title": "Save $251 on this beginner-friendly Elegoo resin 3D printer right now",
+   "summary": "Thanks to a coupon code, you can grab the Elegoo Saturn 4 Ultra 16K, one of the best resin 3D printers you can buy, for $399 right now.",
+   "categories": [
+    "3D Printing"
+   ],
+   "published_at": "2026-11-18T12:30:00Z"
+  },
+  {
+   "id": "ef48fb6620",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/gta-vi-uses-amd-fsr-4-on-xbox-series-s-renders-at-720p-with-ray-traced-global-illumination",
+   "url": "https://videocardz.com/newz/gta-vi-uses-amd-fsr-4-on-xbox-series-s-renders-at-720p-with-ray-traced-global-illumination",
+   "title": "GTA VI uses AMD FSR 4 on Xbox Series S, renders at 720p with ray-traced global illumination",
+   "summary": "Rockstar confirms rendering resolutions and upscaling technologies for all consoles Rockstar Games has revealed the rendering resolutions and upscaling technologies used in Grand Theft Auto VI. In an interview with...",
+   "categories": [],
+   "published_at": "2026-11-18T12:26:05Z"
+  },
+  {
+   "id": "50a0d6e7b8",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "gMPAw2cft34SBE3PUMusw9",
+   "url": "https://www.tomshardware.com/pc-components/ssds/ssds-laptops-and-phones-may-get-cheaper-as-consumer-nand-spot-pricing-drops-20-percent-bank-of-america-expects-contract-price-drops-report-cites-oversupply-in-consumer-market-amid-declining-demand-and-growing-chinese-competition",
+   "title": "SSDs, laptops, and phones may get cheaper as consumer NAND spot pricing drops 20%",
+   "summary": "According to a new report, slowing demand for consumer electronics and diverging production requirements for consumer and enterprise NAND have resulted in declining spot prices for consumer-grade flash memory. Those trends may result in unexpected but welcome relief for consumers.",
+   "categories": [
+    "SSDs",
+    "PC Components",
+    "Storage"
+   ],
+   "published_at": "2026-11-18T12:00:00Z"
+  },
+  {
+   "id": "f39c61c7ae",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/valve-posts-amdgpu-patches-to-reduce-stutter-in-some-proton-games",
+   "url": "https://videocardz.com/newz/valve-posts-amdgpu-patches-to-reduce-stutter-in-some-proton-games",
+   "title": "Valve posts AMDGPU patches to reduce stutter in some Proton games",
+   "summary": "Valve posts AMDGPU patches to reduce stutter in some Proton games Valve developer Natalie Vock has posted a revised set of 10 patches for the Linux AMDGPU kernel driver. The...",
+   "categories": [],
+   "published_at": "2026-11-18T11:48:10Z"
+  },
+  {
+   "id": "25e342bf5c",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "vVeukBCXJ9vjAW4uBq5e3L",
+   "url": "https://www.tomshardware.com/laptops/gaming-laptops/walmart-has-slashed-usd700-off-this-msi-gaming-laptop-16-inch-crosshair-features-an-rtx-5060-gpu-and-16gb-of-ddr5-ram",
+   "title": "Walmart has slashed $700 off this MSI gaming laptop",
+   "summary": "You can save $700 on a new MSI Crosshair 16 gaming laptop at Walmart and bag an RTX 5060-powered portable gaming station for less.",
+   "categories": [
+    "Gaming Laptops",
+    "Laptops"
+   ],
+   "published_at": "2026-11-18T11:30:00Z"
+  },
+  {
+   "id": "6cb55903b4",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/gta-6-has-officially-launched-the-13-year-wait-is-over",
+   "url": "https://videocardz.com/newz/gta-6-has-officially-launched-the-13-year-wait-is-over",
+   "title": "GTA 6 has officially launched, the 13-year wait is over",
+   "summary": "GTA 6 is officially out in New Zealand, global launch begins After more than 13 years since the release of Grand Theft Auto V, Rockstar Games has finally launched GTA...",
+   "categories": [],
+   "published_at": "2026-11-18T11:04:51Z"
+  },
+  {
+   "id": "a521093d8a",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "vP5kcb63WozH7YCtYh6dVn",
+   "url": "https://www.tomshardware.com/pc-components/gpus/china-threatens-countermeasures-on-the-face-of-new-ai-gpu-rental-and-export-restrictions-beijing-threatens-retaliation-ahead-of-thursdays-xi-jinping-meeting-sino-american-trade-war-may-be-renewed-for-a-new-season",
+   "title": "China threatens 'countermeasures' in the face of new AI GPU rental and export restrictions",
+   "summary": "China threatens \"countermeasures\" on the face of new Blackwell rental and export restrictions — Sino-American trade war may be renewed for a new season",
+   "categories": [
+    "GPUs",
+    "PC Components"
+   ],
+   "published_at": "2026-11-18T11:00:00Z"
+  },
+  {
+   "id": "491f350afd",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/steam-deck-users-lose-asobis-ps5-streaming-ahead-of-gta-6-release",
+   "url": "https://videocardz.com/newz/steam-deck-users-lose-asobis-ps5-streaming-ahead-of-gta-6-release",
+   "title": "Steam Deck users lose Asobi’s PS5 streaming ahead of GTA 6 release",
+   "summary": "Asobi loses PS5 cloud streaming on PC and Steam Deck Asobi has lost the ability to stream PS5 games from Sony's cloud without a console. The developer says Sony's cloud...",
+   "categories": [],
+   "published_at": "2026-11-18T10:30:38Z"
+  },
+  {
+   "id": "148d5a5a4a",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "z2PStJ4EKNiPfQLRPSEwgK",
+   "url": "https://www.tomshardware.com/tech-industry/data-centers/usd3-26-million-in-spacex-ai-data-center-revenue-will-be-pumped-back-into-the-city-of-memphis-up-to-usd25-000-on-offer-to-low-income-residents-for-repairs-and-home-improvements",
+   "title": "$3.26 million in SpaceX AI data center revenue will be pumped back into the City of Memphis",
+   "summary": "The City of Memphis is making its first major investment, almost $3.3 million, through the Community Benefit Ordinance. The fund was set up to use a portion of the tax generated by SpaceX AI's Colossus 1 facility for the benefit of residents, with the first $2 million allocated for a new home repair assistance program.",
+   "categories": [
+    "Data Centers",
+    "Tech Industry"
+   ],
+   "published_at": "2026-11-18T10:00:00Z"
+  },
+  {
+   "id": "886ff7ce59",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/sony-issues-last-minute-ps5-security-update-required-to-play-gta-6",
+   "url": "https://videocardz.com/newz/sony-issues-last-minute-ps5-security-update-required-to-play-gta-6",
+   "title": "Sony issues last-minute PS5 ‘security’ update required to play GTA 6",
+   "summary": "Sony confirms GTA 6 requires the latest PS5 firmware Sony has confirmed that PlayStation 5 owners must install the latest system software to play Grand Theft Auto VI. PlayStation Support...",
+   "categories": [],
+   "published_at": "2026-11-18T09:40:23Z"
+  },
+  {
+   "id": "77239b6080",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/amd-japan-says-amd-loves-gamers-gamers-respond-with-a-community-note-about-data-center-priorities",
+   "url": "https://videocardz.com/newz/amd-japan-says-amd-loves-gamers-gamers-respond-with-a-community-note-about-data-center-priorities",
+   "title": "AMD Japan says “AMD loves gamers,” gamers respond with a Community Note about data center priorities",
+   "summary": "AMD \"loves gamers\" AMD CEO Lisa Su recently described AMD as a \"data center-first company,\" prompting gamers to question where Ryzen and Radeon fit into its priorities. Her appearance at...",
+   "categories": [],
+   "published_at": "2026-11-18T08:10:10Z"
+  },
+  {
+   "id": "01da083f8d",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/nvidia-wont-reinstate-jensen-huang-as-ceo-colette-kress-confirms",
+   "url": "https://videocardz.com/newz/nvidia-wont-reinstate-jensen-huang-as-ceo-colette-kress-confirms",
+   "title": "NVIDIA won’t reinstate Jensen Huang as CEO, Colette Kress confirms",
+   "summary": "NVIDIA board rejects Jensen Huang's return and continues CEO search NVIDIA interim CEO Colette Kress confirmed on CNBC's Mad Money that the board won't reinstate Jensen Huang as CEO. Speaking...",
+   "categories": [],
+   "published_at": "2026-11-18T07:41:32Z"
+  },
+  {
+   "id": "07b7b862dc",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/amd-teases-ces-2027-announcement-with-mysterious-a-shaped-graphic",
+   "url": "https://videocardz.com/newz/amd-teases-ces-2027-announcement-with-mysterious-a-shaped-graphic",
+   "title": "AMD teases CES 2027 announcement with mysterious A-shaped graphic",
+   "summary": "AMD teases CES 2027 announcement, but is it Radeon, Ryzen or something else? AMD hints at the next era of computing AMD has started teasing its CES 2027 announcements, although...",
+   "categories": [],
+   "published_at": "2026-11-17T20:24:14Z"
+  },
+  {
+   "id": "42f0629777",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/xbox-series-xs-could-get-faster-shaders-thanks-to-open-source-amd-compiler",
+   "url": "https://videocardz.com/newz/xbox-series-xs-could-get-faster-shaders-thanks-to-open-source-amd-compiler",
+   "title": "Xbox Series X|S could get faster shaders thanks to open-source AMD compiler",
+   "summary": "Microsoft tests open-source AMD shader compiler on Xbox Series X|S, reports up to 16% improvement Microsoft is testing a new shader compiler for Xbox Series X and Series S that...",
+   "categories": [],
+   "published_at": "2026-11-17T19:34:42Z"
+  },
+  {
+   "id": "b1a0bcfa14",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/asus-adds-ddr5-memory-training-counter-with-amd-agesa-1-3-0-1f-beta-bios",
+   "url": "https://videocardz.com/newz/asus-adds-ddr5-memory-training-counter-with-amd-agesa-1-3-0-1f-beta-bios",
+   "title": "ASUS adds DDR5 memory-training counter with AMD AGESA 1.3.0.1f beta BIOS",
+   "summary": "ASUS AM5 beta BIOS displays counting Q-Codes during DDR5 training Q-Code display shows activity during memory training. ASUS has detailed a new DDR5 memory-training behavior introduced with AMD AGESA ComboAM5...",
+   "categories": [],
+   "published_at": "2026-11-17T18:10:20Z"
+  },
+  {
+   "id": "7faa9cf06b",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "Nkrnqxh8tCpVAYsSsC8A68",
+   "url": "https://www.tomshardware.com/pc-components/cpus/nvidia-claims-its-vera-cpu-can-gain-up-to-39-percent-performance-boost-via-software-optimization-at-sc26-architectural-fine-tuning-is-needed-to-fully-unleash-custom-olympus-cores",
+   "title": "Nvidia claims its Vera CPU can gain up to 39% performance boost via software optimization at SC26 — architectural fine-tuning is needed to fully unleash custom Olympus cores",
+   "summary": "Nvidia's Vera CPU, powered by its custom Olympus Arm cores, already offers strong performance with unoptimized code, but at SC26, the company demonstrated that further software optimizations can improve performance by nearly 39% with certain workloads.",
+   "categories": [
+    "CPUs",
+    "PC Components"
+   ],
+   "published_at": "2026-11-17T17:30:00Z"
+  },
+  {
+   "id": "853f8baa73",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/apple-macbook-pro-oled-display-flickers-at-240-hz-users-report-headaches-and-eye-strain",
+   "url": "https://videocardz.com/newz/apple-macbook-pro-oled-display-flickers-at-240-hz-users-report-headaches-and-eye-strain",
+   "title": "Apple MacBook Pro OLED display flickers at 240 Hz, users report headaches and eye strain",
+   "summary": "Apple MacBook Pro OLED tested with 240 Hz PWM, 62 times lower than previous Mini-LED model Apple's new MacBook Pro with a tandem OLED display is receiving complaints from users...",
+   "categories": [],
+   "published_at": "2026-11-17T17:28:50Z"
+  },
+  {
+   "id": "77103d17b4",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/jensen-huang-says-he-would-be-honored-to-return-as-nvidia-ceo",
+   "url": "https://videocardz.com/newz/jensen-huang-says-he-would-be-honored-to-return-as-nvidia-ceo",
+   "title": "Jensen Huang says he would be “honored” to return as NVIDIA CEO",
+   "summary": "NVIDIA's former CEO publicly backs a possible comeback Jensen Huang has now publicly expressed his willingness to return as NVIDIA CEO. In a statement published by The Wall Street Journal,...",
+   "categories": [],
+   "published_at": "2026-11-17T16:25:46Z"
+  },
+  {
+   "id": "22688e79a9",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "DBz7q5KFNK4TqfxfWhB7hm",
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-safety-legislation-has-a-conflict-of-interest-problem-big-us-labs-are-warning-of-risk-just-as-cheaper-chinese-open-weight-models-erode-their-commercial-edge",
+   "title": "AI safety legislation has a conflict-of-interest problem — Big US labs are warning of risk just as cheaper Chinese open-weight models erode their commercial edge",
+   "summary": "The AI safety conversation is as much a political one as it is a real-life worry. We interview experts to find out how legislation may be a convenient way to control the AI market.",
+   "categories": [
+    "Artificial Intelligence",
+    "Tech Industry"
+   ],
+   "published_at": "2026-11-17T16:00:00Z"
+  },
+  {
+   "id": "dd5a7a2306",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "yd2N7QwdyXpdEPbXQMm34H",
+   "url": "https://www.tomshardware.com/tech-industry/data-centers/former-nvidia-ceo-jensen-huang-will-appear-before-a-house-foreign-affairs-panel-amid-concerns-over-his-affair-with-a-suspected-chinese-spy-will-testify-behind-closed-doors-december-1-nvidia-lawyer-will-also-appear",
+   "title": "Former Nvidia CEO Jensen Huang will appear before a House Foreign Affairs panel amid concerns over his affair with a suspected Chinese spy",
+   "summary": "Former Nvidia CEO Jensen Huang will appear before the House Foreign Affairs, Intelligence, and China Select Committees on December 1, with Nvidia's lawyer following him on December 2.",
+   "categories": [
+    "Data Centers",
+    "Tech Industry"
+   ],
+   "published_at": "2026-11-17T15:50:51Z"
+  },
+  {
+   "id": "f158b7d119",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/thermaltake-launches-120mm-fans-with-4-inch-lcd-screens-that-can-even-run-games",
+   "url": "https://videocardz.com/newz/thermaltake-launches-120mm-fans-with-4-inch-lcd-screens-that-can-even-run-games",
+   "title": "Thermaltake launches 120mm fans with 4-inch LCD screens that can even run games",
+   "summary": "SWAFAN ULTRA 120 EX RGB features 1020 × 240 IPS displays Thermaltake has announced the SWAFAN ULTRA 120 EX RGB, a new 120mm cooling fan equipped with a 4-inch IPS...",
+   "categories": [],
+   "published_at": "2026-11-17T15:49:20Z"
+  },
+  {
+   "id": "8bee8c16b8",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "nDZuzgqyzbxSaLd3NnGJWC",
+   "url": "https://www.tomshardware.com/peripherals/wearable-tech/xreal-aura-review",
+   "title": "Xreal Aura Review: Android XR combined with lightweight glasses delivers a true next-gen spatial computing experience",
+   "summary": "The Xreal Aura combines lightweight glasses with a battery-powered Computing Puck",
+   "categories": [
+    "Wearable Tech",
+    "Peripherals"
+   ],
+   "published_at": "2026-11-17T15:37:47Z"
+  },
+  {
+   "id": "0624b47944",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "7uCV8qHDFePnZ8Jpdou9qA",
+   "url": "https://www.tomshardware.com/pc-components/gpus/amd-attacks-nvidias-fp64-emulation-at-sc26-touts-native-double-precision-on-instinct-mi430x-says-ozaki-schemes-fit-less-than-10-percent-of-hpc-workloads-and-triple-memory-use-and-emulated-fp64-is-a-poor-fit-for-many-hpc-workloads",
+   "title": "AMD attacks Nvidia's FP64 emulation at SC26, touts native double-precision on Instinct MI430X",
+   "summary": "AMD is touting the benefits of the native FP64 support provided by its MI430X accelerator at Supercomputing 2026. The company says that Ozaki FP64 emulation only covers the needs of a small portion of HPC workloads, making the MI430X a unique foundation for next-gen supercomputing installations.",
+   "categories": [
+    "GPUs",
+    "PC Components"
+   ],
+   "published_at": "2026-11-17T14:30:00Z"
+  },
+  {
+   "id": "a842c96dd6",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/acer-launches-34-inch-nitro-5k2k-gaming-monitors-with-up-to-180hz-and-horribly-long-names",
+   "url": "https://videocardz.com/newz/acer-launches-34-inch-nitro-5k2k-gaming-monitors-with-up-to-180hz-and-horribly-long-names",
+   "title": "Acer launches 34-inch Nitro 5K2K gaming monitors with up to 180Hz and horribly long names",
+   "summary": "Two curved VA monitors with dual-resolution support Acer has launched two Nitro gaming monitors in Japan, the ED340CKRJbmiipx and ED340CKRPbmiipx (what horrible names these are). Both use 34-inch curved VA...",
+   "categories": [],
+   "published_at": "2026-11-17T14:29:23Z"
+  },
+  {
+   "id": "d613a932bd",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "4vDxJs5WSc8ftRG6eB6urn",
+   "url": "https://www.tomshardware.com/tech-industry/data-centers/us-government-confirms-criminal-investigation-into-singapore-company-at-the-heart-of-jensen-huang-scandal-megaspeed-identified-over-suspicious-activity-company-placed-on-no-sell-list-by-nvidia",
+   "title": "US government confirms criminal investigation into Singapore company at the heart of Jensen Huang scandal",
+   "summary": "The Justice and Commerce Departments have announced an investigation into Megaspeed over concerns that it may have been involved in the illegal export of Nvidia's AI hardware.",
+   "categories": [
+    "Data Centers",
+    "Tech Industry"
+   ],
+   "published_at": "2026-11-17T13:30:00Z"
+  },
+  {
+   "id": "4a6581444f",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/new-cxl-2-0-card-lets-ddr5-servers-reuse-eight-ddr4-memory-modules",
+   "url": "https://videocardz.com/newz/new-cxl-2-0-card-lets-ddr5-servers-reuse-eight-ddr4-memory-modules",
+   "title": "New CXL 2.0 card lets DDR5 servers reuse eight DDR4 memory modules",
+   "summary": "Penguin Solutions launches PCIe 5.0 card that lets DDR5 servers reuse up to 1TB of DDR4 memory CXL 2.0 expansion card supports eight DDR4 modules with up to 64GB/s throughput....",
+   "categories": [],
+   "published_at": "2026-11-17T13:15:57Z"
+  },
+  {
+   "id": "7033621072",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "mjrtKfiY85AHSqi6KZbXbV",
+   "url": "https://www.tomshardware.com/pc-components/ssds/phison-pascari-x201p-15-36tb-ssd-review",
+   "title": "Phison Pascari X201P 15.36TB SSD Review: Fast PCIe 5.0 write performance for AI and ingest servers",
+   "summary": "The Phison Pascari X201P 15.36TB U.2 data center SSD meets its rated speeds and saves AI checkpoints quickly, though it trails on low-queue-depth writes.",
+   "categories": [
+    "SSDs",
+    "PC Components",
+    "Storage"
+   ],
+   "published_at": "2026-11-17T13:13:48Z"
+  },
+  {
+   "id": "08b9dba086",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "sNhkoxBeqn78xiC8PcSh8U",
+   "url": "https://www.tomshardware.com/video-games/xbox/brazilian-businessman-arrested-for-attempted-murder-after-planting-explosive-filled-game-console-that-detonated-in-electronics-store-perp-tried-to-kill-business-rival-device-delivered-by-unsuspecting-motorcyclist-working-for-a-delivery-service",
+   "title": "Brazilian businessman arrested for attempted murder after planting explosive-filled game console that detonated in electronics store",
+   "summary": "A businessman in São Paulo has been arrested for trying to kill a rival business owner with an Xbox filled with explosives.",
+   "categories": [
+    "Xbox",
+    "Video Games",
+    "Console Gaming"
+   ],
+   "published_at": "2026-11-17T13:00:00Z"
+  },
+  {
+   "id": "c8016a419e",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "SfrxQrNn3vzpQeffFFjzPC",
+   "url": "https://www.tomshardware.com/pc-components/ssds/how-we-test-enterprise-ssds-our-new-test-suite-pushes-enterprise-and-data-center-ssds-to-their-limits",
+   "title": "How we test enterprise SSDs",
+   "summary": "Tom’s Hardware is taking enterprise SSD testing to the extreme. Peek inside our new lab to see how we torture server storage with real-world workloads.",
+   "categories": [
+    "SSDs",
+    "PC Components",
+    "Storage"
+   ],
+   "published_at": "2026-11-17T12:32:43Z"
+  },
+  {
+   "id": "16b11c1fe4",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/xbox-360-rigged-with-explosives-detonates-at-rival-repair-shop-in-brazil-injuring-two-people",
+   "url": "https://videocardz.com/newz/xbox-360-rigged-with-explosives-detonates-at-rival-repair-shop-in-brazil-injuring-two-people",
+   "title": "Xbox 360 rigged with explosives detonates at rival repair shop in Brazil, injuring two people",
+   "summary": "Xbox 360 turned into bomb injures two at Brazilian console repair shop Brazilian reports confirm the console was an Xbox 360. Police suspect a competing repair shop owner arranged the...",
+   "categories": [],
+   "published_at": "2026-11-17T12:02:27Z"
+  },
+  {
+   "id": "2ce74ffc59",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "TqkAiWTbatKHXjvmRsy6VG",
+   "url": "https://www.tomshardware.com/peripherals/gaming-mice/razers-lightweight-deathadder-v3-pro-price-is-slashed-57-percent-at-amazon-elite-wireless-gaming-mouse-is-now-only-usd64-its-lowest-ever-price",
+   "title": "Razer's lightweight DeathAdder V3 Pro price is slashed 57% at Amazon",
+   "summary": "Razer's DeathAdder V3 Pro wireless gaming mouse is available at Amazon at its lowest-ever price.",
+   "categories": [
+    "Gaming Mice",
+    "Peripherals",
+    "Mice"
+   ],
+   "published_at": "2026-11-17T12:00:00Z"
+  },
+  {
+   "id": "e56cc6f16b",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "aqxKbkGUVUdstgk3Pfbpr7",
+   "url": "https://www.tomshardware.com/tech-industry/supercomputers/japans-most-powerful-supercomputer-may-have-been-hacked-over-4-000-users-personal-data-stolen-investigation-opened-into-fugaku-breach-after-unauthorized-software-installed",
+   "title": "Japan’s most powerful supercomputer may have been hacked, over 4,000 users’ personal data stolen",
+   "summary": "Fugaku, Japan's most powerful supercomputer, has suffered a suspected data breach, with the information of more than 4,000 of its users potentially stolen as a result.",
+   "categories": [
+    "Supercomputers",
+    "Tech Industry"
+   ],
+   "published_at": "2026-11-17T11:47:47Z"
+  },
+  {
+   "id": "e0126d7463",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "BTeV2PsAyeBHbSJaShTbVC",
+   "url": "https://www.tomshardware.com/tech-industry/semiconductors/samsung-sk-hynix-and-micron-form-unlikely-alliance-to-standardize-robot-charging-as-chipmakers-push-toward-unmanned-chip-fabs-standard-specs-would-allow-manufacturer-agnostic-charging-equipment",
+   "title": "Samsung, SK hynix, and Micron form unlikely alliance to standardize robot charging as chipmakers push toward unmanned fabs",
+   "summary": "Samsung, SK hynix, and Micron are working to standardize charging infrastructure for mobile fab robot batteries to simplify automation and help fabs deploy larger mixed robotic fleets.",
+   "categories": [
+    "Semiconductors",
+    "Tech Industry",
+    "Manufacturing"
+   ],
+   "published_at": "2026-11-17T11:30:00Z"
+  },
+  {
+   "id": "21afc626b7",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "BJth8SpGAfbkDw7ECmzE2J",
+   "url": "https://www.tomshardware.com/desktops/gaming-pcs/save-usd385-on-this-4k-ready-alienware-gaming-pc-with-an-rtx-5080-and-32gb-ddr5-right-now-grab-this-powerhouse-aurora-act1250-rig-with-a-24-core-intel-cpu-and-1tb-ssd-for-usd2-799-99",
+   "title": "Save $385 on this 4K-ready Alienware gaming PC with an RTX 5080 and 32GB DDR5 right now",
+   "summary": "Grab this Alienware Aurora gaming PC with an RTX 5080 and 32GB of DDR5 RAM for just $2,799.99 in this early Black Friday deal from Amazon.",
+   "categories": [
+    "Gaming PCs",
+    "Desktops"
+   ],
+   "published_at": "2026-11-17T11:14:08Z"
+  },
+  {
+   "id": "5c763c2ae7",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/intel-razor-lake-s-u-and-l-variants-appear-in-linux-kernel-patch",
+   "url": "https://videocardz.com/newz/intel-razor-lake-s-u-and-l-variants-appear-in-linux-kernel-patch",
+   "title": "Intel Razor Lake-S, U and L variants appear in Linux kernel patch",
+   "summary": "Intel adds four Razor Lake processor models to Linux kernel Intel has started adding Razor Lake processor identifiers to the Linux kernel, revealing more details about the different variants planned...",
+   "categories": [],
+   "published_at": "2026-11-17T11:01:40Z"
+  },
+  {
+   "id": "c8aa09ae03",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "QAiT2MtH8jigKvkuaR2cR3",
+   "url": "https://www.tomshardware.com/tech-industry/data-centers/403-hyperscale-us-data-centers-used-staggering-82-terawatts-of-electricity-in-a-year-more-than-80-percent-of-michigans-entire-consumption-generated-26-million-tons-of-co2-in-a-single-year-gas-and-coal-supplied-54-percent-of-the-power-harvard-led-study-estimates",
+   "title": "403 hyperscale US data centers used staggering 82 terawatts of electricity in a year, more than 80% of Michigan’s entire consumption",
+   "summary": "A Harvard-led study in Nature Sustainability estimates 403 US hyperscale data centers used about 82 TWh of electricity in a year.",
+   "categories": [
+    "Data Centers",
+    "Tech Industry"
+   ],
+   "published_at": "2026-11-17T10:30:00Z"
+  },
+  {
+   "id": "51794529c6",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/samsung-sk-hynix-and-micron-fail-to-dismiss-lawsuit-alleging-dram-price-fixing",
+   "url": "https://videocardz.com/newz/samsung-sk-hynix-and-micron-fail-to-dismiss-lawsuit-alleging-dram-price-fixing",
+   "title": "Samsung, SK hynix and Micron fail to dismiss lawsuit alleging DRAM price fixing",
+   "summary": "US judge allows DRAM antitrust lawsuit to proceed Samsung, SK hynix and Micron have failed to dismiss a class-action lawsuit accusing the three memory manufacturers of coordinating DRAM production cuts...",
+   "categories": [],
+   "published_at": "2026-11-17T10:15:29Z"
+  },
+  {
+   "id": "e2cf4dd7fc",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "dfkMUZKXtRU5mPSfFwS5x5",
+   "url": "https://www.tomshardware.com/3d-printing/china-engineers-behind-j-35-fighter-jet-pioneer-3d-printed-load-bearing-structures-in-military-aircraft-behemoth-16-4-foot-part-uses-segmented-printing-and-fusion-techniques",
+   "title": "China engineers behind J-35 fighter jet pioneer 3D-printed load-bearing structures in military aircraft",
+   "summary": "China's first aircraft research institute and developer of the J-35 fighter jets 3D-printed a primary load-bearing component over 16.4 feet in length, minimizing the need for bolts and speeding up research progress.",
+   "categories": [
+    "3D Printing"
+   ],
+   "published_at": "2026-11-17T10:00:00Z"
+  },
+  {
+   "id": "c0795014b9",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/rtx-5090-owner-receives-gpu-with-loose-power-connector-after-rma-retailer-reportedly-rejects-warranty-again",
+   "url": "https://videocardz.com/newz/rtx-5090-owner-receives-gpu-with-loose-power-connector-after-rma-retailer-reportedly-rejects-warranty-again",
+   "title": "RTX 5090 owner receives GPU with loose power connector after RMA, retailer reportedly rejects warranty (again)",
+   "summary": "Palit RTX 5090 repair leads to another warranty dispute A GeForce RTX 5090 owner who previously reported a melted power connector has shared another update. This time, the problem concerns...",
+   "categories": [],
+   "published_at": "2026-11-17T09:19:29Z"
+  },
+  {
+   "id": "94ed499e51",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/amd-releases-fsr-4-1-2-unreal-engine-5-plugin-with-radeon-rx-6000-and-ryzen-handheld-support",
+   "url": "https://videocardz.com/newz/amd-releases-fsr-4-1-2-unreal-engine-5-plugin-with-radeon-rx-6000-and-ryzen-handheld-support",
+   "title": "AMD releases FSR 4.1.2 Unreal Engine 5 plugin with Radeon RX 6000 and Ryzen handheld support",
+   "summary": "AMD FSR 4.1.2 now available for Unreal Engine 5.3 through 5.8 AMD has released version 4.1.2 of its FidelityFX Super Resolution plugin for Unreal Engine 5. The update brings machine...",
+   "categories": [],
+   "published_at": "2026-11-17T08:04:26Z"
+  },
+  {
+   "id": "022954f19c",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "rE8V2bK6rGuc8WNfx6iMGZ",
+   "url": "https://www.tomshardware.com/tech-industry/supercomputers/china-retains-fastest-supercomputer-in-the-world-crown-as-ai-data-centers-soak-up-new-hardware-top500-records-fewest-new-systems-in-33-years",
+   "title": "China retains fastest supercomputer in the world crown as AI data centers soak up new hardware",
+   "summary": "The Top 500 list records the fewest new entrants in its history amid a massive shift in compute infrastructure investments towards AI factories.",
+   "categories": [
+    "Supercomputers",
+    "Tech Industry"
+   ],
+   "published_at": "2026-11-16T22:17:02Z"
+  },
+  {
+   "id": "1750a0de16",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "EEgRhR2rcrD3wJTCade3dH",
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/new-us-rules-aim-to-restrict-remote-access-to-ai-servers-and-infrastructure-seeks-to-combat-cloud-rental-workarounds-to-gpu-export-controls",
+   "title": "New US rules aim to restrict Chinese firms’ remote access to AI servers and infrastructure",
+   "summary": "The Bureau of Industry and Security has announced a new interim final rule to ensure restrictions on the export of physical AI hardware cannot be bypassed by accessing it remotely in data centers around the world.",
+   "categories": [
+    "Artificial Intelligence",
+    "Tech Industry"
+   ],
+   "published_at": "2026-11-16T21:50:00Z"
+  },
+  {
+   "id": "13226ef96b",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "8T85LdfCECTAyYnNX5ymK4",
+   "url": "https://www.tomshardware.com/tech-industry/supercomputers/researchers-recognize-that-ai-will-never-replace-hpc-says-amd-executive-high-precision-workloads-will-exist-for-a-very-long-time-even-as-ai-usage-expands",
+   "title": "Researchers ‘recognize that AI will never replace HPC,’ says AMD executive — high-precision workloads will ‘exist for a very long time’ even as AI usage expands",
+   "summary": "The emergence of AI has seemingly posed a threat to high-precision FP64 computation, but AMD doesn't think the HPC world is moving away from those complex calculations in the wake of AI.",
+   "categories": [
+    "Supercomputers",
+    "Tech Industry"
+   ],
+   "published_at": "2026-11-16T21:30:00Z"
+  },
+  {
+   "id": "5e46de01b3",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "HpUGmzokNexc4c5zeXbixc",
+   "url": "https://www.tomshardware.com/tech-industry/supercomputers/amd-grabs-over-40-percent-of-new-top500-list-for-supercomputers-up-14-percent-since-last-year-new-lux-system-developed-between-amd-and-department-of-energy-debuts-at-no-14-with-epyc-cpus-and-instinct-mi355x-gpus",
+   "title": "AMD grabs over 40% of new TOP500 list for supercomputers, up 14% since last year",
+   "summary": "AMD's Lux supercomputer debuted at position 14 on the new TOP500 list published during SC26. It's one of two machines AMD is developing as part of a $1 billion deal with the U.S. Department of Energy.",
+   "categories": [
+    "Supercomputers",
+    "Tech Industry"
+   ],
+   "published_at": "2026-11-16T21:00:00Z"
+  },
+  {
+   "id": "5ddb2588e2",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/gpd-officially-details-win-mini-ultra-with-intel-arc-g3-extreme-120hz-display-and-dual-80gbps-usb4",
+   "url": "https://videocardz.com/newz/gpd-officially-details-win-mini-ultra-with-intel-arc-g3-extreme-120hz-display-and-dual-80gbps-usb4",
+   "title": "GPD officially details WIN Mini Ultra with Intel Arc G3 Extreme, 120Hz display and dual 80Gbps USB4",
+   "summary": "GPD confirms specifications for its Panther Lake handheld GPD has published the specifications for its WIN Mini Ultra gaming handheld, powered by Intel's Arc G3 Extreme processor. We previously covered...",
+   "categories": [],
+   "published_at": "2026-11-16T20:55:32Z"
+  },
+  {
+   "id": "d1f90614e7",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/teamgroup-warns-memory-shortage-may-get-so-bad-that-even-money-wont-guarantee-supply",
+   "url": "https://videocardz.com/newz/teamgroup-warns-memory-shortage-may-get-so-bad-that-even-money-wont-guarantee-supply",
+   "title": "TeamGroup warns memory shortage may get so bad that even money won’t guarantee supply",
+   "summary": "TeamGroup predicts worst memory shortage in 2027, with no relief until 2028 Memory prices have already increased substantially over the past year, but TeamGroup believes the worst is yet to...",
+   "categories": [],
+   "published_at": "2026-11-16T20:18:17Z"
+  },
+  {
+   "id": "45c5650230",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "VrcYsqV72WUvRXsBKEao7U",
+   "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-announces-rubin-hpc-gpu-with-record-number-of-cuda-cores-at-supercomputing-2026-new-chip-accelerates-agentic-hpc-workloads-arrives-in-2028",
+   "title": "Nvidia announces Rubin HPC GPU with 'record number of CUDA cores' at Supercomputing 2026",
+   "summary": "Nvidia took the wraps off its Rubin HPC GPU at Supercomputing 2026. This new GPU will give scientists, engineers, and analysts over 50,000 CUDA cores to speed up agentic HPC workloads when it arrives in 2028.",
+   "categories": [
+    "GPUs",
+    "PC Components"
+   ],
+   "published_at": "2026-11-16T19:05:24Z"
+  }
+ ]
+}

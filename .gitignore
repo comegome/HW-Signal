@@ -1,0 +1,8 @@
+out/
+data/site.db
+data/site.db-journal
+data/site.db-wal
+data/site.db-shm
+__pycache__/
+*.pyc
+.env

@@ -1,7 +1,54 @@
 {
- "generated_at": "2026-11-19T14:20:00.922776Z",
+ "generated_at": "2026-11-19T17:19:38.773757Z",
  "count": 65,
  "items": [
+  {
+   "id": "e3c9872684",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/amd-xdna-2-npus-can-now-run-35b-parameter-ai-models-through-unsloth-desktop",
+   "url": "https://videocardz.com/newz/amd-xdna-2-npus-can-now-run-35b-parameter-ai-models-through-unsloth-desktop",
+   "title": "AMD XDNA 2 NPUs can now run 35B-parameter AI models through Unsloth Desktop",
+   "summary": "AMD finally puts Ryzen AI NPUs to work with Unsloth Desktop AMD has announced a collaboration with Unsloth to enable dedicated NPU acceleration in Unsloth Desktop. According to AMD, its...",
+   "categories": [],
+   "published_at": "2026-11-19T16:42:39Z"
+  },
+  {
+   "id": "828243c70b",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/amd-zen-6-desktop-ryzen-cpus-reportedly-delayed-until-after-computex-2027",
+   "url": "https://videocardz.com/newz/amd-zen-6-desktop-ryzen-cpus-reportedly-delayed-until-after-computex-2027",
+   "title": "AMD Zen 6 desktop Ryzen CPUs reportedly delayed until after Computex 2027",
+   "summary": "AMD Zen 6 Olympic Ridge reportedly switches to TSMC N2X, launch delayed beyond Computex 2027 Ryzen desktop CPUs may arrive later than previously expected. AMD's next-generation Ryzen desktop processors based...",
+   "categories": [],
+   "published_at": "2026-11-19T15:35:31Z"
+  },
+  {
+   "id": "a9cd85af59",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "mnQXngv4kRYQVhPUaGthSD",
+   "url": "https://www.tomshardware.com/pc-components/cpus/intel-continues-layoffs-with-cuts-to-its-it-department-hundreds-of-employees-reportedly-affected-companys-workforce-reduced-by-27-800-under-lip-bu-tan",
+   "title": "Intel continues layoffs with cuts to its IT department, hundreds of employees reportedly affected",
+   "summary": "Intel continues to reduce headcount, IT department affected this time.",
+   "categories": [
+    "CPUs",
+    "PC Components"
+   ],
+   "published_at": "2026-11-19T14:58:13Z"
+  },
+  {
+   "id": "3ca828bfe4",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/lenovo-project-hoverview-leaked-ahead-of-ces-2027-featuring-a-floating-2d-display",
+   "url": "https://videocardz.com/newz/lenovo-project-hoverview-leaked-ahead-of-ces-2027-featuring-a-floating-2d-display",
+   "title": "Lenovo Project Hoverview leaked ahead of CES 2027, featuring a floating 2D display",
+   "summary": "Lenovo Project Hoverview leaks with estimated 12-inch floating screen NieuweMobiel.NL has published images of an unannounced Lenovo device known internally as Project Hoverview. The product reportedly uses an aerial display...",
+   "categories": [],
+   "published_at": "2026-11-19T14:39:40Z"
+  },
   {
    "id": "dfbce62ead",
    "source": "videocardz",
@@ -680,17 +727,6 @@
    "published_at": "2026-11-17T14:30:00Z"
   },
   {
-   "id": "a842c96dd6",
-   "source": "videocardz",
-   "source_name": "VideoCardz",
-   "guid": "https://videocardz.com/newz/acer-launches-34-inch-nitro-5k2k-gaming-monitors-with-up-to-180hz-and-horribly-long-names",
-   "url": "https://videocardz.com/newz/acer-launches-34-inch-nitro-5k2k-gaming-monitors-with-up-to-180hz-and-horribly-long-names",
-   "title": "Acer launches 34-inch Nitro 5K2K gaming monitors with up to 180Hz and horribly long names",
-   "summary": "Two curved VA monitors with dual-resolution support Acer has launched two Nitro gaming monitors in Japan, the ED340CKRJbmiipx and ED340CKRPbmiipx (what horrible names these are). Both use 34-inch curved VA...",
-   "categories": [],
-   "published_at": "2026-11-17T14:29:23Z"
-  },
-  {
    "id": "d613a932bd",
    "source": "tomshardware",
    "source_name": "Tom's Hardware",
@@ -703,17 +739,6 @@
     "Tech Industry"
    ],
    "published_at": "2026-11-17T13:30:00Z"
-  },
-  {
-   "id": "4a6581444f",
-   "source": "videocardz",
-   "source_name": "VideoCardz",
-   "guid": "https://videocardz.com/newz/new-cxl-2-0-card-lets-ddr5-servers-reuse-eight-ddr4-memory-modules",
-   "url": "https://videocardz.com/newz/new-cxl-2-0-card-lets-ddr5-servers-reuse-eight-ddr4-memory-modules",
-   "title": "New CXL 2.0 card lets DDR5 servers reuse eight DDR4 memory modules",
-   "summary": "Penguin Solutions launches PCIe 5.0 card that lets DDR5 servers reuse up to 1TB of DDR4 memory CXL 2.0 expansion card supports eight DDR4 modules with up to 64GB/s throughput....",
-   "categories": [],
-   "published_at": "2026-11-17T13:15:57Z"
   },
   {
    "id": "7033621072",
@@ -761,17 +786,6 @@
    "published_at": "2026-11-17T12:32:43Z"
   },
   {
-   "id": "16b11c1fe4",
-   "source": "videocardz",
-   "source_name": "VideoCardz",
-   "guid": "https://videocardz.com/newz/xbox-360-rigged-with-explosives-detonates-at-rival-repair-shop-in-brazil-injuring-two-people",
-   "url": "https://videocardz.com/newz/xbox-360-rigged-with-explosives-detonates-at-rival-repair-shop-in-brazil-injuring-two-people",
-   "title": "Xbox 360 rigged with explosives detonates at rival repair shop in Brazil, injuring two people",
-   "summary": "Xbox 360 turned into bomb injures two at Brazilian console repair shop Brazilian reports confirm the console was an Xbox 360. Police suspect a competing repair shop owner arranged the...",
-   "categories": [],
-   "published_at": "2026-11-17T12:02:27Z"
-  },
-  {
    "id": "2ce74ffc59",
    "source": "tomshardware",
    "source_name": "Tom's Hardware",
@@ -814,20 +828,6 @@
     "Manufacturing"
    ],
    "published_at": "2026-11-17T11:30:00Z"
-  },
-  {
-   "id": "21afc626b7",
-   "source": "tomshardware",
-   "source_name": "Tom's Hardware",
-   "guid": "BJth8SpGAfbkDw7ECmzE2J",
-   "url": "https://www.tomshardware.com/desktops/gaming-pcs/save-usd385-on-this-4k-ready-alienware-gaming-pc-with-an-rtx-5080-and-32gb-ddr5-right-now-grab-this-powerhouse-aurora-act1250-rig-with-a-24-core-intel-cpu-and-1tb-ssd-for-usd2-799-99",
-   "title": "Save $385 on this 4K-ready Alienware gaming PC with an RTX 5080 and 32GB DDR5 right now",
-   "summary": "Grab this Alienware Aurora gaming PC with an RTX 5080 and 32GB of DDR5 RAM for just $2,799.99 in this early Black Friday deal from Amazon.",
-   "categories": [
-    "Gaming PCs",
-    "Desktops"
-   ],
-   "published_at": "2026-11-17T11:14:08Z"
   }
  ]
 }

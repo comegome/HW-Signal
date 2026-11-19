@@ -1,7 +1,173 @@
 {
- "generated_at": "2026-11-19T07:55:13.768727Z",
+ "generated_at": "2026-11-19T14:20:00.922776Z",
  "count": 65,
  "items": [
+  {
+   "id": "dfbce62ead",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/hp-launches-wildcat-lake-mini-pc-with-core-7-350-and-up-to-32gb-ddr5-memory",
+   "url": "https://videocardz.com/newz/hp-launches-wildcat-lake-mini-pc-with-core-7-350-and-up-to-32gb-ddr5-memory",
+   "title": "HP launches Wildcat Lake mini PC with Core 7 350 and up to 32GB DDR5 memory",
+   "summary": "HP Wildcat Lake mini PC listed for $900, Core 7 model costs $1,259 HP has started selling the ProDesk 2 Mini G2i, a compact business desktop powered by Intel's Wildcat...",
+   "categories": [],
+   "published_at": "2026-11-19T13:17:12Z"
+  },
+  {
+   "id": "21a0e7aad8",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "RJQch8efw3LRWM5yYqYEiQ",
+   "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-18a-yields-hit-70-percent-as-company-signs-microsoft-as-emib-customer-the-first-company-to-publicly-commit-to-intels-new-packaging-technology",
+   "title": "Intel 18A yields hit 70% as company signs Microsoft as EMIB customer",
+   "summary": "Intel's 18A yields achieve an important milestone as the company signs a long-term Xeon supply deal and EMIB usage agreement with Microsoft.",
+   "categories": [
+    "Semiconductors",
+    "Tech Industry",
+    "Manufacturing"
+   ],
+   "published_at": "2026-11-19T13:00:00Z"
+  },
+  {
+   "id": "6d6b6f08ef",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/amd-rocm-10-2-now-supports-18-more-ryzen-100-and-200-processors",
+   "url": "https://videocardz.com/newz/amd-rocm-10-2-now-supports-18-more-ryzen-100-and-200-processors",
+   "title": "AMD ROCm 10.2 now supports 18 more Ryzen 100 and 200 processors",
+   "summary": "AMD ROCm 10.2 adds support for 18 Ryzen processors, including some confusing SKUs AMD has released ROCm 10.2, expanding official GPU compute support to 18 additional Ryzen processors. The list...",
+   "categories": [],
+   "published_at": "2026-11-19T12:27:42Z"
+  },
+  {
+   "id": "54f8a8c989",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "vAgH6mcUiKD4L7SobyhVr9",
+   "url": "https://www.tomshardware.com/pc-components/ssds/silicon-motion-demos-sm8466-pcie-6-0-ssd-controller-expected-to-ship-by-2028-controller-boasts-improved-quality-of-service-samples-imminent",
+   "title": "Silicon Motion demos SM8466 PCIe 6.0 SSD controller, expected to ship by 2028 — controller boasts improved quality of service, samples imminent",
+   "summary": "Silicon Motion's SM8466 has finally taped out and is set to enter the market in 2027-2028.",
+   "categories": [
+    "SSDs",
+    "PC Components",
+    "Storage"
+   ],
+   "published_at": "2026-11-19T12:00:00Z"
+  },
+  {
+   "id": "ed86157695",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/oled-monitor-shipments-double-yoy-in-q3-2026-asus-leads-with-21-7-market-share",
+   "url": "https://videocardz.com/newz/oled-monitor-shipments-double-yoy-in-q3-2026-asus-leads-with-21-7-market-share",
+   "title": "OLED monitor shipments double YoY in Q3 2026, ASUS leads with 21.7% market share",
+   "summary": "ASUS, MSI and Samsung account for nearly half of OLED monitor shipments Global OLED monitor shipments doubled year-over-year in the third quarter of 2026, according to the latest TrendForce report....",
+   "categories": [],
+   "published_at": "2026-11-19T11:39:46Z"
+  },
+  {
+   "id": "c943cd6d23",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "QUGfiVTtNbA94fqwVQH8hQ",
+   "url": "https://www.tomshardware.com/pc-components/cpus/intel-diamond-rapids-shows-signs-of-life-in-sc26-demo-running-live-server-next-gen-xeon-7-cpu-breaks-cover-at-partner-booths-no-showcase-from-intel",
+   "title": "Intel Diamond Rapids shows signs of life in SC26 demo running live server",
+   "summary": "Intel’s next-gen Xeon Diamond Rapids CPUs appeared at two booths during SC26, one of which featured a running server, but neither were directly from Intel.",
+   "categories": [
+    "CPUs",
+    "PC Components"
+   ],
+   "published_at": "2026-11-19T11:30:00Z"
+  },
+  {
+   "id": "d6c6eec5e7",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "3ru4aUHTaQVdFnEJnxzgDk",
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/three-e-waste-nvidia-v100s-hit-100-tokens-per-second-on-qwen-3-6-35b-in-a-usd1-042-homelab-rig-decommissioned-gpus-outpace-a-usd5-399-m5-max-mac-studio-at-long-contexts",
+   "title": "Three 'e-waste' Nvidia V100s hit 100 tokens per second on Qwen 3.6 35B in a $1,042 homelab rig",
+   "summary": "A homelab builder runs Qwen 3.6 35B on three used Nvidia Tesla V100 GPUs at about 100 tokens per second, in a $1,042 build.",
+   "categories": [
+    "Artificial Intelligence",
+    "Tech Industry"
+   ],
+   "published_at": "2026-11-19T11:00:00Z"
+  },
+  {
+   "id": "7a9d0ad5d0",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "KAf5fEv3SBwYxk8FWAM6qg",
+   "url": "https://www.tomshardware.com/pc-components/get-32gb-of-ddr5-for-usd240-with-this-blistering-intel-gaming-pc-bundle-the-270k-plus-cpu-also-comes-with-a-1tb-990-pro-ssd-z890-and-a-cooler-for-just-usd1-079",
+   "title": "Get 32GB of DDR5 for $240 with this blistering Intel gaming PC bundle",
+   "summary": "Score Intel's latest Core Ultra 7 270K Plus with a Z890 motherboard and 32GB of DDR5-6000 memory for $240 off with this bundle.",
+   "categories": [
+    "PC Components"
+   ],
+   "published_at": "2026-11-19T10:54:03Z"
+  },
+  {
+   "id": "21ec762781",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "eiG6UWRTuVE6snCfD8V45Y",
+   "url": "https://www.tomshardware.com/pc-components/ssds/save-36-percent-on-this-4tb-samsung-990-pro-ssd-upgrade-for-your-gaming-pc-now-just-17-5-cents-per-gb-our-top-gen-4-drive-recommendation-is-now-usd100-cheaper-than-last-week",
+   "title": "Save 36% on this 4TB Samsung 990 Pro SSD upgrade for your gaming PC, now just 17.5 cents per GB",
+   "summary": "Grab this 4TB Samsung 990 Pro SSD with Gen 4 speeds for $699.99, a 36% price drop compared to its list price and a $100 drop since last week.",
+   "categories": [
+    "SSDs",
+    "PC Components",
+    "Storage"
+   ],
+   "published_at": "2026-11-19T10:52:20Z"
+  },
+  {
+   "id": "4310b334c3",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/intel-core-ultra-7-270k-plus-arrow-lake-refresh-cpu-drops-to-233-lowest-price-on-record",
+   "url": "https://videocardz.com/newz/intel-core-ultra-7-270k-plus-arrow-lake-refresh-cpu-drops-to-233-lowest-price-on-record",
+   "title": "Intel Core Ultra 7 270K Plus Arrow Lake Refresh CPU drops to $233, lowest price on record",
+   "summary": "Intel Core Ultra 7 270K Plus drops below $235 ahead of Nova Lake Intel's Core Ultra 7 270K Plus has dropped to $232.70 on Amazon US as part of an...",
+   "categories": [],
+   "published_at": "2026-11-19T10:12:30Z"
+  },
+  {
+   "id": "668bfe4b4d",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "GzfUWy8UtdAutnGbLLEEGg",
+   "url": "https://www.tomshardware.com/pc-components/ram/ddr6-ram-shrinks-by-44-percent-while-delivering-4x-ddr5s-baseline-bandwidth-jedec-previews-12-8-gt-s-modules-with-up-to-1-terabyte-of-capacity-per-slot",
+   "title": "DDR6 RAM shrinks by 44% while delivering 4 times more bandwidth than DDR5 — JEDEC previews 12.8 GT/s modules with up to 1 terabyte of capacity per slot",
+   "summary": "Upcoming DDR6 memory cuts module length from 133mm to 74mm while kicking off at 12.8 GT/s, more than doubling DDR5’s baseline transfer rate.",
+   "categories": [
+    "RAM",
+    "PC Components"
+   ],
+   "published_at": "2026-11-19T10:00:00Z"
+  },
+  {
+   "id": "5b4e4a943b",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/lg-ultragear-27gx700a-b-with-280hz-tandem-oled-panel-drops-to-399-in-the-us-less-than-half-its-original-price",
+   "url": "https://videocardz.com/newz/lg-ultragear-27gx700a-b-with-280hz-tandem-oled-panel-drops-to-399-in-the-us-less-than-half-its-original-price",
+   "title": "LG UltraGear 27GX700A-B with 280Hz Tandem OLED panel drops to $399 in the US, less than half its original price",
+   "summary": "LG's 1440p 280Hz Tandem OLED monitor gets $450 price cut LG has reduced the price of its UltraGear 27GX700A-B gaming monitor to $399.99 in the US as part of its...",
+   "categories": [],
+   "published_at": "2026-11-19T09:15:49Z"
+  },
+  {
+   "id": "d044922061",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/modders-already-run-gta-vi-with-dlss-5-and-frame-generation-on-pcs-through-ps5-remote-play",
+   "url": "https://videocardz.com/newz/modders-already-run-gta-vi-with-dlss-5-and-frame-generation-on-pcs-through-ps5-remote-play",
+   "title": "Modders already run GTA VI with DLSS 5 and Frame Generation on PCs through PS5 Remote Play",
+   "summary": "PS5 gameplay can be enhanced with NVIDIA DLSS 5 and Frame Generation Grand Theft Auto VI has launched on consoles with a 30 FPS target, including on PlayStation 5 Pro....",
+   "categories": [],
+   "published_at": "2026-11-19T08:30:09Z"
+  },
   {
    "id": "8e33e6f5b8",
    "source": "videocardz",
@@ -662,169 +828,6 @@
     "Desktops"
    ],
    "published_at": "2026-11-17T11:14:08Z"
-  },
-  {
-   "id": "5c763c2ae7",
-   "source": "videocardz",
-   "source_name": "VideoCardz",
-   "guid": "https://videocardz.com/newz/intel-razor-lake-s-u-and-l-variants-appear-in-linux-kernel-patch",
-   "url": "https://videocardz.com/newz/intel-razor-lake-s-u-and-l-variants-appear-in-linux-kernel-patch",
-   "title": "Intel Razor Lake-S, U and L variants appear in Linux kernel patch",
-   "summary": "Intel adds four Razor Lake processor models to Linux kernel Intel has started adding Razor Lake processor identifiers to the Linux kernel, revealing more details about the different variants planned...",
-   "categories": [],
-   "published_at": "2026-11-17T11:01:40Z"
-  },
-  {
-   "id": "c8aa09ae03",
-   "source": "tomshardware",
-   "source_name": "Tom's Hardware",
-   "guid": "QAiT2MtH8jigKvkuaR2cR3",
-   "url": "https://www.tomshardware.com/tech-industry/data-centers/403-hyperscale-us-data-centers-used-staggering-82-terawatts-of-electricity-in-a-year-more-than-80-percent-of-michigans-entire-consumption-generated-26-million-tons-of-co2-in-a-single-year-gas-and-coal-supplied-54-percent-of-the-power-harvard-led-study-estimates",
-   "title": "403 hyperscale US data centers used staggering 82 terawatts of electricity in a year, more than 80% of Michigan’s entire consumption",
-   "summary": "A Harvard-led study in Nature Sustainability estimates 403 US hyperscale data centers used about 82 TWh of electricity in a year.",
-   "categories": [
-    "Data Centers",
-    "Tech Industry"
-   ],
-   "published_at": "2026-11-17T10:30:00Z"
-  },
-  {
-   "id": "51794529c6",
-   "source": "videocardz",
-   "source_name": "VideoCardz",
-   "guid": "https://videocardz.com/newz/samsung-sk-hynix-and-micron-fail-to-dismiss-lawsuit-alleging-dram-price-fixing",
-   "url": "https://videocardz.com/newz/samsung-sk-hynix-and-micron-fail-to-dismiss-lawsuit-alleging-dram-price-fixing",
-   "title": "Samsung, SK hynix and Micron fail to dismiss lawsuit alleging DRAM price fixing",
-   "summary": "US judge allows DRAM antitrust lawsuit to proceed Samsung, SK hynix and Micron have failed to dismiss a class-action lawsuit accusing the three memory manufacturers of coordinating DRAM production cuts...",
-   "categories": [],
-   "published_at": "2026-11-17T10:15:29Z"
-  },
-  {
-   "id": "e2cf4dd7fc",
-   "source": "tomshardware",
-   "source_name": "Tom's Hardware",
-   "guid": "dfkMUZKXtRU5mPSfFwS5x5",
-   "url": "https://www.tomshardware.com/3d-printing/china-engineers-behind-j-35-fighter-jet-pioneer-3d-printed-load-bearing-structures-in-military-aircraft-behemoth-16-4-foot-part-uses-segmented-printing-and-fusion-techniques",
-   "title": "China engineers behind J-35 fighter jet pioneer 3D-printed load-bearing structures in military aircraft",
-   "summary": "China's first aircraft research institute and developer of the J-35 fighter jets 3D-printed a primary load-bearing component over 16.4 feet in length, minimizing the need for bolts and speeding up research progress.",
-   "categories": [
-    "3D Printing"
-   ],
-   "published_at": "2026-11-17T10:00:00Z"
-  },
-  {
-   "id": "c0795014b9",
-   "source": "videocardz",
-   "source_name": "VideoCardz",
-   "guid": "https://videocardz.com/newz/rtx-5090-owner-receives-gpu-with-loose-power-connector-after-rma-retailer-reportedly-rejects-warranty-again",
-   "url": "https://videocardz.com/newz/rtx-5090-owner-receives-gpu-with-loose-power-connector-after-rma-retailer-reportedly-rejects-warranty-again",
-   "title": "RTX 5090 owner receives GPU with loose power connector after RMA, retailer reportedly rejects warranty (again)",
-   "summary": "Palit RTX 5090 repair leads to another warranty dispute A GeForce RTX 5090 owner who previously reported a melted power connector has shared another update. This time, the problem concerns...",
-   "categories": [],
-   "published_at": "2026-11-17T09:19:29Z"
-  },
-  {
-   "id": "94ed499e51",
-   "source": "videocardz",
-   "source_name": "VideoCardz",
-   "guid": "https://videocardz.com/newz/amd-releases-fsr-4-1-2-unreal-engine-5-plugin-with-radeon-rx-6000-and-ryzen-handheld-support",
-   "url": "https://videocardz.com/newz/amd-releases-fsr-4-1-2-unreal-engine-5-plugin-with-radeon-rx-6000-and-ryzen-handheld-support",
-   "title": "AMD releases FSR 4.1.2 Unreal Engine 5 plugin with Radeon RX 6000 and Ryzen handheld support",
-   "summary": "AMD FSR 4.1.2 now available for Unreal Engine 5.3 through 5.8 AMD has released version 4.1.2 of its FidelityFX Super Resolution plugin for Unreal Engine 5. The update brings machine...",
-   "categories": [],
-   "published_at": "2026-11-17T08:04:26Z"
-  },
-  {
-   "id": "022954f19c",
-   "source": "tomshardware",
-   "source_name": "Tom's Hardware",
-   "guid": "rE8V2bK6rGuc8WNfx6iMGZ",
-   "url": "https://www.tomshardware.com/tech-industry/supercomputers/china-retains-fastest-supercomputer-in-the-world-crown-as-ai-data-centers-soak-up-new-hardware-top500-records-fewest-new-systems-in-33-years",
-   "title": "China retains fastest supercomputer in the world crown as AI data centers soak up new hardware",
-   "summary": "The Top 500 list records the fewest new entrants in its history amid a massive shift in compute infrastructure investments towards AI factories.",
-   "categories": [
-    "Supercomputers",
-    "Tech Industry"
-   ],
-   "published_at": "2026-11-16T22:17:02Z"
-  },
-  {
-   "id": "1750a0de16",
-   "source": "tomshardware",
-   "source_name": "Tom's Hardware",
-   "guid": "EEgRhR2rcrD3wJTCade3dH",
-   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/new-us-rules-aim-to-restrict-remote-access-to-ai-servers-and-infrastructure-seeks-to-combat-cloud-rental-workarounds-to-gpu-export-controls",
-   "title": "New US rules aim to restrict Chinese firms’ remote access to AI servers and infrastructure",
-   "summary": "The Bureau of Industry and Security has announced a new interim final rule to ensure restrictions on the export of physical AI hardware cannot be bypassed by accessing it remotely in data centers around the world.",
-   "categories": [
-    "Artificial Intelligence",
-    "Tech Industry"
-   ],
-   "published_at": "2026-11-16T21:50:00Z"
-  },
-  {
-   "id": "13226ef96b",
-   "source": "tomshardware",
-   "source_name": "Tom's Hardware",
-   "guid": "8T85LdfCECTAyYnNX5ymK4",
-   "url": "https://www.tomshardware.com/tech-industry/supercomputers/researchers-recognize-that-ai-will-never-replace-hpc-says-amd-executive-high-precision-workloads-will-exist-for-a-very-long-time-even-as-ai-usage-expands",
-   "title": "Researchers ‘recognize that AI will never replace HPC,’ says AMD executive — high-precision workloads will ‘exist for a very long time’ even as AI usage expands",
-   "summary": "The emergence of AI has seemingly posed a threat to high-precision FP64 computation, but AMD doesn't think the HPC world is moving away from those complex calculations in the wake of AI.",
-   "categories": [
-    "Supercomputers",
-    "Tech Industry"
-   ],
-   "published_at": "2026-11-16T21:30:00Z"
-  },
-  {
-   "id": "5e46de01b3",
-   "source": "tomshardware",
-   "source_name": "Tom's Hardware",
-   "guid": "HpUGmzokNexc4c5zeXbixc",
-   "url": "https://www.tomshardware.com/tech-industry/supercomputers/amd-grabs-over-40-percent-of-new-top500-list-for-supercomputers-up-14-percent-since-last-year-new-lux-system-developed-between-amd-and-department-of-energy-debuts-at-no-14-with-epyc-cpus-and-instinct-mi355x-gpus",
-   "title": "AMD grabs over 40% of new TOP500 list for supercomputers, up 14% since last year",
-   "summary": "AMD's Lux supercomputer debuted at position 14 on the new TOP500 list published during SC26. It's one of two machines AMD is developing as part of a $1 billion deal with the U.S. Department of Energy.",
-   "categories": [
-    "Supercomputers",
-    "Tech Industry"
-   ],
-   "published_at": "2026-11-16T21:00:00Z"
-  },
-  {
-   "id": "5ddb2588e2",
-   "source": "videocardz",
-   "source_name": "VideoCardz",
-   "guid": "https://videocardz.com/newz/gpd-officially-details-win-mini-ultra-with-intel-arc-g3-extreme-120hz-display-and-dual-80gbps-usb4",
-   "url": "https://videocardz.com/newz/gpd-officially-details-win-mini-ultra-with-intel-arc-g3-extreme-120hz-display-and-dual-80gbps-usb4",
-   "title": "GPD officially details WIN Mini Ultra with Intel Arc G3 Extreme, 120Hz display and dual 80Gbps USB4",
-   "summary": "GPD confirms specifications for its Panther Lake handheld GPD has published the specifications for its WIN Mini Ultra gaming handheld, powered by Intel's Arc G3 Extreme processor. We previously covered...",
-   "categories": [],
-   "published_at": "2026-11-16T20:55:32Z"
-  },
-  {
-   "id": "d1f90614e7",
-   "source": "videocardz",
-   "source_name": "VideoCardz",
-   "guid": "https://videocardz.com/newz/teamgroup-warns-memory-shortage-may-get-so-bad-that-even-money-wont-guarantee-supply",
-   "url": "https://videocardz.com/newz/teamgroup-warns-memory-shortage-may-get-so-bad-that-even-money-wont-guarantee-supply",
-   "title": "TeamGroup warns memory shortage may get so bad that even money won’t guarantee supply",
-   "summary": "TeamGroup predicts worst memory shortage in 2027, with no relief until 2028 Memory prices have already increased substantially over the past year, but TeamGroup believes the worst is yet to...",
-   "categories": [],
-   "published_at": "2026-11-16T20:18:17Z"
-  },
-  {
-   "id": "45c5650230",
-   "source": "tomshardware",
-   "source_name": "Tom's Hardware",
-   "guid": "VrcYsqV72WUvRXsBKEao7U",
-   "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-announces-rubin-hpc-gpu-with-record-number-of-cuda-cores-at-supercomputing-2026-new-chip-accelerates-agentic-hpc-workloads-arrives-in-2028",
-   "title": "Nvidia announces Rubin HPC GPU with 'record number of CUDA cores' at Supercomputing 2026",
-   "summary": "Nvidia took the wraps off its Rubin HPC GPU at Supercomputing 2026. This new GPU will give scientists, engineers, and analysts over 50,000 CUDA cores to speed up agentic HPC workloads when it arrives in 2028.",
-   "categories": [
-    "GPUs",
-    "PC Components"
-   ],
-   "published_at": "2026-11-16T19:05:24Z"
   }
  ]
 }

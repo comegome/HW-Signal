@@ -1,7 +1,20 @@
 {
- "generated_at": "2026-11-20T00:34:59.559430Z",
+ "generated_at": "2026-11-20T01:05:10.464050Z",
  "count": 64,
  "items": [
+  {
+   "id": "803807bd24",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "zgFDuMK5TTcC5XGN9EYvY5",
+   "url": "https://www.tomshardware.com/pc-components/get-an-rtx-5070-for-just-usd839-99-a-rare-savings-in-the-gpu-wasteland-msi-geforce-rtx-5070-ventus-2x-oc-12-gb-is-currently-on-sale-at-newegg",
+   "title": "Get an RTX 5070 for just $839.99, a rare savings in the GPU wasteland",
+   "summary": "Get an RTX 5070 for just $839.99 — MSI GeForce RTX 5070 Ventus 2X OC 12 GB is currently on sale at Newegg",
+   "categories": [
+    "PC Components"
+   ],
+   "published_at": "2026-11-20T00:59:02Z"
+  },
   {
    "id": "2f8b42ee47",
    "source": "videocardz",
@@ -798,21 +811,6 @@
     "Storage"
    ],
    "published_at": "2026-11-17T12:32:43Z"
-  },
-  {
-   "id": "2ce74ffc59",
-   "source": "tomshardware",
-   "source_name": "Tom's Hardware",
-   "guid": "TqkAiWTbatKHXjvmRsy6VG",
-   "url": "https://www.tomshardware.com/peripherals/gaming-mice/razers-lightweight-deathadder-v3-pro-price-is-slashed-57-percent-at-amazon-elite-wireless-gaming-mouse-is-now-only-usd64-its-lowest-ever-price",
-   "title": "Razer's lightweight DeathAdder V3 Pro price is slashed 57% at Amazon",
-   "summary": "Razer's DeathAdder V3 Pro wireless gaming mouse is available at Amazon at its lowest-ever price.",
-   "categories": [
-    "Gaming Mice",
-    "Peripherals",
-    "Mice"
-   ],
-   "published_at": "2026-11-17T12:00:00Z"
   }
  ]
 }

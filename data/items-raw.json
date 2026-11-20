@@ -1,7 +1,21 @@
 {
- "generated_at": "2026-11-20T10:35:10.502323Z",
+ "generated_at": "2026-11-20T11:05:10.339102Z",
  "count": 63,
  "items": [
+  {
+   "id": "91fba28e5f",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "2LgjE2u5GSGsU8odpbQzuZ",
+   "url": "https://www.tomshardware.com/desktops/gaming-pcs/redditor-puts-pc-into-checked-baggage-from-us-to-uk-flight-desktop-unit-miraculously-arrives-in-one-piece",
+   "title": "Redditor forced to bring desktop PC in checked luggage on US-to-UK flight with GPU still installed — GPU stayed installed and tempered glass didn't shatter",
+   "summary": "A pissed traveler decided to check their desktop CPU after a check-in attendant refused to have it carried in the cabin, despite being historically allowed by the airline.",
+   "categories": [
+    "Gaming PCs",
+    "Desktops"
+   ],
+   "published_at": "2026-11-20T11:00:00Z"
+  },
   {
    "id": "d7607e92dc",
    "source": "tomshardware",
@@ -780,21 +794,6 @@
     "Tech Industry"
    ],
    "published_at": "2026-11-17T13:30:00Z"
-  },
-  {
-   "id": "7033621072",
-   "source": "tomshardware",
-   "source_name": "Tom's Hardware",
-   "guid": "mjrtKfiY85AHSqi6KZbXbV",
-   "url": "https://www.tomshardware.com/pc-components/ssds/phison-pascari-x201p-15-36tb-ssd-review",
-   "title": "Phison Pascari X201P 15.36TB SSD Review: Fast PCIe 5.0 write performance for AI and ingest servers",
-   "summary": "The Phison Pascari X201P 15.36TB U.2 data center SSD meets its rated speeds and saves AI checkpoints quickly, though it trails on low-queue-depth writes.",
-   "categories": [
-    "SSDs",
-    "PC Components",
-    "Storage"
-   ],
-   "published_at": "2026-11-17T13:13:48Z"
   }
  ]
 }

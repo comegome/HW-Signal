@@ -27,7 +27,7 @@ Actions  :07 每小时   fetch.py → data/items-raw.json（提交进仓库）
 ## 部署到新服务器
 
 ```bash
-git clone git@github.com:comegome/HWSignal.git /opt/hwsignal
+git clone git@github.com:comegome/HW-Signal.git /opt/hwsignal
 cd /opt/hwsignal && ./deploy.sh /opt/hwsignal
 sudo vi /etc/hwsignal/env          # 填 MAGPIE_KEY
 cd /opt/hwsignal && set -a && . /etc/hwsignal/env && set +a && HW_OUT=/var/www/hwsignal python3 generate.py

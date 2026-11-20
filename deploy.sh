@@ -7,7 +7,7 @@
 set -euo pipefail
 
 DEST="${1:-/opt/hwsignal}"
-REPO="git@github.com:comegome/HWSignal.git"
+REPO="git@github.com:comegome/HW-Signal.git"
 ENV_DIR=/etc/hwsignal
 WWW=/var/www/hwsignal
 

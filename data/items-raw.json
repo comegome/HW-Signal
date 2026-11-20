@@ -1,7 +1,18 @@
 {
- "generated_at": "2026-11-20T21:05:09.663743Z",
+ "generated_at": "2026-11-20T22:35:10.479070Z",
  "count": 67,
  "items": [
+  {
+   "id": "39e2625e09",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/nvidia-releases-geforce-621-35-hotfix-to-fix-excessive-ssd-writes",
+   "url": "https://videocardz.com/newz/nvidia-releases-geforce-621-35-hotfix-to-fix-excessive-ssd-writes",
+   "title": "NVIDIA releases GeForce 621.35 hotfix to fix excessive SSD writes",
+   "summary": "NVIDIA addresses SSD write bug in latest GeForce drivers NVIDIA has released GeForce Hotfix Driver 621.35 to address excessive SSD writes reported by users of recent Game Ready drivers. The...",
+   "categories": [],
+   "published_at": "2026-11-20T22:12:08Z"
+  },
   {
    "id": "8e8081390b",
    "source": "tomshardware",
@@ -673,17 +684,6 @@
    "summary": "Lenovo Legion Go Beam leaks, could use Intel Panther Lake or AMD Ryzen Z3-series Windows Latest has published three images of an unannounced Lenovo gaming handheld reportedly called the Legion...",
    "categories": [],
    "published_at": "2026-11-18T17:37:04Z"
-  },
-  {
-   "id": "6ed9ea6dc5",
-   "source": "videocardz",
-   "source_name": "VideoCardz",
-   "guid": "https://videocardz.com/newz/nvidia-geforce-driver-bug-may-cause-continuous-ssd-writes-even-at-idle",
-   "url": "https://videocardz.com/newz/nvidia-geforce-driver-bug-may-cause-continuous-ssd-writes-even-at-idle",
-   "title": "NVIDIA GeForce driver bug may cause continuous SSD writes even at idle",
-   "summary": "NVIDIA GeForce drivers reportedly write GBs of data to SSDs, but only some systems are affected Users are reporting excessive SSD write activity caused by NVIDIA GeForce drivers, just days...",
-   "categories": [],
-   "published_at": "2026-11-18T16:34:29Z"
   },
   {
    "id": "b71e02c663",

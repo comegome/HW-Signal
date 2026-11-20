@@ -1,7 +1,18 @@
 {
- "generated_at": "2026-11-20T17:05:12.333425Z",
+ "generated_at": "2026-11-20T18:05:09.845732Z",
  "count": 66,
  "items": [
+  {
+   "id": "843dea3c01",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/colorful-launches-all-white-igame-b850i-mini-w-oc-motherboard-with-pcie-5-0-and-wi-fi-7",
+   "url": "https://videocardz.com/newz/colorful-launches-all-white-igame-b850i-mini-w-oc-motherboard-with-pcie-5-0-and-wi-fi-7",
+   "title": "Colorful launches all-white iGame B850I MINI W OC motherboard with PCIe 5.0 and Wi-Fi 7",
+   "summary": "White version of Colorful's Mini-ITX AM5 motherboard Colorful has introduced the iGame B850I MINI W OC V14, a white version of its AMD B850 Mini-ITX motherboard. The new model features...",
+   "categories": [],
+   "published_at": "2026-11-20T17:55:00Z"
+  },
   {
    "id": "8fbfc9b537",
    "source": "videocardz",
@@ -729,17 +740,6 @@
     "Tech Industry"
    ],
    "published_at": "2026-11-18T13:30:00Z"
-  },
-  {
-   "id": "d42200effd",
-   "source": "videocardz",
-   "source_name": "VideoCardz",
-   "guid": "https://videocardz.com/newz/intel-confirms-5-4-ghz-boost-and-ddr5-6400-for-newegg-exclusive-core-ultra-7-260k",
-   "url": "https://videocardz.com/newz/intel-confirms-5-4-ghz-boost-and-ddr5-6400-for-newegg-exclusive-core-ultra-7-260k",
-   "title": "Intel confirms 5.4 GHz boost and DDR5-6400 for Newegg-exclusive Core Ultra 7 260K",
-   "summary": "Intel ARK confirms Core Ultra 7 260K supports up to 256 GB of DDR5-6400 Intel has added the Core Ultra 7 260K to its ARK specifications database. We previously covered...",
-   "categories": [],
-   "published_at": "2026-11-18T13:27:31Z"
   },
   {
    "id": "73f3438dbd",

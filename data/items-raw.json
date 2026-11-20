@@ -1,7 +1,32 @@
 {
- "generated_at": "2026-11-20T10:05:09.606563Z",
+ "generated_at": "2026-11-20T10:35:10.502323Z",
  "count": 63,
  "items": [
+  {
+   "id": "d7607e92dc",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "Pwo9tbgmA7y2veU5RovxbJ",
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-helped-amd-improve-its-upcoming-flagship-gpu-design-by-14-percent-ppa-gpt-models-also-helping-lisa-sus-outfit-boost-its-new-cpus",
+   "title": "OpenAI helped AMD improve its upcoming flagship GPU design by 14% PPA — GPT models also helped Lisa Su's outfit boost its new CPUs",
+   "summary": "OpenAI helped AMD improve its upcoming flagship GPU design by 14% PPA — GPT models also helping Lisa Su's outfit boost its new CPUs",
+   "categories": [
+    "Artificial Intelligence",
+    "Tech Industry"
+   ],
+   "published_at": "2026-11-20T10:30:00Z"
+  },
+  {
+   "id": "0c62b8c810",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/narrator-windows-11-login-screen-has-been-bypassed-using-narrator",
+   "url": "https://videocardz.com/newz/narrator-windows-11-login-screen-has-been-bypassed-using-narrator",
+   "title": "Narrator voice: Windows 11 login screen has been bypassed using… Narrator",
+   "summary": "Windows 11 Narrator vulnerability allows code execution without login A security researcher has discovered a vulnerability in Windows 11 that allows someone to bypass lock-screen restrictions using Microsoft's own Narrator...",
+   "categories": [],
+   "published_at": "2026-11-20T10:09:19Z"
+  },
   {
    "id": "f3fc0558dd",
    "source": "videocardz",
@@ -673,17 +698,6 @@
    "published_at": "2026-11-18T09:40:23Z"
   },
   {
-   "id": "77239b6080",
-   "source": "videocardz",
-   "source_name": "VideoCardz",
-   "guid": "https://videocardz.com/newz/amd-japan-says-amd-loves-gamers-gamers-respond-with-a-community-note-about-data-center-priorities",
-   "url": "https://videocardz.com/newz/amd-japan-says-amd-loves-gamers-gamers-respond-with-a-community-note-about-data-center-priorities",
-   "title": "AMD Japan says “AMD loves gamers,” gamers respond with a Community Note about data center priorities",
-   "summary": "AMD \"loves gamers\" AMD CEO Lisa Su recently described AMD as a \"data center-first company,\" prompting gamers to question where Ryzen and Radeon fit into its priorities. Her appearance at...",
-   "categories": [],
-   "published_at": "2026-11-18T08:10:10Z"
-  },
-  {
    "id": "7faa9cf06b",
    "source": "tomshardware",
    "source_name": "Tom's Hardware",
@@ -781,21 +795,6 @@
     "Storage"
    ],
    "published_at": "2026-11-17T13:13:48Z"
-  },
-  {
-   "id": "08b9dba086",
-   "source": "tomshardware",
-   "source_name": "Tom's Hardware",
-   "guid": "sNhkoxBeqn78xiC8PcSh8U",
-   "url": "https://www.tomshardware.com/video-games/xbox/brazilian-businessman-arrested-for-attempted-murder-after-planting-explosive-filled-game-console-that-detonated-in-electronics-store-perp-tried-to-kill-business-rival-device-delivered-by-unsuspecting-motorcyclist-working-for-a-delivery-service",
-   "title": "Brazilian businessman arrested for attempted murder after planting explosive-filled game console that detonated in electronics store",
-   "summary": "A businessman in São Paulo has been arrested for trying to kill a rival business owner with an Xbox filled with explosives.",
-   "categories": [
-    "Xbox",
-    "Video Games",
-    "Console Gaming"
-   ],
-   "published_at": "2026-11-17T13:00:00Z"
   }
  ]
 }

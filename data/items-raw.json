@@ -1,7 +1,76 @@
 {
- "generated_at": "2026-11-19T17:19:38.773757Z",
- "count": 65,
+ "generated_at": "2026-11-20T00:34:59.559430Z",
+ "count": 64,
  "items": [
+  {
+   "id": "2f8b42ee47",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/valve-ends-steam-machine-2tb-waitlist-512gb-model-now-available-without-reservations",
+   "url": "https://videocardz.com/newz/valve-ends-steam-machine-2tb-waitlist-512gb-model-now-available-without-reservations",
+   "title": "Valve ends Steam Machine 2TB waitlist, 512GB model now available without reservations",
+   "summary": "Valve warns that future production and pricing remain uncertain Valve has announced changes to Steam Machine availability as component shortages continue to affect production. The company has cleared all existing...",
+   "categories": [],
+   "published_at": "2026-11-19T21:18:31Z"
+  },
+  {
+   "id": "3263619884",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "mV2qiwN6cBBus5gKebGthY",
+   "url": "https://www.tomshardware.com/tech-industry/data-centers/ai-data-center-power-demand-will-double-by-2030-thanks-to-usd4-trillion-in-spending-adding-an-entire-great-britain-to-energy-strain-93-large-ai-factories-with-projected-capacity-of-around-50-gigawatts",
+   "title": "AI data center power demand will double by 2030 thanks to $4 trillion in spending, adding an entire Great Britain to energy strain",
+   "summary": "IEA's report says that power production and distribution is barely keeping up with the rapid growth of AI data centers.",
+   "categories": [
+    "Data Centers",
+    "Tech Industry"
+   ],
+   "published_at": "2026-11-19T21:00:00Z"
+  },
+  {
+   "id": "9a7c920dd4",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/gpu-z-2-72-adds-support-for-nvidia-rtx-4090-ti-es-rtx-5070-gb203-and-rtx-spark",
+   "url": "https://videocardz.com/newz/gpu-z-2-72-adds-support-for-nvidia-rtx-4090-ti-es-rtx-5070-gb203-and-rtx-spark",
+   "title": "GPU-Z 2.72 adds support for NVIDIA RTX 4090 Ti ES, RTX 5070 GB203 and RTX Spark",
+   "summary": "GPU-Z 2.72 expands NVIDIA and AMD GPU support, adds new sensor features TechPowerUp has released GPU-Z 2.72.0 with support for several NVIDIA graphics processors, including the unreleased GeForce RTX 4090...",
+   "categories": [],
+   "published_at": "2026-11-19T20:49:44Z"
+  },
+  {
+   "id": "2ce4bcc790",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/gta-vi-xbox-build-allegedly-leaked-by-cyberleek",
+   "url": "https://videocardz.com/newz/gta-vi-xbox-build-allegedly-leaked-by-cyberleek",
+   "title": "GTA VI Xbox build allegedly leaked by Cyberleek",
+   "summary": "Cyberleek claims to have leaked 209GB GTA VI Xbox build, but main executable is missing Cyberleek has returned with another Grand Theft Auto VI leak claim, this time involving what...",
+   "categories": [],
+   "published_at": "2026-11-19T20:10:53Z"
+  },
+  {
+   "id": "b40890e28c",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/japannext-launches-31-5-inch-6k-monitor-for-1062-with-300-nit-ips-panel",
+   "url": "https://videocardz.com/newz/japannext-launches-31-5-inch-6k-monitor-for-1062-with-300-nit-ips-panel",
+   "title": "JAPANNEXT launches 31.5-inch 6K monitor for $1,062, with 300-nit IPS panel",
+   "summary": "JAPANNEXT expands its 6K monitor portfolio JN-X6K2 offers 6016×3384 resolution, 60Hz refresh rate and USB-C with 90W power delivery. JAPANNEXT has launched the JN-X6K2, a new 31.5-inch 6K monitor in...",
+   "categories": [],
+   "published_at": "2026-11-19T19:28:56Z"
+  },
+  {
+   "id": "e8230dd87d",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/seasonic-confirms-its-3200w-psu-will-launch-soon-features-six-12v-2x6-gpu-connectors",
+   "url": "https://videocardz.com/newz/seasonic-confirms-its-3200w-psu-will-launch-soon-features-six-12v-2x6-gpu-connectors",
+   "title": "Seasonic confirms its 3,200W PSU will launch soon, features six 12V-2×6 GPU connectors",
+   "summary": "Just in time for winter: Seasonic prepares PRIME ENTERPRISE PX-3200 power supply with six 12V-2×6 connectors Seasonic is preparing to release its 3,200W PRIME ENTERPRISE PX-3200 power supply, designed for...",
+   "categories": [],
+   "published_at": "2026-11-19T18:18:08Z"
+  },
   {
    "id": "e3c9872684",
    "source": "videocardz",
@@ -602,28 +671,6 @@
    "published_at": "2026-11-17T20:24:14Z"
   },
   {
-   "id": "42f0629777",
-   "source": "videocardz",
-   "source_name": "VideoCardz",
-   "guid": "https://videocardz.com/newz/xbox-series-xs-could-get-faster-shaders-thanks-to-open-source-amd-compiler",
-   "url": "https://videocardz.com/newz/xbox-series-xs-could-get-faster-shaders-thanks-to-open-source-amd-compiler",
-   "title": "Xbox Series X|S could get faster shaders thanks to open-source AMD compiler",
-   "summary": "Microsoft tests open-source AMD shader compiler on Xbox Series X|S, reports up to 16% improvement Microsoft is testing a new shader compiler for Xbox Series X and Series S that...",
-   "categories": [],
-   "published_at": "2026-11-17T19:34:42Z"
-  },
-  {
-   "id": "b1a0bcfa14",
-   "source": "videocardz",
-   "source_name": "VideoCardz",
-   "guid": "https://videocardz.com/newz/asus-adds-ddr5-memory-training-counter-with-amd-agesa-1-3-0-1f-beta-bios",
-   "url": "https://videocardz.com/newz/asus-adds-ddr5-memory-training-counter-with-amd-agesa-1-3-0-1f-beta-bios",
-   "title": "ASUS adds DDR5 memory-training counter with AMD AGESA 1.3.0.1f beta BIOS",
-   "summary": "ASUS AM5 beta BIOS displays counting Q-Codes during DDR5 training Q-Code display shows activity during memory training. ASUS has detailed a new DDR5 memory-training behavior introduced with AMD AGESA ComboAM5...",
-   "categories": [],
-   "published_at": "2026-11-17T18:10:20Z"
-  },
-  {
    "id": "7faa9cf06b",
    "source": "tomshardware",
    "source_name": "Tom's Hardware",
@@ -636,28 +683,6 @@
     "PC Components"
    ],
    "published_at": "2026-11-17T17:30:00Z"
-  },
-  {
-   "id": "853f8baa73",
-   "source": "videocardz",
-   "source_name": "VideoCardz",
-   "guid": "https://videocardz.com/newz/apple-macbook-pro-oled-display-flickers-at-240-hz-users-report-headaches-and-eye-strain",
-   "url": "https://videocardz.com/newz/apple-macbook-pro-oled-display-flickers-at-240-hz-users-report-headaches-and-eye-strain",
-   "title": "Apple MacBook Pro OLED display flickers at 240 Hz, users report headaches and eye strain",
-   "summary": "Apple MacBook Pro OLED tested with 240 Hz PWM, 62 times lower than previous Mini-LED model Apple's new MacBook Pro with a tandem OLED display is receiving complaints from users...",
-   "categories": [],
-   "published_at": "2026-11-17T17:28:50Z"
-  },
-  {
-   "id": "77103d17b4",
-   "source": "videocardz",
-   "source_name": "VideoCardz",
-   "guid": "https://videocardz.com/newz/jensen-huang-says-he-would-be-honored-to-return-as-nvidia-ceo",
-   "url": "https://videocardz.com/newz/jensen-huang-says-he-would-be-honored-to-return-as-nvidia-ceo",
-   "title": "Jensen Huang says he would be “honored” to return as NVIDIA CEO",
-   "summary": "NVIDIA's former CEO publicly backs a possible comeback Jensen Huang has now publicly expressed his willingness to return as NVIDIA CEO. In a statement published by The Wall Street Journal,...",
-   "categories": [],
-   "published_at": "2026-11-17T16:25:46Z"
   },
   {
    "id": "22688e79a9",
@@ -686,17 +711,6 @@
     "Tech Industry"
    ],
    "published_at": "2026-11-17T15:50:51Z"
-  },
-  {
-   "id": "f158b7d119",
-   "source": "videocardz",
-   "source_name": "VideoCardz",
-   "guid": "https://videocardz.com/newz/thermaltake-launches-120mm-fans-with-4-inch-lcd-screens-that-can-even-run-games",
-   "url": "https://videocardz.com/newz/thermaltake-launches-120mm-fans-with-4-inch-lcd-screens-that-can-even-run-games",
-   "title": "Thermaltake launches 120mm fans with 4-inch LCD screens that can even run games",
-   "summary": "SWAFAN ULTRA 120 EX RGB features 1020 × 240 IPS displays Thermaltake has announced the SWAFAN ULTRA 120 EX RGB, a new 120mm cooling fan equipped with a 4-inch IPS...",
-   "categories": [],
-   "published_at": "2026-11-17T15:49:20Z"
   },
   {
    "id": "8bee8c16b8",
@@ -799,35 +813,6 @@
     "Mice"
    ],
    "published_at": "2026-11-17T12:00:00Z"
-  },
-  {
-   "id": "e56cc6f16b",
-   "source": "tomshardware",
-   "source_name": "Tom's Hardware",
-   "guid": "aqxKbkGUVUdstgk3Pfbpr7",
-   "url": "https://www.tomshardware.com/tech-industry/supercomputers/japans-most-powerful-supercomputer-may-have-been-hacked-over-4-000-users-personal-data-stolen-investigation-opened-into-fugaku-breach-after-unauthorized-software-installed",
-   "title": "Japan’s most powerful supercomputer may have been hacked, over 4,000 users’ personal data stolen",
-   "summary": "Fugaku, Japan's most powerful supercomputer, has suffered a suspected data breach, with the information of more than 4,000 of its users potentially stolen as a result.",
-   "categories": [
-    "Supercomputers",
-    "Tech Industry"
-   ],
-   "published_at": "2026-11-17T11:47:47Z"
-  },
-  {
-   "id": "e0126d7463",
-   "source": "tomshardware",
-   "source_name": "Tom's Hardware",
-   "guid": "BTeV2PsAyeBHbSJaShTbVC",
-   "url": "https://www.tomshardware.com/tech-industry/semiconductors/samsung-sk-hynix-and-micron-form-unlikely-alliance-to-standardize-robot-charging-as-chipmakers-push-toward-unmanned-chip-fabs-standard-specs-would-allow-manufacturer-agnostic-charging-equipment",
-   "title": "Samsung, SK hynix, and Micron form unlikely alliance to standardize robot charging as chipmakers push toward unmanned fabs",
-   "summary": "Samsung, SK hynix, and Micron are working to standardize charging infrastructure for mobile fab robot batteries to simplify automation and help fabs deploy larger mixed robotic fleets.",
-   "categories": [
-    "Semiconductors",
-    "Tech Industry",
-    "Manufacturing"
-   ],
-   "published_at": "2026-11-17T11:30:00Z"
   }
  ]
 }

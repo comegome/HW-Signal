@@ -1,7 +1,18 @@
 {
- "generated_at": "2026-11-20T19:05:09.897384Z",
+ "generated_at": "2026-11-20T20:05:11.200312Z",
  "count": 66,
  "items": [
+  {
+   "id": "6d685a1cf5",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/gpd-win-mini-ultra-with-intel-arc-g3-extreme-priced-at-1699-64gb-version-skips-indiegogo",
+   "url": "https://videocardz.com/newz/gpd-win-mini-ultra-with-intel-arc-g3-extreme-priced-at-1699-64gb-version-skips-indiegogo",
+   "title": "GPD WIN Mini Ultra with Intel Arc G3 Extreme priced at $1,699, 64GB version skips Indiegogo",
+   "summary": "GPD confirms global pricing for its Panther Lake gaming handheld GPD has confirmed the international pricing of its WIN Mini Ultra handheld, which will launch through Indiegogo in December. The...",
+   "categories": [],
+   "published_at": "2026-11-20T19:51:06Z"
+  },
   {
    "id": "a41a8eeebe",
    "source": "videocardz",
@@ -673,17 +684,6 @@
     "Tech Industry"
    ],
    "published_at": "2026-11-18T15:30:00Z"
-  },
-  {
-   "id": "d6dff8a63d",
-   "source": "videocardz",
-   "source_name": "VideoCardz",
-   "guid": "https://videocardz.com/newz/modders-bring-directx-12-and-geforce-rtx-50-radeon-rx-9000-gpu-support-to-windows-7",
-   "url": "https://videocardz.com/newz/modders-bring-directx-12-and-geforce-rtx-50-radeon-rx-9000-gpu-support-to-windows-7",
-   "title": "Modders bring DirectX 12 and GeForce RTX 50, Radeon RX 9000 GPU support to Windows 7",
-   "summary": "Windows 7 gains unofficial DirectX 12 support for modern NVIDIA, AMD and Intel GPUs Windows 7 is receiving unofficial support for modern graphics cards thanks to a community project that...",
-   "categories": [],
-   "published_at": "2026-11-18T15:26:26Z"
   },
   {
    "id": "41c4d47149",

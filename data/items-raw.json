@@ -1,7 +1,43 @@
 {
- "generated_at": "2026-11-20T16:35:33.244982Z",
- "count": 35,
+ "generated_at": "2026-11-20T17:05:12.333425Z",
+ "count": 66,
  "items": [
+  {
+   "id": "8fbfc9b537",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/microsoft-brings-rdma-over-usb4-to-windows-allowing-multiple-pcs-to-run-one-local-ai-model",
+   "url": "https://videocardz.com/newz/microsoft-brings-rdma-over-usb4-to-windows-allowing-multiple-pcs-to-run-one-local-ai-model",
+   "title": "Microsoft brings RDMA over USB4 to Windows, allowing multiple PCs to run one local AI model",
+   "summary": "Microsoft demonstrates 235B AI model running across three AMD Ryzen AI PCs Microsoft has announced a developer preview of RDMA over USB4 for Windows, allowing multiple computers to run a...",
+   "categories": [],
+   "published_at": "2026-11-20T16:49:03Z"
+  },
+  {
+   "id": "de3eed7c6f",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "T7P4LpZhcCHPYdWioBv5zR",
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-mathematician-claims-to-have-solved-167-year-old-math-problem-with-claude-riemann-hypothesis-proof-allegedly-discovered-but-remains-unconfirmed",
+   "title": "Anthropic mathematician claims to have solved 167-year-old math problem with Claude",
+   "summary": "An anthropic mathematician claims to have solved the Riemann hypothesis using Claude.",
+   "categories": [
+    "Artificial Intelligence",
+    "Tech Industry"
+   ],
+   "published_at": "2026-11-20T16:30:08Z"
+  },
+  {
+   "id": "2edd288fda",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/ktc-prepares-31-5-inch-6k-mini-led-monitor-with-2304-dimming-zones-for-ces-2027",
+   "url": "https://videocardz.com/newz/ktc-prepares-31-5-inch-6k-mini-led-monitor-with-2304-dimming-zones-for-ces-2027",
+   "title": "KTC prepares 31.5-inch 6K Mini-LED monitor with 2,304 dimming zones for CES 2027",
+   "summary": "KTC M32P2 combines 6K IPS panel with 2,304-zone Mini-LED backlighting KTC is preparing a new 6K monitor for CES 2027. According to TechRadar, the company plans to showcase the M32P2,...",
+   "categories": [],
+   "published_at": "2026-11-20T15:13:34Z"
+  },
   {
    "id": "997600f118",
    "source": "tomshardware",
@@ -31,6 +67,17 @@
    "published_at": "2026-11-20T14:30:06Z"
   },
   {
+   "id": "114ac1d395",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/rtx-5090-founders-edition-allegedly-destroyed-during-warranty-claim-despite-owners-request-to-keep-it",
+   "url": "https://videocardz.com/newz/rtx-5090-founders-edition-allegedly-destroyed-during-warranty-claim-despite-owners-request-to-keep-it",
+   "title": "RTX 5090 Founders Edition allegedly destroyed during warranty claim despite owner’s request to keep it",
+   "summary": "RTX 5090 FE owner faces €2,369 refund for GPU now listed at nearly €7,000 Proshop customer refused a refund before the card reportedly disappeared. A GeForce RTX 5090 Founders Edition...",
+   "categories": [],
+   "published_at": "2026-11-20T14:00:21Z"
+  },
+  {
    "id": "b3627bbe7f",
    "source": "tomshardware",
    "source_name": "Tom's Hardware",
@@ -44,6 +91,17 @@
     "Storage"
    ],
    "published_at": "2026-11-20T14:00:00Z"
+  },
+  {
+   "id": "a5d2b44df3",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/tuxedo-launches-linux-laptop-with-ryzen-ai-9-hx-470-and-128gb-ram-support",
+   "url": "https://videocardz.com/newz/tuxedo-launches-linux-laptop-with-ryzen-ai-9-hx-470-and-128gb-ram-support",
+   "title": "TUXEDO launches Linux laptop with Ryzen AI 9 HX 470 and 128GB RAM support",
+   "summary": "TUXEDO announces 1.75kg Ryzen AI 9 HX 470 laptop with 99Wh battery German PC manufacturer TUXEDO Computers has introduced the InfinityBook Pro 15 Gen11 AMD, a Linux laptop powered by...",
+   "categories": [],
+   "published_at": "2026-11-20T12:55:32Z"
   },
   {
    "id": "a66b0ca7ec",
@@ -86,6 +144,17 @@
     "Laptops"
    ],
    "published_at": "2026-11-20T11:45:00Z"
+  },
+  {
+   "id": "ad0fed8cce",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/tcl-csot-showcases-27-inch-qhd-gaming-display-with-native-1250hz-refresh-rate",
+   "url": "https://videocardz.com/newz/tcl-csot-showcases-27-inch-qhd-gaming-display-with-native-1250hz-refresh-rate",
+   "title": "TCL CSOT showcases 27-inch QHD gaming display with native 1,250Hz refresh rate",
+   "summary": "TCL's latest gaming display prototype delivers 1,250Hz at 1440p TCL CSOT has demonstrated two high-refresh-rate gaming displays at its DTC 2026 conference in Wuhan, China. Both prototypes feature 27-inch panels...",
+   "categories": [],
+   "published_at": "2026-11-20T11:34:55Z"
   },
   {
    "id": "c5d7930b12",
@@ -145,6 +214,39 @@
    "published_at": "2026-11-20T10:30:00Z"
   },
   {
+   "id": "0c62b8c810",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/narrator-windows-11-login-screen-has-been-bypassed-using-narrator",
+   "url": "https://videocardz.com/newz/narrator-windows-11-login-screen-has-been-bypassed-using-narrator",
+   "title": "Narrator voice: Windows 11 login screen has been bypassed using… Narrator",
+   "summary": "Windows 11 Narrator vulnerability allows code execution without login A security researcher has discovered a vulnerability in Windows 11 that allows someone to bypass lock-screen restrictions using Microsoft's own Narrator...",
+   "categories": [],
+   "published_at": "2026-11-20T10:09:19Z"
+  },
+  {
+   "id": "f3fc0558dd",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/gigabyte-announces-aorus-ari-edition-ddr5-memory-and-panoramic-pc-cases",
+   "url": "https://videocardz.com/newz/gigabyte-announces-aorus-ari-edition-ddr5-memory-and-panoramic-pc-cases",
+   "title": "GIGABYTE announces AORUS ARI Edition DDR5 memory and panoramic PC cases",
+   "summary": "GIGABYTE expands AORUS ARI anime-themed hardware with CORSAIR DDR5 memory and PC cases GIGABYTE partners with CORSAIR, APNX and MONTECH to expand its anime-themed PC hardware series. GIGABYTE has announced...",
+   "categories": [],
+   "published_at": "2026-11-20T09:07:52Z"
+  },
+  {
+   "id": "344b14e2ed",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/polymega-remix-lets-windows-11-pcs-play-original-playstation-and-sega-saturn-games",
+   "url": "https://videocardz.com/newz/polymega-remix-lets-windows-11-pcs-play-original-playstation-and-sega-saturn-games",
+   "title": "Polymega Remix lets Windows 11 PCs play original PlayStation and Sega Saturn games",
+   "summary": "Polymega Remix opens Japan preorders for USB drive that plays PlayStation and Saturn games on PC NK Trading opened Japanese preorders for the Polymega Remix on November 17. The USB...",
+   "categories": [],
+   "published_at": "2026-11-20T08:03:26Z"
+  },
+  {
    "id": "803807bd24",
    "source": "tomshardware",
    "source_name": "Tom's Hardware",
@@ -156,6 +258,17 @@
     "PC Components"
    ],
    "published_at": "2026-11-20T00:59:02Z"
+  },
+  {
+   "id": "2f8b42ee47",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/valve-ends-steam-machine-2tb-waitlist-512gb-model-now-available-without-reservations",
+   "url": "https://videocardz.com/newz/valve-ends-steam-machine-2tb-waitlist-512gb-model-now-available-without-reservations",
+   "title": "Valve ends Steam Machine 2TB waitlist, 512GB model now available without reservations",
+   "summary": "Valve warns that future production and pricing remain uncertain Valve has announced changes to Steam Machine availability as component shortages continue to affect production. The company has cleared all existing...",
+   "categories": [],
+   "published_at": "2026-11-19T21:18:31Z"
   },
   {
    "id": "3263619884",
@@ -172,6 +285,72 @@
    "published_at": "2026-11-19T21:00:00Z"
   },
   {
+   "id": "9a7c920dd4",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/gpu-z-2-72-adds-support-for-nvidia-rtx-4090-ti-es-rtx-5070-gb203-and-rtx-spark",
+   "url": "https://videocardz.com/newz/gpu-z-2-72-adds-support-for-nvidia-rtx-4090-ti-es-rtx-5070-gb203-and-rtx-spark",
+   "title": "GPU-Z 2.72 adds support for NVIDIA RTX 4090 Ti ES, RTX 5070 GB203 and RTX Spark",
+   "summary": "GPU-Z 2.72 expands NVIDIA and AMD GPU support, adds new sensor features TechPowerUp has released GPU-Z 2.72.0 with support for several NVIDIA graphics processors, including the unreleased GeForce RTX 4090...",
+   "categories": [],
+   "published_at": "2026-11-19T20:49:44Z"
+  },
+  {
+   "id": "2ce4bcc790",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/gta-vi-xbox-build-allegedly-leaked-by-cyberleek",
+   "url": "https://videocardz.com/newz/gta-vi-xbox-build-allegedly-leaked-by-cyberleek",
+   "title": "GTA VI Xbox build allegedly leaked by Cyberleek",
+   "summary": "Cyberleek claims to have leaked 209GB GTA VI Xbox build, but main executable is missing Cyberleek has returned with another Grand Theft Auto VI leak claim, this time involving what...",
+   "categories": [],
+   "published_at": "2026-11-19T20:10:53Z"
+  },
+  {
+   "id": "b40890e28c",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/japannext-launches-31-5-inch-6k-monitor-for-1062-with-300-nit-ips-panel",
+   "url": "https://videocardz.com/newz/japannext-launches-31-5-inch-6k-monitor-for-1062-with-300-nit-ips-panel",
+   "title": "JAPANNEXT launches 31.5-inch 6K monitor for $1,062, with 300-nit IPS panel",
+   "summary": "JAPANNEXT expands its 6K monitor portfolio JN-X6K2 offers 6016×3384 resolution, 60Hz refresh rate and USB-C with 90W power delivery. JAPANNEXT has launched the JN-X6K2, a new 31.5-inch 6K monitor in...",
+   "categories": [],
+   "published_at": "2026-11-19T19:28:56Z"
+  },
+  {
+   "id": "e8230dd87d",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/seasonic-confirms-its-3200w-psu-will-launch-soon-features-six-12v-2x6-gpu-connectors",
+   "url": "https://videocardz.com/newz/seasonic-confirms-its-3200w-psu-will-launch-soon-features-six-12v-2x6-gpu-connectors",
+   "title": "Seasonic confirms its 3,200W PSU will launch soon, features six 12V-2×6 GPU connectors",
+   "summary": "Just in time for winter: Seasonic prepares PRIME ENTERPRISE PX-3200 power supply with six 12V-2×6 connectors Seasonic is preparing to release its 3,200W PRIME ENTERPRISE PX-3200 power supply, designed for...",
+   "categories": [],
+   "published_at": "2026-11-19T18:18:08Z"
+  },
+  {
+   "id": "e3c9872684",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/amd-xdna-2-npus-can-now-run-35b-parameter-ai-models-through-unsloth-desktop",
+   "url": "https://videocardz.com/newz/amd-xdna-2-npus-can-now-run-35b-parameter-ai-models-through-unsloth-desktop",
+   "title": "AMD XDNA 2 NPUs can now run 35B-parameter AI models through Unsloth Desktop",
+   "summary": "AMD finally puts Ryzen AI NPUs to work with Unsloth Desktop AMD has announced a collaboration with Unsloth to enable dedicated NPU acceleration in Unsloth Desktop. According to AMD, its...",
+   "categories": [],
+   "published_at": "2026-11-19T16:42:39Z"
+  },
+  {
+   "id": "828243c70b",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/amd-zen-6-desktop-ryzen-cpus-reportedly-delayed-until-after-computex-2027",
+   "url": "https://videocardz.com/newz/amd-zen-6-desktop-ryzen-cpus-reportedly-delayed-until-after-computex-2027",
+   "title": "AMD Zen 6 desktop Ryzen CPUs reportedly delayed until after Computex 2027",
+   "summary": "AMD Zen 6 Olympic Ridge reportedly switches to TSMC N2X, launch delayed beyond Computex 2027 Ryzen desktop CPUs may arrive later than previously expected. AMD's next-generation Ryzen desktop processors based...",
+   "categories": [],
+   "published_at": "2026-11-19T15:35:31Z"
+  },
+  {
    "id": "a9cd85af59",
    "source": "tomshardware",
    "source_name": "Tom's Hardware",
@@ -184,6 +363,28 @@
     "PC Components"
    ],
    "published_at": "2026-11-19T14:58:13Z"
+  },
+  {
+   "id": "3ca828bfe4",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/lenovo-project-hoverview-leaked-ahead-of-ces-2027-featuring-a-floating-2d-display",
+   "url": "https://videocardz.com/newz/lenovo-project-hoverview-leaked-ahead-of-ces-2027-featuring-a-floating-2d-display",
+   "title": "Lenovo Project Hoverview leaked ahead of CES 2027, featuring a floating 2D display",
+   "summary": "Lenovo Project Hoverview leaks with estimated 12-inch floating screen NieuweMobiel.NL has published images of an unannounced Lenovo device known internally as Project Hoverview. The product reportedly uses an aerial display...",
+   "categories": [],
+   "published_at": "2026-11-19T14:39:40Z"
+  },
+  {
+   "id": "dfbce62ead",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/hp-launches-wildcat-lake-mini-pc-with-core-7-350-and-up-to-32gb-ddr5-memory",
+   "url": "https://videocardz.com/newz/hp-launches-wildcat-lake-mini-pc-with-core-7-350-and-up-to-32gb-ddr5-memory",
+   "title": "HP launches Wildcat Lake mini PC with Core 7 350 and up to 32GB DDR5 memory",
+   "summary": "HP Wildcat Lake mini PC listed for $900, Core 7 model costs $1,259 HP has started selling the ProDesk 2 Mini G2i, a compact business desktop powered by Intel's Wildcat...",
+   "categories": [],
+   "published_at": "2026-11-19T13:17:12Z"
   },
   {
    "id": "21a0e7aad8",
@@ -201,6 +402,17 @@
    "published_at": "2026-11-19T13:00:00Z"
   },
   {
+   "id": "6d6b6f08ef",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/amd-rocm-10-2-now-supports-18-more-ryzen-100-and-200-processors",
+   "url": "https://videocardz.com/newz/amd-rocm-10-2-now-supports-18-more-ryzen-100-and-200-processors",
+   "title": "AMD ROCm 10.2 now supports 18 more Ryzen 100 and 200 processors",
+   "summary": "AMD ROCm 10.2 adds support for 18 Ryzen processors, including some confusing SKUs AMD has released ROCm 10.2, expanding official GPU compute support to 18 additional Ryzen processors. The list...",
+   "categories": [],
+   "published_at": "2026-11-19T12:27:42Z"
+  },
+  {
    "id": "54f8a8c989",
    "source": "tomshardware",
    "source_name": "Tom's Hardware",
@@ -214,6 +426,17 @@
     "Storage"
    ],
    "published_at": "2026-11-19T12:00:00Z"
+  },
+  {
+   "id": "ed86157695",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/oled-monitor-shipments-double-yoy-in-q3-2026-asus-leads-with-21-7-market-share",
+   "url": "https://videocardz.com/newz/oled-monitor-shipments-double-yoy-in-q3-2026-asus-leads-with-21-7-market-share",
+   "title": "OLED monitor shipments double YoY in Q3 2026, ASUS leads with 21.7% market share",
+   "summary": "ASUS, MSI and Samsung account for nearly half of OLED monitor shipments Global OLED monitor shipments doubled year-over-year in the third quarter of 2026, according to the latest TrendForce report....",
+   "categories": [],
+   "published_at": "2026-11-19T11:39:46Z"
   },
   {
    "id": "c943cd6d23",
@@ -272,6 +495,17 @@
    "published_at": "2026-11-19T10:52:20Z"
   },
   {
+   "id": "4310b334c3",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/intel-core-ultra-7-270k-plus-arrow-lake-refresh-cpu-drops-to-233-lowest-price-on-record",
+   "url": "https://videocardz.com/newz/intel-core-ultra-7-270k-plus-arrow-lake-refresh-cpu-drops-to-233-lowest-price-on-record",
+   "title": "Intel Core Ultra 7 270K Plus Arrow Lake Refresh CPU drops to $233, lowest price on record",
+   "summary": "Intel Core Ultra 7 270K Plus drops below $235 ahead of Nova Lake Intel's Core Ultra 7 270K Plus has dropped to $232.70 on Amazon US as part of an...",
+   "categories": [],
+   "published_at": "2026-11-19T10:12:30Z"
+  },
+  {
    "id": "668bfe4b4d",
    "source": "tomshardware",
    "source_name": "Tom's Hardware",
@@ -284,6 +518,39 @@
     "PC Components"
    ],
    "published_at": "2026-11-19T10:00:00Z"
+  },
+  {
+   "id": "5b4e4a943b",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/lg-ultragear-27gx700a-b-with-280hz-tandem-oled-panel-drops-to-399-in-the-us-less-than-half-its-original-price",
+   "url": "https://videocardz.com/newz/lg-ultragear-27gx700a-b-with-280hz-tandem-oled-panel-drops-to-399-in-the-us-less-than-half-its-original-price",
+   "title": "LG UltraGear 27GX700A-B with 280Hz Tandem OLED panel drops to $399 in the US, less than half its original price",
+   "summary": "LG's 1440p 280Hz Tandem OLED monitor gets $450 price cut LG has reduced the price of its UltraGear 27GX700A-B gaming monitor to $399.99 in the US as part of its...",
+   "categories": [],
+   "published_at": "2026-11-19T09:15:49Z"
+  },
+  {
+   "id": "d044922061",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/modders-already-run-gta-vi-with-dlss-5-and-frame-generation-on-pcs-through-ps5-remote-play",
+   "url": "https://videocardz.com/newz/modders-already-run-gta-vi-with-dlss-5-and-frame-generation-on-pcs-through-ps5-remote-play",
+   "title": "Modders already run GTA VI with DLSS 5 and Frame Generation on PCs through PS5 Remote Play",
+   "summary": "PS5 gameplay can be enhanced with NVIDIA DLSS 5 and Frame Generation Grand Theft Auto VI has launched on consoles with a 30 FPS target, including on PlayStation 5 Pro....",
+   "categories": [],
+   "published_at": "2026-11-19T08:30:09Z"
+  },
+  {
+   "id": "8e33e6f5b8",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/driver/amd-radeon-software-adrenalin-26-11-2",
+   "url": "https://videocardz.com/driver/amd-radeon-software-adrenalin-26-11-2",
+   "title": "(Driver) AMD Radeon Software Adrenalin 26.11.2",
+   "summary": "Stability and reliability improvements. New Feature Support Adds support for ROCm 10.2 New Game Support Crimson Desert Enhanced: Charting the Unknown DLC Phantom Blade Zero",
+   "categories": [],
+   "published_at": "2026-11-18T21:58:09Z"
   },
   {
    "id": "896e11b389",
@@ -314,6 +581,50 @@
    "published_at": "2026-11-18T21:00:00Z"
   },
   {
+   "id": "070fe5579c",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/jedec-announces-ddr6-memory-modules-are-44-shorter-than-ddr5-speeds-up-to-14-4-gt-s",
+   "url": "https://videocardz.com/newz/jedec-announces-ddr6-memory-modules-are-44-shorter-than-ddr5-speeds-up-to-14-4-gt-s",
+   "title": "JEDEC announces DDR6 memory modules are 44% shorter than DDR5, speeds up to 14.4 GT/s",
+   "summary": "JEDEC previews DDR6 memory with 74 mm modules, 44% shorter than DDR5 DDR6 modules could be considerably smaller than standard DDR5 DIMMs. JEDEC has published an early preview of the...",
+   "categories": [],
+   "published_at": "2026-11-18T19:37:12Z"
+  },
+  {
+   "id": "d4d2486b7b",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/nvidia-rtx-pro-5500-blackwell-84gb-launches-in-japan",
+   "url": "https://videocardz.com/newz/nvidia-rtx-pro-5500-blackwell-84gb-launches-in-japan",
+   "title": "NVIDIA RTX PRO 5500 Blackwell 84GB launches in Japan",
+   "summary": "NVIDIA RTX PRO 5500 Blackwell launches in Japan as US listings top $20,000 Ryosan Ryoyo has launched the NVIDIA RTX PRO 5500 Blackwell Workstation Edition in Japan. The authorized NVIDIA...",
+   "categories": [],
+   "published_at": "2026-11-18T18:21:19Z"
+  },
+  {
+   "id": "5eded6ae04",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/lenovo-legion-go-beam-handheld-leaks-ahead-of-ces-2027",
+   "url": "https://videocardz.com/newz/lenovo-legion-go-beam-handheld-leaks-ahead-of-ces-2027",
+   "title": "Lenovo Legion Go Beam handheld leaks ahead of CES 2027",
+   "summary": "Lenovo Legion Go Beam leaks, could use Intel Panther Lake or AMD Ryzen Z3-series Windows Latest has published three images of an unannounced Lenovo gaming handheld reportedly called the Legion...",
+   "categories": [],
+   "published_at": "2026-11-18T17:37:04Z"
+  },
+  {
+   "id": "6ed9ea6dc5",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/nvidia-geforce-driver-bug-may-cause-continuous-ssd-writes-even-at-idle",
+   "url": "https://videocardz.com/newz/nvidia-geforce-driver-bug-may-cause-continuous-ssd-writes-even-at-idle",
+   "title": "NVIDIA GeForce driver bug may cause continuous SSD writes even at idle",
+   "summary": "NVIDIA GeForce drivers reportedly write GBs of data to SSDs, but only some systems are affected Users are reporting excessive SSD write activity caused by NVIDIA GeForce drivers, just days...",
+   "categories": [],
+   "published_at": "2026-11-18T16:34:29Z"
+  },
+  {
    "id": "b71e02c663",
    "source": "tomshardware",
    "source_name": "Tom's Hardware",
@@ -340,6 +651,17 @@
     "Tech Industry"
    ],
    "published_at": "2026-11-18T15:30:00Z"
+  },
+  {
+   "id": "d6dff8a63d",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/modders-bring-directx-12-and-geforce-rtx-50-radeon-rx-9000-gpu-support-to-windows-7",
+   "url": "https://videocardz.com/newz/modders-bring-directx-12-and-geforce-rtx-50-radeon-rx-9000-gpu-support-to-windows-7",
+   "title": "Modders bring DirectX 12 and GeForce RTX 50, Radeon RX 9000 GPU support to Windows 7",
+   "summary": "Windows 7 gains unofficial DirectX 12 support for modern NVIDIA, AMD and Intel GPUs Windows 7 is receiving unofficial support for modern graphics cards thanks to a community project that...",
+   "categories": [],
+   "published_at": "2026-11-18T15:26:26Z"
   },
   {
    "id": "41c4d47149",
@@ -384,6 +706,17 @@
    "published_at": "2026-11-18T14:00:00Z"
   },
   {
+   "id": "706170bec1",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/nvidia-launches-rtx-spark-mini-pc-desktops-with-windows-os-asus-dell-and-msi-first",
+   "url": "https://videocardz.com/newz/nvidia-launches-rtx-spark-mini-pc-desktops-with-windows-os-asus-dell-and-msi-first",
+   "title": "NVIDIA launches RTX Spark Mini-PC desktops with Windows OS, ASUS, Dell and MSI first",
+   "summary": "NVIDIA RTX Spark mini PCs now available from ASUS, Dell and MSI with up to 128GB memory NVIDIA has announced the availability of RTX Spark compact desktops from ASUS, Dell...",
+   "categories": [],
+   "published_at": "2026-11-18T13:44:20Z"
+  },
+  {
    "id": "12b28bdb8d",
    "source": "tomshardware",
    "source_name": "Tom's Hardware",
@@ -396,6 +729,17 @@
     "Tech Industry"
    ],
    "published_at": "2026-11-18T13:30:00Z"
+  },
+  {
+   "id": "d42200effd",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/intel-confirms-5-4-ghz-boost-and-ddr5-6400-for-newegg-exclusive-core-ultra-7-260k",
+   "url": "https://videocardz.com/newz/intel-confirms-5-4-ghz-boost-and-ddr5-6400-for-newegg-exclusive-core-ultra-7-260k",
+   "title": "Intel confirms 5.4 GHz boost and DDR5-6400 for Newegg-exclusive Core Ultra 7 260K",
+   "summary": "Intel ARK confirms Core Ultra 7 260K supports up to 256 GB of DDR5-6400 Intel has added the Core Ultra 7 260K to its ARK specifications database. We previously covered...",
+   "categories": [],
+   "published_at": "2026-11-18T13:27:31Z"
   },
   {
    "id": "73f3438dbd",

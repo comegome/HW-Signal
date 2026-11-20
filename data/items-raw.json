@@ -1,7 +1,21 @@
 {
- "generated_at": "2026-11-20T20:05:11.200312Z",
- "count": 66,
+ "generated_at": "2026-11-20T20:35:11.578432Z",
+ "count": 67,
  "items": [
+  {
+   "id": "d4f950c4d4",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "RPk8BMjESgnyMytcc4W2LU",
+   "url": "https://www.tomshardware.com/desktops/gaming-pcs/save-usd2-400-on-a-tricked-out-corsair-rtx-5090-prebuilt-in-black-friday-run-up-sale-sweet-spec-list-also-includes-9950x3d-64gb-ram-and-4tb-storage",
+   "title": "Save $2,400 on a tricked-out Corsair RTX 5090 prebuilt in Black Friday run-up sale — sweet spec list also includes 9950X3D, 64GB RAM, and 4TB storage",
+   "summary": "Prices for RTX 5090 prebuilt PCs have spiked above five figures almost everywhere, but you can still get this Corsair Millennium system for $8999.99, or $2400 off, ahead of the Black Friday rush.",
+   "categories": [
+    "Gaming PCs",
+    "Desktops"
+   ],
+   "published_at": "2026-11-20T20:09:47Z"
+  },
   {
    "id": "6d685a1cf5",
    "source": "videocardz",

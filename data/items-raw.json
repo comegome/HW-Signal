@@ -1,7 +1,35 @@
 {
- "generated_at": "2026-11-20T11:35:10.222146Z",
- "count": 64,
+ "generated_at": "2026-11-20T12:05:11.290085Z",
+ "count": 65,
  "items": [
+  {
+   "id": "18d5c40702",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "LBpYjorozYpN9CLzzKNq8Q",
+   "url": "https://www.tomshardware.com/desktops/mini-pcs/msi-edgemesa-n-ai-plus-review",
+   "title": "MSI EdgeMesa N AI+ review — RTX Spark power comes to Windows on Arm desktops, but there are trade-offs",
+   "summary": "MSI's EdgeMesa N AI+ brings Nvidia RTX Spark N1X power to a Windows-on-Arm mini PC with 128GB of unified memory, strong local AI performance, and the ability to game on the side. But its high $7,499 price isn't that much cheaper than more versatile DGX Spark systems.",
+   "categories": [
+    "Mini PCs",
+    "Desktops"
+   ],
+   "published_at": "2026-11-20T12:00:00Z"
+  },
+  {
+   "id": "e3c333a331",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "WwRJ5x82SAuYeLLoRozdWE",
+   "url": "https://www.tomshardware.com/laptops/gaming-laptops/amazon-lists-the-asus-rog-strix-g16-at-a-new-all-time-low-price-of-usd1-179-rtx-5060-powered-gaming-laptop-comes-with-16gb-of-ddr5-ram-and-a-1tb-ssd",
+   "title": "Amazon lists the Asus ROG Strix G16 at a new all-time low price of $1,179",
+   "summary": "Pick up a new gaming laptop for less with $575 off the Asus ROG G16 at Amazon.",
+   "categories": [
+    "Gaming Laptops",
+    "Laptops"
+   ],
+   "published_at": "2026-11-20T11:45:00Z"
+  },
   {
    "id": "ad0fed8cce",
    "source": "videocardz",
@@ -795,20 +823,6 @@
     "Peripherals"
    ],
    "published_at": "2026-11-17T15:37:47Z"
-  },
-  {
-   "id": "0624b47944",
-   "source": "tomshardware",
-   "source_name": "Tom's Hardware",
-   "guid": "7uCV8qHDFePnZ8Jpdou9qA",
-   "url": "https://www.tomshardware.com/pc-components/gpus/amd-attacks-nvidias-fp64-emulation-at-sc26-touts-native-double-precision-on-instinct-mi430x-says-ozaki-schemes-fit-less-than-10-percent-of-hpc-workloads-and-triple-memory-use-and-emulated-fp64-is-a-poor-fit-for-many-hpc-workloads",
-   "title": "AMD attacks Nvidia's FP64 emulation at SC26, touts native double-precision on Instinct MI430X",
-   "summary": "AMD is touting the benefits of the native FP64 support provided by its MI430X accelerator at Supercomputing 2026. The company says that Ozaki FP64 emulation only covers the needs of a small portion of HPC workloads, making the MI430X a unique foundation for next-gen supercomputing installations.",
-   "categories": [
-    "GPUs",
-    "PC Components"
-   ],
-   "published_at": "2026-11-17T14:30:00Z"
   }
  ]
 }

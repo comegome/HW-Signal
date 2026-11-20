@@ -1,7 +1,18 @@
 {
- "generated_at": "2026-11-20T06:05:10.766526Z",
+ "generated_at": "2026-11-20T08:05:09.257885Z",
  "count": 64,
  "items": [
+  {
+   "id": "344b14e2ed",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/polymega-remix-lets-windows-11-pcs-play-original-playstation-and-sega-saturn-games",
+   "url": "https://videocardz.com/newz/polymega-remix-lets-windows-11-pcs-play-original-playstation-and-sega-saturn-games",
+   "title": "Polymega Remix lets Windows 11 PCs play original PlayStation and Sega Saturn games",
+   "summary": "Polymega Remix opens Japan preorders for USB drive that plays PlayStation and Saturn games on PC NK Trading opened Japanese preorders for the Polymega Remix on November 17. The USB...",
+   "categories": [],
+   "published_at": "2026-11-20T08:03:26Z"
+  },
   {
    "id": "803807bd24",
    "source": "tomshardware",
@@ -671,17 +682,6 @@
    "summary": "NVIDIA board rejects Jensen Huang's return and continues CEO search NVIDIA interim CEO Colette Kress confirmed on CNBC's Mad Money that the board won't reinstate Jensen Huang as CEO. Speaking...",
    "categories": [],
    "published_at": "2026-11-18T07:41:32Z"
-  },
-  {
-   "id": "07b7b862dc",
-   "source": "videocardz",
-   "source_name": "VideoCardz",
-   "guid": "https://videocardz.com/newz/amd-teases-ces-2027-announcement-with-mysterious-a-shaped-graphic",
-   "url": "https://videocardz.com/newz/amd-teases-ces-2027-announcement-with-mysterious-a-shaped-graphic",
-   "title": "AMD teases CES 2027 announcement with mysterious A-shaped graphic",
-   "summary": "AMD teases CES 2027 announcement, but is it Radeon, Ryzen or something else? AMD hints at the next era of computing AMD has started teasing its CES 2027 announcements, although...",
-   "categories": [],
-   "published_at": "2026-11-17T20:24:14Z"
   },
   {
    "id": "7faa9cf06b",

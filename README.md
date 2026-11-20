@@ -24,6 +24,24 @@ Actions  :07 每小时   fetch.py → data/items-raw.json（提交进仓库）
 服务器   :23 每小时   git pull → generate.py → 翻译新条目 → 渲染 → /var/www/hwsignal
 ```
 
+## 定时任务（sl 上）
+
+两条 cron，缺一不可：
+
+```
+# /etc/cron.d/hwsignal-dispatch —— 外部兜底，每 30 分钟一次
+5,35 * * * * root /usr/local/bin/hwsignal-dispatch.sh >> /var/log/hwsignal-dispatch.log 2>&1
+
+# root crontab —— 本机渲染，每小时 :23
+23 * * * * /opt/hwsignal/run.sh >> /var/log/hwsignal.log 2>&1
+```
+
+- `hwsignal-dispatch.sh` 触发一次 GitHub Actions 的 `fetch` 工作流，等它结束后调用 `run.sh` 拉取并渲染。它**不在本仓库里**，需要单独安装到 `/usr/local/bin/`，并且需要 `/etc/hwsignal/curl-auth`（内含只读/写 Actions 权限的 token，不进仓库）。
+- GitHub 自带的 `schedule` 触发不可靠（2026-11-20 观察到停止触发约 7 小时），所以靠 dispatch 兜底。
+- `run.sh` 用 flock 防止两次运行重叠。
+
+日志：`/var/log/hwsignal.log`（渲染）、`/var/log/hwsignal-dispatch.log`（触发）。
+
 ## 部署到新服务器
 
 ```bash

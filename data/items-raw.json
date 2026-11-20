@@ -1,7 +1,47 @@
 {
- "generated_at": "2026-11-20T11:05:10.339102Z",
- "count": 63,
+ "generated_at": "2026-11-20T11:35:10.222146Z",
+ "count": 64,
  "items": [
+  {
+   "id": "ad0fed8cce",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/tcl-csot-showcases-27-inch-qhd-gaming-display-with-native-1250hz-refresh-rate",
+   "url": "https://videocardz.com/newz/tcl-csot-showcases-27-inch-qhd-gaming-display-with-native-1250hz-refresh-rate",
+   "title": "TCL CSOT showcases 27-inch QHD gaming display with native 1,250Hz refresh rate",
+   "summary": "TCL's latest gaming display prototype delivers 1,250Hz at 1440p TCL CSOT has demonstrated two high-refresh-rate gaming displays at its DTC 2026 conference in Wuhan, China. Both prototypes feature 27-inch panels...",
+   "categories": [],
+   "published_at": "2026-11-20T11:34:55Z"
+  },
+  {
+   "id": "c5d7930b12",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "qYj8hmCTNbDS3XM2HSsk63",
+   "url": "https://www.tomshardware.com/tech-industry/supercomputers/power-and-cooling-limits-push-100-000-accelerator-ai-clusters-past-single-data-centers-google-cisco-and-marvell-target-scale-across-networking-across-regions",
+   "title": "Power and cooling limits push 100,000+ accelerator AI clusters past single data centers",
+   "summary": "Faster GPUs are no longer enough as power constraints, network congestion, and communication overhead force the industry to rethink how massive AI systems are built.",
+   "categories": [
+    "Supercomputers",
+    "Tech Industry"
+   ],
+   "published_at": "2026-11-20T11:30:00Z"
+  },
+  {
+   "id": "f5a0d865d2",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "2u6TnYXpdDtSXFz3BduTSH",
+   "url": "https://www.tomshardware.com/pc-components/ssds/score-a-huge-49-percent-saving-on-a-2tb-samsung-9100-pro-ssd-while-you-can-now-17-5-cents-per-gb-ultra-fast-gen-5-drive-is-the-perfect-pc-storage-upgrade-down-to-usd349-99",
+   "title": "Score a huge 49% saving on a 2TB Samsung 9100 Pro SSD while you can",
+   "summary": "A huge discount on Amazon has brought the Gen 5 2TB Samsung 9100 Pro down to $349.99, an almost half-price saving compared to its list price.",
+   "categories": [
+    "SSDs",
+    "PC Components",
+    "Storage"
+   ],
+   "published_at": "2026-11-20T11:04:48Z"
+  },
   {
    "id": "91fba28e5f",
    "source": "tomshardware",
@@ -701,17 +741,6 @@
    "published_at": "2026-11-18T10:00:00Z"
   },
   {
-   "id": "886ff7ce59",
-   "source": "videocardz",
-   "source_name": "VideoCardz",
-   "guid": "https://videocardz.com/newz/sony-issues-last-minute-ps5-security-update-required-to-play-gta-6",
-   "url": "https://videocardz.com/newz/sony-issues-last-minute-ps5-security-update-required-to-play-gta-6",
-   "title": "Sony issues last-minute PS5 ‘security’ update required to play GTA 6",
-   "summary": "Sony confirms GTA 6 requires the latest PS5 firmware Sony has confirmed that PlayStation 5 owners must install the latest system software to play Grand Theft Auto VI. PlayStation Support...",
-   "categories": [],
-   "published_at": "2026-11-18T09:40:23Z"
-  },
-  {
    "id": "7faa9cf06b",
    "source": "tomshardware",
    "source_name": "Tom's Hardware",
@@ -780,20 +809,6 @@
     "PC Components"
    ],
    "published_at": "2026-11-17T14:30:00Z"
-  },
-  {
-   "id": "d613a932bd",
-   "source": "tomshardware",
-   "source_name": "Tom's Hardware",
-   "guid": "4vDxJs5WSc8ftRG6eB6urn",
-   "url": "https://www.tomshardware.com/tech-industry/data-centers/us-government-confirms-criminal-investigation-into-singapore-company-at-the-heart-of-jensen-huang-scandal-megaspeed-identified-over-suspicious-activity-company-placed-on-no-sell-list-by-nvidia",
-   "title": "US government confirms criminal investigation into Singapore company at the heart of Jensen Huang scandal",
-   "summary": "The Justice and Commerce Departments have announced an investigation into Megaspeed over concerns that it may have been involved in the illegal export of Nvidia's AI hardware. The company was previously run by the woman officials have accused of being a Chinese spy while having an affair with Jensen Huang while he was Nvidia CEO.",
-   "categories": [
-    "Data Centers",
-    "Tech Industry"
-   ],
-   "published_at": "2026-11-17T13:30:00Z"
   }
  ]
 }

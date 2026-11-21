@@ -18,6 +18,8 @@ import os
 import re
 import shutil
 import sqlite3
+import subprocess
+import time
 import sys
 import time
 import urllib.error
@@ -474,12 +476,109 @@ def copy_assets():
     shutil.copytree(src, dst)
 
 
+
+def run_doctor():
+    """自检：配置、数据库、抓取快照、产出、git。迁移与排障先跑它。"""
+    fails, warns = [], []
+
+    def ok(m):   print("  OK    %s" % m)
+    def warn(m): print("  WARN  %s" % m); warns.append(m)
+    def bad(m):  print("  FAIL  %s" % m); fails.append(m)
+
+    print("== 配置 ==")
+    try:
+        cfg = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
+        ok("config.json 可读（%d 个源）" % len(cfg.get("sources", {})))
+    except Exception as exc:
+        bad("config.json 读不了: %s" % exc)
+
+    print("== 抓取快照 ==")
+    raw = ROOT / "data" / "items-raw.json"
+    if not raw.exists():
+        bad("缺 data/items-raw.json（fetch.py 没跑过？）")
+    else:
+        try:
+            d = json.loads(raw.read_text(encoding="utf-8"))
+            gen = d.get("generated_at", "?")
+            cnt = len(d.get("items", []))
+            ok("items-raw.json %d 条，generated_at=%s" % (cnt, gen))
+            try:
+                ts = datetime.fromisoformat(gen.replace("Z", "+00:00"))
+                age = (datetime.now(timezone.utc) - ts).total_seconds() / 3600
+                (ok if age < 3 else warn)("快照距今 %.1f 小时" % age)
+            except Exception:
+                warn("generated_at 无法解析: %r" % gen)
+        except Exception as exc:
+            bad("items-raw.json 解析失败: %s" % exc)
+
+    print("== 数据库 ==")
+    if not DB_PATH.exists():
+        bad("数据库不存在: %s" % DB_PATH)
+    else:
+        try:
+            con = sqlite3.connect("file:%s?mode=ro" % DB_PATH, uri=True)
+            integ = con.execute("pragma integrity_check").fetchone()[0]
+            (ok if integ == "ok" else bad)("integrity_check=%s" % integ)
+            cols = {r[1] for r in con.execute("PRAGMA table_info(items)")}
+            need = {"id", "source", "url", "title_en", "title_zh", "summary_en",
+                    "summary_zh", "published_at", "first_seen", "noindex"}
+            missing = need - cols
+            (bad if missing else ok)("schema %s" % ("缺列: " + ",".join(sorted(missing)) if missing else "完整"))
+            total = con.execute("SELECT COUNT(*) FROM items").fetchone()[0]
+            ok("条目 %d 条" % total)
+            for src, n, latest in con.execute(
+                    "SELECT source, COUNT(*), MAX(published_at) FROM items GROUP BY source ORDER BY source"):
+                (ok if n else warn)("源 %-12s %5d 条，最新 %s" % (src, n, latest))
+            untr = con.execute(
+                "SELECT COUNT(*) FROM items WHERE title_zh IS NULL OR title_zh = ''").fetchone()[0]
+            (ok if untr == 0 else warn)("未翻译 %d 条" % untr)
+            con.close()
+        except Exception as exc:
+            bad("数据库检查失败: %s" % exc)
+
+    print("== 产出 ==")
+    idx = OUT / "index.html"
+    if not idx.exists():
+        bad("缺 index.html（还没渲染过？）")
+    else:
+        sz = idx.stat().st_size
+        age = (time.time() - idx.stat().st_mtime) / 3600
+        (ok if sz > 3000 else bad)("index.html %d B" % sz)
+        (ok if age < 3 else warn)("距今 %.1f 小时" % age)
+    for name in ("feed.xml", "sitemap.xml", "archive/index.html"):
+        p = OUT / name
+        (ok if p.exists() else bad)("%s %s" % (name, "存在" if p.exists() else "缺失"))
+    if OUT.exists():
+        pages = sum(1 for _r, _d, fs in os.walk(OUT) for f in fs if f.endswith(".html"))
+        ok("HTML 页面 %d 个" % pages)
+
+    print("== 代码 ==")
+    try:
+        head = subprocess.run(["git", "-C", str(ROOT), "rev-parse", "--short", "HEAD"],
+                              capture_output=True, text=True, timeout=10).stdout.strip()
+        dirty = subprocess.run(["git", "-C", str(ROOT), "status", "--porcelain"],
+                               capture_output=True, text=True, timeout=10).stdout.strip()
+        ok("HEAD=%s" % (head or "?"))
+        (warn if dirty else ok)("工作区%s" % ("有未提交改动: " + dirty.replace(chr(10), " | ") if dirty else "干净"))
+    except Exception as exc:
+        warn("git 状态读不到: %s" % exc)
+
+    print()
+    print("结果: %d 项失败, %d 项警告" % (len(fails), len(warns)))
+    return 1 if fails else 0
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--rebuild", action="store_true")
     ap.add_argument("--no-translate", action="store_true")
+    ap.add_argument("--doctor", action="store_true", help="自检：配置/数据库/产出/git 状态")
     args = ap.parse_args()
 
+    if args.doctor:
+        sys.exit(run_doctor())
+
+    started = time.time()
     raw_path = ROOT / "data" / "items-raw.json"
     if not raw_path.exists():
         sys.exit("missing data/items-raw.json — run fetch.py first")
@@ -504,8 +603,11 @@ def main():
     build_feed(con)
     build_404()
     copy_assets()
+    total = con.execute("SELECT COUNT(*) FROM items").fetchone()[0]
     con.close()
     print("rendered %d item pages into %s" % (n, OUT))
+    print("metrics items=%d changed=%d pages=%d dur=%.2f out=%s" % (
+        total, changed, n, time.time() - started, OUT))
 
 
 if __name__ == "__main__":

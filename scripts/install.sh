@@ -19,7 +19,8 @@ install_if_diff() {  # src dst mode
 }
 
 echo "== 脚本 =="
-install_if_diff "$SRC/scripts/hwsignal-dispatch.sh" /usr/local/bin/hwsignal-dispatch.sh 755
+install_if_diff "$SRC/scripts/hwsignal-dispatch.sh"   /usr/local/bin/hwsignal-dispatch.sh   755
+install_if_diff "$SRC/scripts/hwsignal-db-backup.py"  /usr/local/sbin/hwsignal-db-backup.py 755
 say "run.sh 由仓库直接运行：$SRC/run.sh"
 
 echo "== 密钥/环境（不进仓库）=="
@@ -40,6 +41,7 @@ done
 echo "== 定时任务 =="
 install_if_diff "$SRC/scripts/cron/hwsignal-dispatch" /etc/cron.d/hwsignal-dispatch 644
 install_if_diff "$SRC/scripts/cron/hwsignal-render"   /etc/cron.d/hwsignal-render   644
+install_if_diff "$SRC/scripts/cron/hwsignal-db-backup" /etc/cron.d/hwsignal-db-backup 644
 if crontab -l 2>/dev/null | grep -q '/opt/hwsignal/run.sh'; then
   say "WARN  root crontab 里还有一条 run.sh（与 /etc/cron.d/hwsignal-render 重复），建议删掉"
 fi

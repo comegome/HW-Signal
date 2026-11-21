@@ -6,3 +6,7 @@ data/site.db-shm
 __pycache__/
 *.pyc
 .env
+data/items-raw.json
+data/items-raw.json.tmp
+.stage/
+*.bak-*

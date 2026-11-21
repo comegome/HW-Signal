@@ -30,7 +30,7 @@ for f in /etc/hwsignal/env /etc/hwsignal/curl-auth; do
   else
     mkdir -p /etc/hwsignal
     case "$f" in
-      */env)       printf 'MAGPIE_KEY=\n' > "$f";;
+      */env)       printf 'MAGPIE_KEY=\nHW_KUMA_PUSH=\n' > "$f";;
       */curl-auth) printf 'header = "Authorization: Bearer <GITHUB_TOKEN>"\n' > "$f";;
     esac
     chmod 600 "$f"

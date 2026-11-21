@@ -18,6 +18,14 @@ flock -n 9 || { echo "$(date -Is) another run in progress, skipping"; exit 0; }
 
 log() { echo "$(date -Is) $*"; }
 
+# Kuma push 心跳：成功 up，失败 down；完全不 push 时 90 分钟也会报警。
+# 地址在 /etc/hwsignal/env 的 HW_KUMA_PUSH，留空则跳过。
+push_kuma() {  # $1=up|down  $2=msg
+  [ -n "${HW_KUMA_PUSH:-}" ] || return 0
+  curl -fsS -m 8 -G --data-urlencode "status=$1" --data-urlencode "msg=$2" \
+    "$HW_KUMA_PUSH" >/dev/null 2>&1 || true
+}
+
 log start
 
 git pull -q --ff-only || log "git pull failed, rendering local snapshot"
@@ -29,6 +37,7 @@ if git fetch -q origin data && git show origin/data:items-raw.json > data/items-
 else
   rm -f data/items-raw.json.tmp
   if [ ! -f data/items-raw.json ]; then
+    push_kuma down "no-snapshot"
     log "ERROR 取不到快照且本地没有 items-raw.json"
     exit 1
   fi
@@ -48,6 +57,7 @@ ARGS=()
 [ "$REBUILD" = "1" ] && ARGS+=(--rebuild)
 
 if ! HW_OUT="$TMP" python3 generate.py "${ARGS[@]}"; then
+  push_kuma down "render-failed"
   log "ERROR 渲染失败，保留线上版本"
   rm -rf "$TMP"
   exit 1
@@ -55,21 +65,24 @@ fi
 
 SZ=$(stat -c %s "$TMP/index.html" 2>/dev/null || echo 0)
 if [ "$SZ" -lt 3000 ]; then
+  push_kuma down "index-too-small"
   log "ERROR 产出异常 index=${SZ}B，保留线上版本"
   rm -rf "$TMP"
   exit 1
 fi
 if [ ! -f "$TMP/feed.xml" ]; then
+  push_kuma down "no-feed"
   log "ERROR 缺 feed.xml，保留线上版本"
   rm -rf "$TMP"
   exit 1
 fi
 
 if [ "$REBUILD" = "1" ]; then
-  rsync -a --delete "$TMP"/ "$OUT_DIR"/ || { log "ERROR 全量同步失败"; rm -rf "$TMP"; exit 1; }
+  rsync -a --delete "$TMP"/ "$OUT_DIR"/ || { push_kuma down "rsync-failed"; log "ERROR 全量同步失败"; rm -rf "$TMP"; exit 1; }
 else
-  cp -a "$TMP"/. "$OUT_DIR"/ || { log "ERROR 增量复制失败"; rm -rf "$TMP"; exit 1; }
+  cp -a "$TMP"/. "$OUT_DIR"/ || { push_kuma down "copy-failed"; log "ERROR 增量复制失败"; rm -rf "$TMP"; exit 1; }
 fi
 rm -rf "$TMP"
 
+push_kuma up "ok"
 log "done mode=$([ "$REBUILD" = "1" ] && echo full || echo incremental) index=${SZ}B pages=$(find "$OUT_DIR" -name '*.html' | wc -l)"

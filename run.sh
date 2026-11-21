@@ -22,6 +22,19 @@ log start
 
 git pull -q --ff-only || log "git pull failed, rendering local snapshot"
 
+# 快照在 data 分支（每次 force push 单提交，不污染 main 历史）
+if git fetch -q origin data && git show origin/data:items-raw.json > data/items-raw.json.tmp 2>/dev/null; then
+  mv data/items-raw.json.tmp data/items-raw.json
+  log "快照已更新 $(stat -c %s data/items-raw.json)B"
+else
+  rm -f data/items-raw.json.tmp
+  if [ ! -f data/items-raw.json ]; then
+    log "ERROR 取不到快照且本地没有 items-raw.json"
+    exit 1
+  fi
+  log "WARN 取快照失败，沿用本地快照"
+fi
+
 set -a
 . /etc/hwsignal/env
 set +a

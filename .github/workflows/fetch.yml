@@ -1,8 +1,6 @@
 name: fetch
 
 on:
-  schedule:
-    - cron: "7 * * * *"
   push:
     branches: [main]
     paths:
@@ -10,6 +8,8 @@ on:
       - "config.json"
       - ".github/workflows/fetch.yml"
   workflow_dispatch:
+    # 抓取只由 sl 的 hwsignal-dispatch.sh 触发（每小时 :05/:35）。
+    # 不用 schedule：GitHub 的定时本来就常延迟/跳过，留着只会和 dispatch 重复。
 
 permissions:
   contents: write

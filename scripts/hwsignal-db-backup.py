@@ -69,7 +69,6 @@ def build_kit(rows_total):
         tar.add(readme, arcname="RESTORE.md")
     sha = hashlib.sha256(open(tar_path, "rb").read()).hexdigest()
     size_kb = os.path.getsize(tar_path) // 1024
-    shutil.rmtree(tmp)
     return ts, tar_path, sha, size_kb, n
 
 
@@ -98,7 +97,7 @@ def main():
     shutil.copy(tar_path, os.path.join(repo, os.path.basename(tar_path)))
     with open(os.path.join(repo, os.path.basename(tar_path) + ".sha256"), "w") as fh:
         fh.write("%s  %s\n" % (sha, os.path.basename(tar_path)))
-    os.unlink(tar_path)
+    shutil.rmtree(os.path.dirname(tar_path), ignore_errors=True)
 
     kits = sorted(f for f in os.listdir(repo) if f.startswith("restore-") and f.endswith(".tar.gz"))
     dropped = 0

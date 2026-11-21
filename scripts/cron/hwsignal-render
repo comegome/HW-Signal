@@ -1,0 +1,2 @@
+# HW Signal 渲染任务：每小时 :23 拉取快照并渲染（快照由 GitHub Actions / dispatch 产出）
+23 * * * * root /opt/hwsignal/run.sh >> /var/log/hwsignal.log 2>&1

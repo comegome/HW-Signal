@@ -19,7 +19,8 @@ flock -n 9 || { echo "$(date -Is) another run in progress, skipping"; exit 0; }
 log() { echo "$(date -Is) $*"; }
 
 # Kuma push 心跳：成功 up，失败 down；完全不 push 时 90 分钟也会报警。
-# 地址在 /etc/hwsignal/env 的 HW_KUMA_PUSH，留空则跳过。
+# 地址在 /etc/hwsignal/env 的 HW_KUMA_PUSH。2026-11-22 起置空：更新监控改由 a2 的
+# site-freshness-check.py 读公开页面（脚本自报成功 ≠ 页面真的更新）。
 push_kuma() {  # $1=up|down  $2=msg
   [ -n "${HW_KUMA_PUSH:-}" ] || return 0
   curl -fsS -m 8 -G --data-urlencode "status=$1" --data-urlencode "msg=$2" \

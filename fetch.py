@@ -151,6 +151,58 @@ def dedupe(items):
     return final
 
 
+# ---------------------------------------------------------------- article body
+ARTICLE_WORDS = 180          # 只取正文前 N 词（按段取整，不切半句）
+ARTICLE_MIN_WORDS = 80       # 低于这个数就当抓取失败，页面退回摘要
+ARTICLE_PAUSE = 1.5          # 每篇之间停顿，别把源站当靶子
+JUNK_MARKS = ("{", "data-", "copy_link", "alert(", "function(", "<", ">")
+PUBLISHED = re.compile(r"Published\s+\d{1,2}\s+[A-Z][a-z]+\s+\d{4}")
+
+
+def clean_paragraphs(page):
+    """<article> 里的 <p> → 纯文本段落，剔掉 JS 残留与 Tom's Hardware 的元数据头。"""
+    m = re.search(r"<article.*?</article>", page, re.S)
+    body = m.group(0) if m else page
+    body = re.sub(r"<(script|style|figure|aside|noscript)[^>]*>.*?</\1>", "", body, flags=re.S)
+    out = []
+    for raw in re.findall(r"<p[^>]*>(.*?)</p>", body, re.S):
+        p = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", raw))).strip()
+        if len(p.split()) < 12 or any(j in p for j in JUNK_MARKS):
+            continue
+        hit = PUBLISHED.search(p)
+        if hit:  # TH 把「分类 + 标题 + By 作者 Published 日期」塞进第一个 <p>
+            p = p[hit.end():].strip(" -–—|")
+            if len(p.split()) < 12:
+                continue
+        out.append(p)
+    return out
+
+
+def article_lead(url):
+    """抓正文前 ARTICLE_WORDS 词。任何失败都返回 []，由摘要兜底。"""
+    try:
+        req = urllib.request.Request(url, headers={
+            "User-Agent": UA,
+            "Accept": "text/html,application/xhtml+xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.9",
+        })
+        with urllib.request.urlopen(req, timeout=40) as r:
+            page = r.read().decode("utf-8", "replace")
+    except Exception as e:  # noqa: BLE001
+        print("  article FAIL %s: %s" % (type(e).__name__, str(e)[:70]))
+        return []
+    paras = clean_paragraphs(page)
+    if sum(len(p.split()) for p in paras) < ARTICLE_MIN_WORDS:
+        return []
+    lead, words = [], 0
+    for p in paras:
+        lead.append(p)
+        words += len(p.split())
+        if words >= ARTICLE_WORDS:
+            break
+    return lead
+
+
 def main():
     all_items = []
     for key in CFG["sources"]:
@@ -168,14 +220,8 @@ def main():
     all_items.sort(key=lambda x: x["published_at"] or "", reverse=True)
     all_items = dedupe(all_items)
 
-    payload = {
-        "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
-        "count": len(all_items),
-        "items": all_items,
-    }
     out = ROOT / "data" / "items-raw.json"
     out.parent.mkdir(parents=True, exist_ok=True)
-
     old = None
     if out.exists():
         try:
@@ -183,6 +229,31 @@ def main():
         except Exception:  # noqa: BLE001
             old = None
 
+    # 正文只在首次见到该条目（或摘要变了）时抓，其余复用上一份快照
+    reuse = {}
+    for it in (old or {}).get("items", []):
+        if it.get("body"):
+            reuse[(it.get("id"), it.get("summary"))] = it["body"]
+    ok = fail = kept = 0
+    for it in all_items:
+        body = reuse.get((it["id"], it.get("summary")))
+        if body:
+            kept += 1
+        else:
+            body = article_lead(it["url"])
+            if body:
+                ok += 1
+            else:
+                fail += 1
+            time.sleep(ARTICLE_PAUSE)
+        it["body"] = body
+    print("article     %3d fetched, %3d reused, %3d failed" % (ok, kept, fail))
+
+    payload = {
+        "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+        "count": len(all_items),
+        "items": all_items,
+    }
     if old and old.get("items") == all_items:
         print("no change (%d items)" % len(all_items))
         return

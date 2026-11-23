@@ -67,6 +67,9 @@ main{padding:40px 0 72px;min-height:60vh}
 h1.headline{font-size:33px;line-height:1.28;font-weight:650;letter-spacing:-.019em;margin:0 0 16px}
 .meta-line{font-size:14.5px;color:var(--faint);margin-bottom:26px;font-variant-numeric:tabular-nums}
 .lede{font-size:18px;line-height:1.68;color:var(--ink);margin:0 0 30px}
+.body{margin:0 0 30px}
+.body p{margin:0 0 1.15em;font-size:17px;line-height:1.75;color:var(--ink);overflow-wrap:anywhere}
+.body p:last-child{margin-bottom:0}
 .origin{border-top:1px solid var(--rule);padding-top:18px;font-size:14.5px;color:var(--muted)}
 .origin a{color:var(--accent)}
 .origin a:hover{text-decoration:underline}

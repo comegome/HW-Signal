@@ -55,7 +55,8 @@
     "fallback_model": "deepseek-v4.1-flash",
     "batch": 5,
     "max_tokens": 12000,
-    "reasoning_effort": "low"
+    "reasoning_effort": "low",
+    "body_batch": 3
   },
   "summary_store_max_chars": 800
 }

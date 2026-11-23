@@ -110,7 +110,10 @@ CREATE TABLE IF NOT EXISTS items (
   categories   TEXT,
   published_at TEXT,
   first_seen   TEXT NOT NULL,
-  noindex      INTEGER DEFAULT 0
+  noindex      INTEGER DEFAULT 0,
+  body_en      TEXT,
+  body_zh      TEXT,
+  body_hash    TEXT
 );
 CREATE INDEX IF NOT EXISTS idx_pub ON items(published_at DESC);
 """
@@ -121,7 +124,21 @@ def db_open():
     con = sqlite3.connect(DB_PATH)
     con.row_factory = sqlite3.Row
     con.executescript(SCHEMA)
+    # 老库补列（executescript 不会给已存在的表加列）
+    have = {r[1] for r in con.execute("PRAGMA table_info(items)")}
+    for col in ("body_en", "body_zh", "body_hash"):
+        if col not in have:
+            con.execute("ALTER TABLE items ADD COLUMN %s TEXT" % col)
+    con.commit()
     return con
+
+
+def body_text(paras):
+    return "\n\n".join(paras or [])
+
+
+def body_hash(text):
+    return hashlib.sha1((text or "").encode("utf-8")).hexdigest()[:16]
 
 
 def upsert(con, items):
@@ -130,17 +147,22 @@ def upsert(con, items):
     for it in items:
         cur = con.execute(
             """INSERT INTO items (id, source, source_name, guid, url, title_en, summary_en,
-                                  categories, published_at, first_seen)
-               VALUES (?,?,?,?,?,?,?,?,?,?)
+                                  categories, published_at, first_seen, body_en, body_hash)
+               VALUES (?,?,?,?,?,?,?,?,?,?,?,?)
                ON CONFLICT(id) DO UPDATE SET
                  title_en=excluded.title_en,
                  summary_en=excluded.summary_en,
-                 categories=excluded.categories
+                 categories=excluded.categories,
+                 body_zh = CASE WHEN items.body_hash IS excluded.body_hash THEN items.body_zh END,
+                 body_en=excluded.body_en,
+                 body_hash=excluded.body_hash
                WHERE items.title_en IS NOT excluded.title_en
-                  OR items.summary_en IS NOT excluded.summary_en""",
+                  OR items.summary_en IS NOT excluded.summary_en
+                  OR items.body_hash IS NOT excluded.body_hash""",
             (it["id"], it["source"], it["source_name"], it["guid"], it["url"],
              it["title"], it.get("summary") or "", json.dumps(it.get("categories") or [], ensure_ascii=False),
-             it.get("published_at"), now))
+             it.get("published_at"), now, body_text(it.get("body")),
+             body_hash(body_text(it.get("body")))))
         added += cur.rowcount
     con.commit()
     return added
@@ -157,7 +179,17 @@ SYS_PROMPT = """你是硬件科技新闻的翻译。把 JSON 数组里每条的 
 - 只输出 JSON 数组，每项 {"id":"...","t":"...","s":"..."}，不要 markdown 代码块，不要解释"""
 
 
-def call_llm(model, payload_items, cfg):
+BODY_PROMPT = """你是硬件科技新闻的翻译。把 JSON 数组里每条的 b（英文正文段落数组）逐段译成简体中文。
+
+规则：
+- 段落数量与顺序必须和输入一致，不合并、不拆分、不增删、不加小标题
+- 保留产品型号、公司名、数字、单位、货币、专有名词（如 RTX 5090、Ryzen 9 9950X3D、PCIe 5.0、24GB、$999）
+- 地名译成中文（Ohio → 俄亥俄州，Taiwan → 台湾）
+- 不补充原文没有的信息，不加评论
+- 只输出 JSON 数组，每项 {"id":"...","b":["...","..."]}，不要 markdown 代码块，不要解释"""
+
+
+def call_llm(model, payload_items, cfg, system=None):
     key = os.environ.get("MAGPIE_KEY", "").strip()
     if not key:
         raise RuntimeError("MAGPIE_KEY not set")
@@ -165,7 +197,7 @@ def call_llm(model, payload_items, cfg):
     body = {
         "model": model,
         "messages": [
-            {"role": "system", "content": SYS_PROMPT},
+            {"role": "system", "content": system or SYS_PROMPT},
             {"role": "user", "content": json.dumps(payload_items, ensure_ascii=False)},
         ],
         "temperature": 0.2,
@@ -264,6 +296,65 @@ def translate_pending(con):
     return done
 
 
+def translate_bodies(con):
+    """正文单独一批翻译：每篇 150–250 词，batch 取小一点。"""
+    rows = con.execute(
+        "SELECT id, body_en, body_hash, body_zh FROM items WHERE body_en IS NOT NULL AND body_en != ''"
+    ).fetchall()
+    todo = [(r["id"], r["body_en"]) for r in rows
+            if not r["body_zh"] or r["body_hash"] != body_hash(r["body_en"])]
+    if not todo:
+        return 0
+
+    cfg = CFG
+    batch = cfg["translate"].get("body_batch", 3)
+    queue = [todo[i:i + batch] for i in range(0, len(todo), batch)]
+    done = failed = 0
+
+    while queue:
+        chunk = queue.pop(0)
+        payload = [{"id": cid, "b": body_text([c[1]]).split("\n\n")} for cid, c in chunk]
+        got = model = None
+        for cand in (cfg["translate"]["model"], cfg["translate"].get("fallback_model")):
+            if not cand:
+                continue
+            try:
+                parsed = parse_json_array(call_llm(cand, payload, cfg, BODY_PROMPT))
+                if parsed:
+                    got = {str(x.get("id")): x for x in parsed if isinstance(x, dict)}
+                    model = cand
+                    break
+            except Exception as e:  # noqa: BLE001
+                print("body-translate: %s failed: %s" % (cand, e))
+            time.sleep(2)
+
+        if got is None:
+            if len(chunk) > 1:
+                half = len(chunk) // 2
+                queue[:0] = [chunk[:half], chunk[half:]]
+                print("body-translate: batch failed, splitting %d -> %d+%d" % (len(chunk), half, len(chunk) - half))
+            else:
+                failed += 1
+                print("body-translate: item %s keeps summary fallback" % chunk[0][0])
+            continue
+
+        for cid, body in chunk:
+            item = got.get(str(cid))
+            paras = item.get("b") if item else None
+            if not isinstance(paras, list) or not paras:
+                continue
+            con.execute(
+                "UPDATE items SET body_zh=?, tr_model=? WHERE id=?",
+                (body_text([str(x).strip() for x in paras if str(x).strip()]), model, cid))
+            done += 1
+        con.commit()
+        print("body-translate: +%d (%s)" % (len(chunk), model))
+
+    if failed:
+        print("body-translate: %d item(s) fell back to summary" % failed)
+    return done
+
+
 # ---------------------------------------------------------------- render
 def nav(active):
     links = [("/archive/", "归档", "archive"), ("/about/", "关于", "about")]
@@ -347,8 +438,11 @@ def build_items(con):
             "publisher": {"@type": "Organization", "name": SITE, "url": BASE},
             "description": summ,
         }
+        paras = [x for x in (r["body_zh"] or "").split("\n\n") if x.strip()]
+        body_html = ('<div class="body">%s</div>' % "".join("<p>%s</p>" % esc(x) for x in paras)
+                     if paras else '<p class="lede">%s</p>' % esc(summ))
         content = render("item.html",
-                         title=esc(title), summary=esc(summ),
+                         title=esc(title), body_html=body_html, summary=esc(summ),
                          source=esc(r["source_name"]), url=esc(r["url"]),
                          published=esc(fmt_full(r["published_at"])),
                          category_html=('<span class="cat">%s</span>' % esc(cats[0])) if cats else "",
@@ -501,6 +595,10 @@ def run_doctor():
                 (ok if age < 3 else warn)("快照距今 %.1f 小时" % age)
             except Exception:
                 warn("generated_at 无法解析: %r" % gen)
+            items = d.get("items", [])
+            with_body = sum(1 for i in items if i.get("body"))
+            pct = (100.0 * with_body / cnt) if cnt else 0
+            (ok if pct >= 70 else warn)("正文抓取 %d/%d 条（%.0f%%），其余走摘要兜底" % (with_body, cnt, pct))
         except Exception as exc:
             bad("items-raw.json 解析失败: %s" % exc)
 
@@ -590,6 +688,7 @@ def main():
 
     if not args.no_translate:
         translate_pending(con)
+        translate_bodies(con)
 
     build_index(con)
     n = build_items(con)

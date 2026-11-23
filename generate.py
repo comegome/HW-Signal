@@ -313,7 +313,7 @@ def translate_bodies(con):
 
     while queue:
         chunk = queue.pop(0)
-        payload = [{"id": cid, "b": body_text([c[1]]).split("\n\n")} for cid, c in chunk]
+        payload = [{"id": cid, "b": [x for x in c.split("\n\n") if x.strip()]} for cid, c in chunk]
         got = model = None
         for cand in (cfg["translate"]["model"], cfg["translate"].get("fallback_model")):
             if not cand:

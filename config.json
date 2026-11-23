@@ -57,6 +57,5 @@
     "max_tokens": 12000,
     "reasoning_effort": "low"
   },
-  "summary_store_max_chars": 800,
-  "summary_list_chars": 150
+  "summary_store_max_chars": 800
 }

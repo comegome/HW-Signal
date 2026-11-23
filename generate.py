@@ -43,6 +43,18 @@ def esc(s):
     return html.escape(s or "", quote=True)
 
 
+def css_version():
+    css = (TPL_DIR / "style.css").read_bytes()
+    return hashlib.sha1(css).hexdigest()[:7]
+
+
+CSS_VER = css_version()
+
+
+def write_css():
+    (OUT / "style.css").write_bytes((TPL_DIR / "style.css").read_bytes())
+
+
 def render(name, **kw):
     tpl = (TPL_DIR / name).read_text(encoding="utf-8")
     for k, v in kw.items():
@@ -273,28 +285,12 @@ def page(path, title, description, content, active="", jsonld=None, noindex=Fals
                   site=SITE, title=esc(title), description=esc(description),
                   canonical=canonical, canonical_root=BASE, nav=nav(active), content=content,
                   head_extra=head_extra, tagline=esc(CFG["tagline"]),
-                  year=datetime.now(TZ).year)
+                  year=datetime.now(TZ).year, cssver=CSS_VER)
     target = OUT / path.strip("/") / "index.html" if path.endswith("/") and path != "/" else (
         OUT / "index.html" if path == "/" else OUT / path.lstrip("/"))
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(body, encoding="utf-8")
     return target
-
-
-def clip(s, n):
-    """Shorten for list display only, preferring a sentence/clause boundary."""
-    s = (s or "").strip()
-    if len(s) <= n:
-        return s
-    cut = s[:n]
-    m = None
-    for ch in "。！？!?；;，、,":
-        idx = cut.rfind(ch)
-        if idx > n * 0.55 and (m is None or idx > m):
-            m = idx
-    if m is not None:
-        return cut[:m + 1].rstrip()
-    return cut.rstrip() + "…"
 
 
 def row_html(it):
@@ -304,7 +300,7 @@ def row_html(it):
     cats = json.loads(it["categories"] or "[]")
     cat = cats[0] if cats else ""
     return render("row.html",
-                  href=href, title=esc(title), summary=esc(clip(summ, CFG["summary_list_chars"])),
+                  href=href, title=esc(title), summary=esc(summ),
                   source=esc(it["source_name"]), time=esc(fmt_time(it["published_at"])),
                   category_html=('<span class="cat">%s</span>' % esc(cat)) if cat else "")
 
@@ -463,6 +459,7 @@ def build_404():
 
 
 def copy_assets():
+    write_css()
     src = ROOT / "assets"
     if not src.exists():
         return

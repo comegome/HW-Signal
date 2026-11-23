@@ -10,6 +10,7 @@
 fetch.py                   抓取两个 RSS，清洗、类目过滤、去重 → data/items-raw.json
 generate.py                入库、翻译、渲染静态站 → out/
 config.json                站点名、域名、类目白名单、翻译参数
+templates/style.css        全站样式表，渲染时写成 /style.css?v=<内容哈希>
 templates/                 HTML 模板
 .github/workflows/fetch.yml  在 GitHub Actions 上跑 fetch.py，结果推到 data 分支
 scripts/install.sh         在新服务器上装脚本与定时任务（唯一安装入口）
@@ -105,6 +106,6 @@ python3 generate.py --no-translate   # 只渲染，不调 API
 ## 设计取舍
 
 - 类目白名单在 `config.json`：Tom's Hardware 有一半条目是礼品导购和行业八卦，纯硬件白名单只留 22/50，硬件+算力留 35/50
-- 摘要不截断存储（上限 800 字只是防跑飞），列表显示时按 150 字在标点处收口，详情页给全文
+- 摘要不截断存储（上限 800 字只是防跑飞），列表把全文放进 DOM、只用 CSS 裁两行，详情页给全文
 - 详情页保留英文原标题，`isBasedOn` 指向原文
 - 超过 `retention_days` 的条目不再进 sitemap，但页面保留、加 `noindex,follow`

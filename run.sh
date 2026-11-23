@@ -65,15 +65,16 @@ if ! HW_OUT="$TMP" python3 generate.py "${ARGS[@]}"; then
 fi
 
 SZ=$(stat -c %s "$TMP/index.html" 2>/dev/null || echo 0)
-if [ "$SZ" -lt 3000 ]; then
-  push_kuma down "index-too-small"
-  log "ERROR 产出异常 index=${SZ}B，保留线上版本"
+# 判内容不判字节：首页只放「当天」，清晨天然可能 0 条，按尺寸会误报
+if ! grep -q '</html>' "$TMP/index.html" 2>/dev/null || ! grep -q 'class="list-head"' "$TMP/index.html" 2>/dev/null; then
+  push_kuma down "index-broken"
+  log "ERROR 首页不完整（缺 </html> 或 list-head），保留线上版本"
   rm -rf "$TMP"
   exit 1
 fi
-if [ ! -f "$TMP/feed.xml" ]; then
+if ! grep -q '<rss' "$TMP/feed.xml" 2>/dev/null; then
   push_kuma down "no-feed"
-  log "ERROR 缺 feed.xml，保留线上版本"
+  log "ERROR feed.xml 缺失或不完整，保留线上版本"
   rm -rf "$TMP"
   exit 1
 fi

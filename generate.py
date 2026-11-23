@@ -281,10 +281,6 @@ def page(path, title, description, content, active="", jsonld=None, noindex=Fals
     return target
 
 
-def source_badge(it):
-    return '<span class="src">%s</span>' % esc(it["source_name"])
-
-
 def clip(s, n):
     """Shorten for list display only, preferring a sentence/clause boundary."""
     s = (s or "").strip()
@@ -328,7 +324,7 @@ def build_index(con):
                   checked=fmt_time(json.loads((ROOT / "data" / "items-raw.json").read_text(encoding="utf-8"))["generated_at"]))
     body = head + "".join(row_html(r) for r in rows)
     page("/", "%s — 硬件新闻" % SITE,
-         CFG["description"], '<section class="list">%s</section>' % body, active="index",
+         CFG["description"], '<section>%s</section>' % body, active="index",
          jsonld={"@context": "https://schema.org", "@type": "WebSite",
                  "name": SITE, "url": BASE,
                  "potentialAction": {"@type": "SearchAction", "target": BASE + "/?q={q}"}})
@@ -386,14 +382,14 @@ def build_archive(con):
         render("archive_card.html", day=d, label=day_label(d), count=str(len(v)))
         for d, v in ordered)
     page("/archive/", "归档 — %s" % SITE, "按天浏览全部条目",
-         '<section class="list"><h1 class="page-h1">归档</h1><div class="days">%s</div></section>' % cards,
+         '<section><h1 class="page-h1">归档</h1><div class="days">%s</div></section>' % cards,
          active="archive")
 
     for d, v in ordered:
         body = ('<h1 class="page-h1">%s <span class="sub">%d 条</span></h1>' % (day_label(d), len(v))
                 + "".join(row_html(r) for r in v))
         page("/archive/%s/" % d, "%s 归档 — %s" % (d, SITE),
-             "%s 的全部条目" % d, '<section class="list">%s</section>' % body, active="archive")
+             "%s 的全部条目" % d, '<section>%s</section>' % body, active="archive")
     return ordered
 
 

@@ -18,6 +18,10 @@ install_if_diff() {  # src dst mode
   fi
 }
 
+echo "== 站点目录 =="
+if [ -d /var/www/hwsignal ]; then say "存在    /var/www/hwsignal"
+else install -d -m 755 /var/www/hwsignal && say "已创建  /var/www/hwsignal"; fi
+
 echo "== 脚本 =="
 install_if_diff "$SRC/scripts/hwsignal-dispatch.sh"   /usr/local/bin/hwsignal-dispatch.sh   755
 install_if_diff "$SRC/scripts/hwsignal-db-backup.py"  /usr/local/sbin/hwsignal-db-backup.py 755

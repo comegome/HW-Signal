@@ -26,6 +26,7 @@ for it in items:
         print("  FAIL", it["id"], it["url"][:80])
     time.sleep(1.5)
 print("backfill: %d ok, %d failed, %d total" % (ok, fail, len(items)))
+(ROOT / "data").mkdir(parents=True, exist_ok=True)  # data/ 在仓库里是空的，checkout 后不存在
 (ROOT / "data" / "backfill-bodies.json").write_text(
     json.dumps({"extract_ver": F.ARTICLE_VER, "bodies": bodies}, ensure_ascii=False),
     encoding="utf-8")

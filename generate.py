@@ -536,7 +536,10 @@ def run_doctor():
     else:
         sz = idx.stat().st_size
         age = (time.time() - idx.stat().st_mtime) / 3600
-        (ok if sz > 3000 else bad)("index.html %d B" % sz)
+        html = idx.read_text(encoding="utf-8", errors="replace")
+        # 判内容不判字节：首页只放当天条目，清晨 0 条时天然只有 3KB 出头
+        complete = "</html>" in html and 'class="list-head"' in html
+        (ok if complete else bad)("index.html %d B%s" % (sz, "" if complete else "（结构不完整）"))
         (ok if age < 3 else warn)("距今 %.1f 小时" % age)
     for name in ("feed.xml", "sitemap.xml", "archive/index.html"):
         p = OUT / name

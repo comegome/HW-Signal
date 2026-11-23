@@ -10,6 +10,7 @@ import json
 import re
 import sys
 import time
+import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 from difflib import SequenceMatcher
@@ -184,18 +185,30 @@ def clean_paragraphs(page):
     return out
 
 
-def article_lead(url):
-    """抓正文前 ARTICLE_WORDS 词。任何失败都返回 []，由摘要兜底。"""
-    try:
-        req = urllib.request.Request(url, headers={
-            "User-Agent": UA,
-            "Accept": "text/html,application/xhtml+xml;q=0.9,*/*;q=0.8",
-            "Accept-Language": "en-US,en;q=0.9",
-        })
-        with urllib.request.urlopen(req, timeout=40) as r:
-            page = r.read().decode("utf-8", "replace")
-    except Exception as e:  # noqa: BLE001
-        print("  article FAIL %s: %s" % (type(e).__name__, str(e)[:70]))
+def article_lead(url, tries=3):
+    """抓正文前 ARTICLE_WORDS 词。失败重试（404/410 不重试），最终失败返回 []，由摘要兜底。"""
+    page = ""
+    for attempt in range(1, tries + 1):
+        try:
+            req = urllib.request.Request(url, headers={
+                "User-Agent": UA,
+                "Accept": "text/html,application/xhtml+xml;q=0.9,*/*;q=0.8",
+                "Accept-Language": "en-US,en;q=0.9",
+            })
+            with urllib.request.urlopen(req, timeout=40) as r:
+                page = r.read().decode("utf-8", "replace")
+            break
+        except urllib.error.HTTPError as e:
+            if e.code in (404, 410):  # 永久失效，重试没意义
+                print("  article GONE %s %s" % (e.code, url[:70]))
+                return []
+            print("  article retry %d/%d %s: HTTP %s" % (attempt, tries, url[:60], e.code))
+        except Exception as e:  # noqa: BLE001
+            print("  article retry %d/%d %s: %s" % (attempt, tries, url[:60], type(e).__name__))
+        if attempt < tries:
+            time.sleep(2 * attempt)
+    if not page:
+        print("  article FAIL %s" % url[:70])
         return []
     paras = clean_paragraphs(page)
     if sum(len(p.split()) for p in paras) < ARTICLE_MIN_WORDS:

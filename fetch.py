@@ -155,8 +155,14 @@ def dedupe(items):
 ARTICLE_WORDS = 180          # 只取正文前 N 词（按段取整，不切半句）
 ARTICLE_MIN_WORDS = 80       # 低于这个数就当抓取失败，页面退回摘要
 ARTICLE_PAUSE = 1.5          # 每篇之间停顿，别把源站当靶子
+ARTICLE_VER = 2              # 抽取规则版本；改规则就 +1，让快照里的旧正文失效
 JUNK_MARKS = ("{", "data-", "copy_link", "alert(", "function(", "<", ">")
 PUBLISHED = re.compile(r"Published\s+\d{1,2}\s+[A-Z][a-z]+\s+\d{4}")
+# 站点自带的推广/免责声明段落（TH 常见，混在 <article> 里）
+BOILER = re.compile(
+    r"(why you can trust|expert reviewers spend hours|download the tom'?s hardware app"
+    r"|follow tom'?s hardware|add us as a preferred source|sign up (for|to)"
+    r"|newsletter|find out (more )?about how we test)", re.I)
 
 
 def clean_paragraphs(page):
@@ -167,7 +173,7 @@ def clean_paragraphs(page):
     out = []
     for raw in re.findall(r"<p[^>]*>(.*?)</p>", body, re.S):
         p = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", raw))).strip()
-        if len(p.split()) < 12 or any(j in p for j in JUNK_MARKS):
+        if len(p.split()) < 12 or any(j in p for j in JUNK_MARKS) or BOILER.search(p):
             continue
         hit = PUBLISHED.search(p)
         if hit:  # TH 把「分类 + 标题 + By 作者 Published 日期」塞进第一个 <p>
@@ -196,8 +202,21 @@ def article_lead(url):
         return []
     lead, words = [], 0
     for p in paras:
+        n = len(p.split())
+        if words and words + n > ARTICLE_WORDS * 1.4:
+            # 这一段会超出太多：按句子截到预算内，别切半句
+            keep, used = [], 0
+            for sent in re.split(r"(?<=[.!?])\s+", p):
+                w = len(sent.split())
+                if keep and used + w > ARTICLE_WORDS - words:
+                    break
+                keep.append(sent)
+                used += w
+            if keep:
+                lead.append(" ".join(keep))
+            break
         lead.append(p)
-        words += len(p.split())
+        words += n
         if words >= ARTICLE_WORDS:
             break
     return lead
@@ -231,9 +250,10 @@ def main():
 
     # 正文只在首次见到该条目（或摘要变了）时抓，其余复用上一份快照
     reuse = {}
-    for it in (old or {}).get("items", []):
-        if it.get("body"):
-            reuse[(it.get("id"), it.get("summary"))] = it["body"]
+    if (old or {}).get("extract_ver") == ARTICLE_VER:
+        for it in old.get("items", []):
+            if it.get("body"):
+                reuse[(it.get("id"), it.get("summary"))] = it["body"]
     ok = fail = kept = 0
     for it in all_items:
         body = reuse.get((it["id"], it.get("summary")))
@@ -251,6 +271,7 @@ def main():
 
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+        "extract_ver": ARTICLE_VER,
         "count": len(all_items),
         "items": all_items,
     }

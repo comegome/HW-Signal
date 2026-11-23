@@ -254,7 +254,7 @@ def translate_pending(con):
 
 # ---------------------------------------------------------------- render
 def nav(active):
-    links = [("/", "今天", "index"), ("/archive/", "归档", "archive"), ("/about/", "关于", "about")]
+    links = [("/archive/", "归档", "archive"), ("/about/", "关于", "about")]
     out = []
     for href, label, key in links:
         cls = ' class="on"' if key == active else ""

@@ -1,0 +1,2 @@
+# HW Signal 数据恢复包：每天 03:47 UTC（北京 11:47）打包 site.db 推到 db-backup 分支
+47 3 * * * root /usr/local/sbin/hwsignal-db-backup.py >> /var/log/hwsignal-db-backup.log 2>&1

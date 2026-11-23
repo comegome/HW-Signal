@@ -1,0 +1,1 @@
+5,35 * * * * root /usr/local/bin/hwsignal-dispatch.sh >> /var/log/hwsignal-dispatch.log 2>&1

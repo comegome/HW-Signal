@@ -1,0 +1,26 @@
+name: backfill
+on:
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: 'JSON array of {id,url}'
+        required: true
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fetch bodies
+        env:
+          URLS: ${{ inputs.urls }}
+        run: python3 scripts/backfill-bodies.py "$URLS"
+      - name: publish to backfill branch
+        run: |
+          git config user.name "backfill-bot"
+          git config user.email "backfill-bot@users.noreply.github.com"
+          git checkout --orphan backfill
+          git add -f data/backfill-bodies.json
+          git commit -m "backfill $(date -u +%FT%TZ)"
+          git push -f origin HEAD:backfill

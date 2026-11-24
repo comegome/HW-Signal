@@ -181,6 +181,8 @@ def clean_paragraphs(page):
             p = p[hit.end():].strip(" -–—|")
             if len(p.split()) < 12:
                 continue
+        if p in out:  # 上游会把首段再当导语重复一遍
+            continue
         out.append(p)
     return out
 

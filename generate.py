@@ -438,7 +438,12 @@ def build_items(con):
             "publisher": {"@type": "Organization", "name": SITE, "url": BASE},
             "description": summ,
         }
-        paras = [x for x in (r["body_zh"] or "").split("\n\n") if x.strip()]
+        seen, paras = set(), []
+        for x in (r["body_zh"] or "").split("\n\n"):
+            x = x.strip()
+            if x and x not in seen:
+                seen.add(x)
+                paras.append(x)
         body_html = ('<div class="body">%s</div>' % "".join("<p>%s</p>" % esc(x) for x in paras)
                      if paras else '<p class="lede">%s</p>' % esc(summ))
         content = render("item.html",

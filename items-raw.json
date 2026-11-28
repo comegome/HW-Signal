@@ -1,0 +1,1292 @@
+{
+ "generated_at": "2026-11-28T13:36:57.391742Z",
+ "extract_ver": 2,
+ "count": 68,
+ "items": [
+  {
+   "id": "27d6c4fb92",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "8utHX4LthwAWZhY7bF7MWi",
+   "url": "https://www.tomshardware.com/pc-components/ssds/samsungs-speedy-9100-pro-gen-5-2tb-ssd-is-half-price-get-super-fast-ssd-storage-back-to-lowest-price-this-year",
+   "title": "Score a huge 49% saving on a 2TB Samsung 9100 Pro SSD while you can",
+   "summary": "The Samsung 9100 Pro 2TB SSD is half price this Black Friday weekend.",
+   "categories": [
+    "SSDs",
+    "PC Components",
+    "Storage"
+   ],
+   "published_at": "2026-11-28T12:59:37Z",
+   "body": [
+    "As you can read in our Samsung 9100 Pro review, this drive is pretty excellent. Powered by Samsung's own Presto controller and 236-layer V8 NAND, it boasts on paper read and write speeds of 14,800MB/s and 13,400 MB/s, respectively.",
+    "This is a great drive for gaming and any type of productivity task, ensuring your storage isn't a bottleneck, with 1,850K/2,600K IOPS random read/write speeds for AI workloads.",
+    "This drive also comes with a lot of protections, including good thermal controls to prevent overheating, with a 1,200 TBW endurance rating, enough to see you write over a third of the drive a day for more than five years.",
+    "The Samsung 9100 Pro is a high-end PCIe 5.0 SSD featuring Samsung's own Presto controller and 236-layer NAND. The 2 TB model delivers sequential read and write speeds up to 14,700 MB/s and 13,400 MB/s, respectively.",
+    "As you can see from our testing, the 9100 Pro blitzes the competition in our PCMark 10 storage testing. There are faster drives on the market, but this is a serious contender for one of the fastest."
+   ]
+  },
+  {
+   "id": "0a7ed88148",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/gta-vi-unofficial-pc-port-goes-ultrawide-reaches-180-fps-with-frame-generation",
+   "url": "https://videocardz.com/newz/gta-vi-unofficial-pc-port-goes-ultrawide-reaches-180-fps-with-frame-generation",
+   "title": "GTA VI unofficial PC port goes ultrawide, reaches 180 FPS with Frame Generation",
+   "summary": "GTA VI PC project claims ultrawide support and 30 FPS base performance The development of unofficial Grand Theft Auto VI PC ports continues. Just days after the first projects managed...",
+   "categories": [],
+   "published_at": "2026-11-28T12:50:38Z",
+   "body": [
+    "The development of unofficial Grand Theft Auto VI PC ports continues. Just days after the first projects managed to render interactive gameplay, developer D Everett Hinton has shared a nearly four-minute video claiming to show the game running with several PC-specific graphics features.",
+    "According to Hinton, the project now supports a 5120×1440 resolution with a 32:9 aspect ratio, HDR10+, NVIDIA Reflex and Frame Generation. The developer claims to have achieved 30 FPS at a 16:9 aspect ratio and up to 180 FPS with Frame Generation enabled. Performance at the higher ultrawide resolution has not been specified.",
+    "Hinton claims to have completely rewritten the CPU and GPU pipeline. In response to questions about shader compilation stutter, the developer explained that shaders are cached after the first run.",
+    "GTA 6 PC port with 5120×1440 32:9, 30fps (at 16:9) and 180fps with frame gen, HDR 10+, Nvidia Reflex, etc, with ray reconstruction and DLSS 5 NR coming soon.. most of the videos you see are fake, this one is not! Completely rewritten CPU/GPU pipeline. pic.twitter.com/OjZXboxqQH",
+    "DLSS 5 Neural Rendering and Ray Reconstruction plannedThe developer is also working on implementing NVIDIA DLSS Ray Reconstruction, DLSS 5 Neural Rendering and CUDA-based ray tracing. None of these features have been demonstrated as part of the current build."
+   ]
+  },
+  {
+   "id": "217be46dde",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "q6a6XkWFLSfvEfMrAAhMDC",
+   "url": "https://www.tomshardware.com/video-games/pc-gaming/this-itch-io-game-has-you-stealing-ram-as-ram-altman-dodge-cars-outrun-unionized-gnomes-and-sneak-ram-grabs-into-a-terms-of-service-agreement",
+   "title": "This itch.io game has you stealing RAM as RAM Altman",
+   "summary": "The RAM Altman meme has been turned into a game where you can steal RAM from households to \"increase quarterly numbers.\"",
+   "categories": [
+    "PC Gaming",
+    "Video Games"
+   ],
+   "published_at": "2026-11-28T12:30:00Z",
+   "body": [
+    "Play as RAM Altman, stealing RAM from suburban houses by solving puzzles reminiscent of various relatable tech experiences.",
+    "Sam Altman’s statement in a YouTube interview with Cheeky Pint about how “it's quite terrible” for everyone to have DRAM in their PCs being used only “5% of the time” has become a massive meme on the internet. Many have mocked the entitlement of the statement with various memes, one user even going so far as to write a script to email Altman once a day about his PC’s RAM utilization. Since the widespread meme of Altman’s statement, the internet has been calling him RAM Altman, appropriately branding him as one of the greatest contributors to the RAM crisis.",
+    "Earlier this month, an itch.io game titled RAM Altman was released — a game where you play as a parody of the OpenAI CEO. The goal is to steal as much RAM as you can from a household in a suburban neighborhood, among other things. The game is split into quarters, and as RAM Altman, your goal is to boost those quarterly numbers by stealing more RAM."
+   ]
+  },
+  {
+   "id": "777a7fcae0",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "pmdGrryvMBLJAfeNruMbaZ",
+   "url": "https://www.tomshardware.com/pc-components/boost-your-storage-while-this-6tb-wd-my-passport-external-hard-drive-is-usd90-off-just-4-cents-per-gb-2-25-inch-drive-now-usd239",
+   "title": "Boost your storage while this 6TB WD My Passport external hard drive is $90 off and its lowest price in months",
+   "summary": "This is a great chance to pick up a 6TB WD My Passport external drive for just $239.99 and add tons of fast, portable storage to your computer for years to come.",
+   "categories": [
+    "PC Components"
+   ],
+   "published_at": "2026-11-28T12:15:55Z",
+   "body": [
+    "A great option for backing up and portable storage alike, this WD 6TB 2.25-inch drive is at its lowest price in months.",
+    "Despite being a super-slim 2.5-inch drive that you can take anywhere, this WD My Passport model still features a massive 6TB capacity for storing all of your biggest and most important files. Included backup software and hardware encryption make it a solid option for off-site backup, but it'll be just as great at housing a large media file collection. You could even use it as a way to offload files from your internal drive, freeing up valuable space for more apps and games.",
+    "Getting data onto and off of the drive will be super-fast thanks to its USB 3.1/USB 3.0 data transfer speeds, and you'll even get a cable so the drive will be ready to go straight out of the box. The drive is also compatible with both PCs and Macs — just bear in mind that you'll need to reformat it before it'll work with Apple's machines.",
+    "This portable hard drive offers a whopping 6TB of storage with USB 3.1/USB 3.0 connectivity and includes backup and password protection features. Despite its large capacity, it's still small enough to slide right into your pocket and is a great way to back up data or offload media files to save space on your internal drive."
+   ]
+  },
+  {
+   "id": "28452cb560",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "ZTHqy6pAUcBnqQxMHUWNB7",
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-enthusiast-deletes-linux-to-run-qwen3-on-a-24kb-pure-x86-64-assembly-os-28-000-times-smaller-than-model-system-boots-in-74-milliseconds-runs-llms-up-to-54-percent-faster",
+   "title": "AI enthusiast deletes Linux for a 24KB pure assembly OS that boots in 74 milliseconds",
+   "summary": "An intrepid developer has deleted their Linux OS and coded a tiny assembly-language bare-metal bootable alternative to run LLMs. As well as drastically cutting resource use, it seems to work far faster.",
+   "categories": [
+    "Artificial Intelligence",
+    "Tech Industry"
+   ],
+   "published_at": "2026-11-28T12:00:00Z",
+   "body": [
+    "Is your OS getting in the way of your computing? Rebalance your resource use.",
+    "The compact size of this Multiboot OS binary (asm-llm-os.elf) is remarkable. Weighing in at just 24KB (24,252 bytes), it makes modern operating systems seem gargantuan. However, one must remember that the legendary Commodore 64 worked off a smaller 20KB ROM, which included not only the kernel but also a BASIC interpreter and a character generator.",
+    "Fateev says that his Multiboot OS with modern SMP support was written from scratch without Linux, Windows, C, Rust, or libc. Users interact with the new OS via its support for 80x25 character color VGA displays, PS/2 keyboards, and serial communications. Such is the purposeful efficiency of this hand-written NASM assembly language project that it can boot in 74-94 milliseconds directly to its multi-turn chat interface. You're ready to chat with your LLM in the blink of an eye.",
+    "While the OS and its carefully honed UI use only a tiny portion of the computer's resources, the OS loads Qwen3-0.6B Q8_0, which weighs in at 649MB. That's something of a lightweight LLM, as many of you will be aware, but it is roughly 28,000 times bigger than the OS that references it. That's good, as you bought your computer to run applications and games – not for running an OS – didn't you?"
+   ]
+  },
+  {
+   "id": "18359e1162",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/intel-reportedly-preparing-razor-lake-s-cpu-with-12-p-cores-and-120mb-of-cache",
+   "url": "https://videocardz.com/newz/intel-reportedly-preparing-razor-lake-s-cpu-with-12-p-cores-and-120mb-of-cache",
+   "title": "Intel reportedly preparing Razor Lake-S CPU with 12 P-cores and 120MB of cache",
+   "summary": "Intel's 12 P-core Razor Lake-S compute die reportedly measures around 140 mm² Nearly two weeks ago, we reported that Intel was preparing a dedicated 12 P-core compute die for its...",
+   "categories": [],
+   "published_at": "2026-11-28T11:57:41Z",
+   "body": [
+    "Nearly two weeks ago, we reported that Intel was preparing a dedicated 12 P-core compute die for its Razor Lake-S desktop processor series. Hardware leaker Jaykihn has now shared more information about this silicon, including its cache capacity and estimated die size.",
+    "According to the leaker, the 12+0 compute die will feature 120MB of Big Last Level Cache (bLLC). The processor will have no standard E-cores but will still feature four low-power E-cores, bringing the total CPU core count to 16. Intel reportedly plans to manufacture this compute die using its own 18A-P process.",
+    "The 12 P-Core variant is something Intel never launched for gamers, although we did get a bit of taste of such a config with Bartlett Lake-S, except it was never a gaming CPU to begin with.",
+    "Jaykihn estimates that the die measures around 140 mm², although he has yet to verify this figure. Unlike other Razor Lake-S compute tiles, this design will reportedly retain the Coyote Cove P-core architecture from Nova Lake rather than adopt Griffin Cove.",
+    "The leaker also claims that the 8+16 Razor Lake-S compute tile will feature 144MB of bLLC, matching the cache capacity of the equivalent Nova Lake-S design. This means the dedicated 12 P-core die will have four more P-cores but 24MB less L3 cache."
+   ]
+  },
+  {
+   "id": "3d5c81ded3",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "9K2W9fWZiEUiMrUp8Y3Msh",
+   "url": "https://www.tomshardware.com/peripherals/usb/makita-power-tool-battery-pack-adapter-tested-as-portable-laptop-power-solution-usd44-adp15-charges-a-thinkpad-at-60w-and-iphone-17-pro-max-at-37w",
+   "title": "Makita power tool battery pack adapter tested as portable laptop power solution",
+   "summary": "Leading power tool firm Makita has released an adapter for its battery packs, allowing them to be used for charging phones, tablets, and even laptops. A Japanese PC magazine has tested its laptop companion prowess.",
+   "categories": [
+    "USB",
+    "Peripherals",
+    "Cables and Connectors"
+   ],
+   "published_at": "2026-11-28T11:30:00Z",
+   "body": [
+    "Alternative laptop power solution could appeal to road warriors who have a collection of drill batteries.",
+    "PC Watch contributor Masahiro Yamaguchi already had a Makita power tool with a BL1830B 3,000mAh capacity 18V battery pack, so this was used in testing. Yamaguchi noted that Makita sells and bundles compatible power packs with as much as 12,000mAh capacity, and the more spare Makita power tool batteries you have in your house/garage, the more attractive the ADP15 adapter becomes.",
+    "Before checking the Type-C PD100 port's laptop charging capabilities, the ADP15 was assessed with the USB Cable Checker3 gadget. It was found to support both Programmable Power Supply (PPS), which is part of the USB Power Delivery 3.0 specification, and Adjustable Voltage Supply (AVS). Yamaguchi thought that this spec level made the ADP15 \"quite feature rich\" [machine translation].",
+    "An iPhone 17 Pro Max was connected next, and it seemed to charge near its maximum limit, at 37W. Then, at last, the ADP15's USB PD port was hooked up to a Lenovo ThinkPad X1 Carbon Gen 9. It was observed that the laptop charged at about 60W, though the PC is supposed to support 65W charging. That's pretty close, though. Yamaguchi's 3,000mAh battery managed to charge the Lenovo up to about 77% full. On that point, readers were reminded that there are Makita battery packs with up to 12,000mAh capacity, and many keen DIYers will have several packs."
+   ]
+  },
+  {
+   "id": "04daac0282",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "ifk5ADEbUmDZNMEz85nP3T",
+   "url": "https://www.tomshardware.com/pc-components/this-nifty-usd35-dual-hard-drive-dock-can-support-up-to-64tb-of-storage-for-your-pc-clone-duplicate-and-connect-2-5-inch-and-3-5-inch-ssds-and-hdds-with-ease",
+   "title": "This nifty $35 dual hard drive dock can support up to 64TB of storage for your PC",
+   "summary": "Pick up this dual-bay docking station and hook up two 3.5-inch or 2.5-inch drives simultaneously. It even has a built-in offline duplicator and cloning function.",
+   "categories": [
+    "PC Components"
+   ],
+   "published_at": "2026-11-28T11:16:34Z",
+   "body": [
+    "Perfect for backups and accessing the one file from 2005 that you absolutely must access right this second.",
+    "This Ugreen storage docking station supports any combination of 2.5-inch and 3.5-inch drives, including SSDs and spinning hard drives, so long as they're SATA III, SATA II, or SATA 1 models with a maximum capacity of 32TB, with a total capacity of 64TB. You can clone and duplicate drives offline without the need to hook anything up, but you can also connect your docking station to a computer via the included USB 3.0 cable. That offers a maximum data transfer speed of 5 Gbps and is, of course, backwards-compatible with slower connections. That included cable is a one-meter USB-B to USB-C affair, but you'll also get a USB-A adapter for extra flexibility.",
+    "Speaking of flexibility, this docking station works with Windows XP and newer, as well as any Mac running Mac OS X Tiger 10.4 or newer. Linux devices are also supported, so you can hook this thing up to servers and home computers alike.",
+    "This handy hard drive docking station has space for two 3.5-inch and 2.5-inch drives, and you can even use SSDs as well as spinning drives. It comes with multiple options for connecting to your computer and has its own offline cloning and duplicating functionality; no computer needed."
+   ]
+  },
+  {
+   "id": "74d5be94ff",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/intel-arc-b580-hits-600-on-newegg-more-than-double-its-msrp",
+   "url": "https://videocardz.com/newz/intel-arc-b580-hits-600-on-newegg-more-than-double-its-msrp",
+   "title": "Intel Arc B580 hits $600 on Newegg, more than double its MSRP",
+   "summary": "ASRock Challenger Arc B580 listed at $599.99 after $289.99 Newegg deal in July It's not just high-end NVIDIA GeForce and AMD Radeon GPUs reaching record prices. We've seen some price...",
+   "categories": [],
+   "published_at": "2026-11-28T11:15:46Z",
+   "body": [
+    "It’s not just high-end NVIDIA GeForce and AMD Radeon GPUs reaching record prices. We’ve seen some price increases slow, but few graphics cards are still available at their original launch prices. That includes Intel’s Arc Battlemage series.",
+    "Newegg currently has no Arc B580 cards available for direct sale. Halfmoon Tech Store, a third-party seller on Newegg Marketplace, lists the ASRock Challenger Arc B580 at $599.99.",
+    "In July the exact same card was down to $289.99 with a $20 coupon. Newegg sold and shipped the card directly during that promotion. Even before the coupon, Newegg listed it at $309.99.",
+    "Intel launched the Arc B580 in December 2024 at $249 and still lists that figure as its recommended customer price. The $599.99 listing is $350.99 above that price, or 141% higher. Intel launched the Arc B570 at $219, a $30 difference between the two models at launch. ALso worth pointing out that Micro Center’s U.S. catalog lists the same ASRock Challenger B580 at $359.99.",
+    "One possible factor behind the price increase is Intel’s reported shift in Battlemage production toward higher-priced Arc Pro models. Those cards bring in more revenue per unit. Intel also never released a gaming version of Big Battlemage. Unfortunately, just like AMD and NVIDIA, Intel’s priorities are not with gamers right now."
+   ]
+  },
+  {
+   "id": "cda00d0c65",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "ezAhuswSCzN4sXpdX4cg6n",
+   "url": "https://www.tomshardware.com/peripherals/wearable-tech/hair-dye-that-turns-your-head-into-a-brain-computer-interface-ehair-coats-strands-in-conductive-polymers-to-amplify-eeg-signals-without-surgery",
+   "title": "Hair dye that turns your head into a brain-computer interface",
+   "summary": "eHAIR is claimed to transform hair 'from a barrier into a functional bioelectronic interface.'",
+   "categories": [
+    "Wearable Tech",
+    "Peripherals"
+   ],
+   "published_at": "2026-11-28T11:00:00Z",
+   "body": [
+    "Tech could narrow the gap between non-invasive brain computer interfaces and implanted solutions like Neuralink.",
+    "eHAIR is claimed to transform hair \"from a barrier into a functional bioelectronic interface.\" One approach that was tested uses highly conductive, low-impedance coatings that are readily applied and removed. Another bottom-up strategy grows conductive polymers directly on single hair strands. These complementary approaches yield stable, low-impedance, and highly conductive interfaces \"that enable gel-free, comfortable EEG acquisition and direct compatibility with conventional hardware and human hair and skin,\" assert the researchers.",
+    "The nature of eHAIR creates potential applications beyond passive electrodes. Researchers highlighted that organic electrochemical transistors (OECTs) can be formed using individual hairs or hair bundles. So, the hair(s) can also act as transistor channels and could be used to amplify signals, for example.",
+    "Testing has shown that eHAIR facilitates improved signal amplitude, spectral power, and SNR compared to conventional gel-based electrodes. Medical professionals just have to reapply the coating or repeat the polymerization process if hair grows and degrades the electrical contact. This task isn't very complicated, with the scientists likening it to routine household hair coloring techniques."
+   ]
+  },
+  {
+   "id": "ae3bc5c5ee",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/gigabyte-reportedly-fired-its-entire-control-center-team-after-it-was-discovered-that-rgb-animation-was-causing-geforce-stutters",
+   "url": "https://videocardz.com/newz/gigabyte-reportedly-fired-its-entire-control-center-team-after-it-was-discovered-that-rgb-animation-was-causing-geforce-stutters",
+   "title": "GIGABYTE reportedly fired its entire Control Center team after it was discovered that RGB animation was causing GeForce stutters",
+   "summary": "GIGABYTE Control Center RGB effects linked to game stutter on GeForce PC Bilibili creator 51972 traced recurring game stutter on a Ryzen 7 9800X3D system to an interaction between GIGABYTE...",
+   "categories": [],
+   "published_at": "2026-11-28T10:49:23Z",
+   "body": [
+    "Bilibili creator 51972 traced recurring game stutter on a Ryzen 7 9800X3D system to an interaction between GIGABYTE Control Center and an NVIDIA driver. The system used a GIGABYTE GeForce graphics card with RGB lighting and a built-in display. UNIKO’s Hardware summarized the investigation in English and shared a clip of the test.",
+    "The investigation began with a viewer who suspected the Ryzen processor was causing stutter across multiple games. The 51972 team reproduced the issue on matching hardware using a clone of the viewer’s drive. The team found that the frame-time spikes followed the rhythm of the graphics card’s RGB animation.",
+    "bilibili 51972 analyzed another \"amdip\" case. after a month of investigation, he eventually found that the stuttering had nothing to do with the 9800x3d. instead, it was caused by a combination of a new nvidia driver, gigabyte gcc software, and a gigabyte gpu that supports not… https://t.co/ietpJKKlH9 pic.twitter.com/ip9qPWRkXh",
+    "How the NVIDIA driver factored into the tests According to 51972’s analysis, the driver change made the tested system more susceptible to delays when GIGABYTE Control Center sent lighting commands to the card’s onboard controller."
+   ]
+  },
+  {
+   "id": "d2f141eedb",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "Gytys4i6ieE6Nkq3Y6GBtQ",
+   "url": "https://www.tomshardware.com/desktops/gaming-pcs/thermaltakes-budget-rtx-5060-ti-gaming-desktops-are-as-little-as-usd1-299-choose-between-ddr4-and-ddr5-configurations-with-up-to-usd100-off",
+   "title": "Thermaltake’s budget RTX 5060 Ti gaming desktops are as little as $1,299",
+   "summary": "Both prebuilt gaming PCs come with Nvidia's RTX 5060 Ti 8GB graphics, 1TB of storage, RGB cooling, and an Intel AI software bundle, while also including a holiday bundle with two PC games.",
+   "categories": [
+    "Gaming PCs",
+    "Desktops"
+   ],
+   "published_at": "2026-11-28T10:45:00Z",
+   "body": [
+    "Thermaltake's first option pairs an Intel 14th-gen Core i5-14400F 10-core processor with an Nvidia RTX 5060 Ti GPU with 8GB of GDDR7 memory. Interestingly, this configuration is based on cheaper DDR4 rather than DDR5 and comes with 32GB of DDR4-3200 memory. For storage, you get a 1TB NVMe M.2 SSD.",
+    "Other specifications include an Intel B760 motherboard, a 650W 80 Plus Gold power supply, a Thermaltake ARGB tower air cooler, Wi-Fi connectivity, Bluetooth 4.2, and Windows 11. The system should be suitable for modern gaming at 1080p and 1440p with appropriate settings. The system is housed in a black Thermaltake tower chassis featuring a panoramic tempered-glass side panel, three ARGB fans, and a distinctive wood-look slatted accent across the lower front panel.",
+    "This prebuilt gaming PC is based on Intel's Core i5-14400F paired with a B760 motherboard, 32GB of DDR4 memory, and a 1TB SSD. Graphics are handled by the Nvidia RTX 5060 Ti.",
+    "The second Thermaltake prebuilt features Intel's more recent Core Ultra 5 250KF Plus 18-core processor based on the LGA 1851 platform. It is paired with the same Nvidia RTX 5060 Ti GPU with 8GB of GDDR7 memory, but comes with 16GB of DDR5-6000 RGB memory instead. This makes it a DDR5-based configuration, although it has half the memory capacity of the DDR4 model out of the box."
+   ]
+  },
+  {
+   "id": "57a68343b7",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "PNCjUXXVSoFcx4Fod276QC",
+   "url": "https://www.tomshardware.com/pc-components/corsairs-xeneon-edge-pc-touchscreen-is-usd50-off-in-all-colors-tiny-14-5-inch-under-monitor-display-is-just-usd200",
+   "title": "Corsair's Xeneon Edge PC touchscreen is $50 off in all colors",
+   "summary": "Corsair's 14.5-inch touchscreen is $50 off in all five colors for Black Friday.",
+   "categories": [
+    "PC Components"
+   ],
+   "published_at": "2026-11-28T10:30:00Z",
+   "body": [
+    "The Xeneon Edge is a tiny (relatively speaking) screen designed to be placed on your desk, under your main monitor — and it features a built-in, angled stand to accomplish this. It also comes with a magnetic backplate (with 14 magnets); however, should you want to mount it elsewhere, as well as two 1/4-20\" mounting holes (and it even integrates directly into some of Corsair's PC cases.",
+    "The Corsair Xeneon Edge is a 14.5-inch display designed to serve as an extension for your desktop and give you a small screen to host your most important apps. Its versatility means you can mount it practically anywhere &mdash; horizontally under your main monitor, vertically beside your primary display, or as a digital status panel inside your PC case.",
+    "The Corsair Xeneon Edge is a 14.5-inch display designed to serve as an extension for your desktop and give you a small screen to host your most important apps. Its versatility means you can mount it practically anywhere — horizontally under your main monitor, vertically beside your primary display, or as a digital status panel inside your PC case."
+   ]
+  },
+  {
+   "id": "23777c6a27",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/amd-dual-x3d-ryzen-9-9950x3d2-price-drops-to-759-now-140-below-launch-price",
+   "url": "https://videocardz.com/newz/amd-dual-x3d-ryzen-9-9950x3d2-price-drops-to-759-now-140-below-launch-price",
+   "title": "AMD dual-X3D Ryzen 9 9950X3D2 price drops to $759, now $140 below launch price",
+   "summary": "AMD Ryzen 9 9950X3D2 goes $140 below its launch price at Amazon Amazon US offered the AMD Ryzen 9 9950X3D2 Dual Edition for $759 during Black Friday week. A $40...",
+   "categories": [],
+   "published_at": "2026-11-28T09:36:49Z",
+   "body": [
+    "Amazon US offered the AMD Ryzen 9 9950X3D2 Dual Edition for $759 during Black Friday week. A $40 coupon brought the price down from $799, putting it $140 below AMD’s $899 launch price.",
+    "The Ryzen 9 9950X3D is listed at $583.55, that is $115.45 below AMD’s $699 list price and $175.45 below the Dual Edition’s coupon price.",
+    "Both processors have 16 Zen 5 cores and 32 threads. The Ryzen 9 9950X3D2 Dual Edition uses 3D V-Cache on both core dies for 192 MB of L3 cache. The Ryzen 9 9950X3D uses stacked cache on one die for 128 MB of L3 cache.",
+    "AMD rates the Dual Edition for a maximum boost clock of 5.6 GHz and a default TDP of 200W. The Ryzen 9 9950X3D boosts up to 5.7 GHz and has a 170W default TDP.",
+    "This the lowest price for dual-X3D version on record. AMD’s US store lists the processor on its own at $799 and the Ryzen 9 9950X3D at $624."
+   ]
+  },
+  {
+   "id": "21be6329fd",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "5KKSVLALCr4wCPE7SsJxbd",
+   "url": "https://www.tomshardware.com/laptops/gaming-laptops/this-lenovo-loq-notebook-with-arc-b390-graphics-is-just-usd799-this-black-friday-get-a-gaming-ready-panther-lake-laptop-for-a-super-low-price",
+   "title": "This Lenovo LOQ notebook with Arc B390 graphics is just $799 this Black Friday",
+   "summary": "Good cheap gaming notebooks are hard to find this Black Friday, but Lenovo's LOQ laptop with Arc B390 graphics gets you there for just $799.",
+   "categories": [
+    "Gaming Laptops",
+    "Laptops"
+   ],
+   "published_at": "2026-11-27T23:33:28Z",
+   "body": [
+    "It's hard to find a good cheap laptop these days, but this one qualifies",
+    "Yes, the Arc B390 is an integrated GPU. But it has real gaming chops that should deliver playable experiences at 1080p medium or high settings in a wide range of games, and you can augment its performance with XeSS upscaling and Xe Multi Frame Generation in compatible titles. For a first gaming system or a workhorse laptop that can game on the side, the Arc B390 is a perfect fit. And again, this Lenovo system is just $799.99.",
+    "Lenovo's LOQ Essential gaming notebook gets you into the game with a powerful Arc B390 iGPU. A 1200p 165Hz screen, 16GB of RAM, and a 512GB SSD round out this budget-friendly gaming laptop.",
+    "In our own testing of the Arc B390 aboard another Panther Lake system, we found that this iGPU outperforms all comparable graphics processors in its class. Even in the demanding Microsoft Flight Simulator 2024, our tests demonstrated playable baseline performance at 1080p Low settings. And as we mentioned, you can add XeSS upscaling and frame generation to the mix to boost performance further."
+   ]
+  },
+  {
+   "id": "4ca39b341a",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "MGkptnpfTaitp9VdzyWz4F",
+   "url": "https://www.tomshardware.com/pc-components/get-a-perfect-alienware-4k-oled-32-display-with-rgb-subpixels-for-usd150-off-165-hz-refresh-rate-1000-nits-hdr-and-dolby-vision-support-with-the-aw3226q",
+   "title": "Get a perfect Alienware 4K OLED 32\" display with RGB subpixels for $150 off",
+   "summary": "Get a perfect Alienware AW3226Q 4K OLED 32\" display with RGB subpixels for $549.99, or $150 off — 165 Hz refresh rate, 1000-nits HDR, and Dolby Vision support",
+   "categories": [
+    "PC Components"
+   ],
+   "published_at": "2026-11-27T23:10:19Z",
+   "body": [
+    "Searching for that one monitor that's essentially perfect? Look no further, and the price is a steal.",
+    "If you're keeping track of features and thinking that this monitor looks about perfect, you're absolutely correct. A resolution of 3840x2160 at 32\" is about perfect for a balance between perceptual sharpness and graphics card load in gaming — plus, while ultra-wide displays are excellent for gaming, their curved nature doesn't quite lend itself as well to productivity tasks.",
+    "The Alienware is a sharp, colorful OLED display with 4K resolution, 165 Hz refresh rate, and Dolby Vision support.",
+    "Make no mistake, though: this isn't a \"work monitor.\" First off, the 165 Hz refresh rate is supported by Nvidia G-Sync and FreeSync Premium Pro compatibility for smooth motion in games, and the peak HDR brightness is 1000 nits, letting you enjoy gorgeous vistas with natural highlights and sun — like, say, in STALKER 2, at least before a mutant chews your face off. As with most any OLED panel, the pixel response time is effectively zero, making for a blur-free experience, and the color gamut covers 99% of the DCI-P3 color space."
+   ]
+  },
+  {
+   "id": "9d79ab379e",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "Htk39LoWuA6cY6GxPhjzuk",
+   "url": "https://www.tomshardware.com/pc-components/sandisks-lightning-fast-optimus-gx-pro-8100-2tb-nvme-ssd-is-21-percent-off-and-usd0-18-cents-per-gb-usd349-for-a-pcie-5-0-m-2-ssd-is-about-as-good-as-it-gets-for-black-friday",
+   "title": "SanDisk’s lightning-fast Optimus GX Pro 8100 2TB NVMe SSD is 21% off and $0.18 cents per GB",
+   "summary": "2TB SanDisk Optimus GX Pro 8100 PCIe 5.0 SSD is down to an all-time low of $349, making it one of the cheapest 2TB Gen5 drives around.",
+   "categories": [
+    "PC Components"
+   ],
+   "published_at": "2026-11-27T22:19:56Z",
+   "body": [
+    "Expand your storage with this speedy Sandisk 2TB PCIe 5.0 NVMe SSD that’s only $0.18-cents per GB",
+    "The GX Pro 8100 uses a Silicon Motion SM2508 PCIe 5.0 x4 controller found on other ‘budget’ high-end PCIe 5.0 drives. The SM2508 focuses a bit more on efficiency, keeping thermals well managed, but is still fast for a PCIe 5.0 drive. It also includes 2GB of DDR4-3200 cache for improved burst and sustained speeds. The storage chips are Kioxia BiCS8 218-layer TLC 3D CBA NAND, also found in the WD Black SN8100. Together, these reach speeds up to 14,900/14,000 MB/s (read/writes), nearly saturating PCIe 5.0 bandwidth. IOPS are listed up to 2.3/2.4M random r/w.",
+    "Expand your internal storage with Sandisk's 2TB Optimus GX Pro 8100 PCIe 5.0 NVMe SSD. This speedy drive offers 14,900/14,000 r/w speeds and has a 5-year warranty.",
+    "SanDisk offers a long 5-year limited warranty in the U.S and the drive is rated up to 1,200 TBW, which is quite common for top-tier PCIe 5.0 drives. In other words, you’ll have to work incredibly hard to burn through all the write cycles, especially within the warranty period."
+   ]
+  },
+  {
+   "id": "59f41acad7",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "SaXL2C5StCBoLDzNvs2n5L",
+   "url": "https://www.tomshardware.com/pc-components/cpus/amds-ultimate-ryzen-9-9950x3d2-cpu-is-down-to-its-lowest-price-with-usd140-savings-single-cache-ryzen-9-9950x3d-is-also-on-a-deep-usd115-discount",
+   "title": "AMD's ultimate Ryzen 9 9950X3D2 CPU is down to its lowest price with $140 savings",
+   "summary": "Grab AMD's most powerful CPUs, the Ryzen 9 9950X3D2 or 9950X3D, at all-time-low prices during Black Friday.",
+   "categories": [
+    "CPUs",
+    "PC Components"
+   ],
+   "published_at": "2026-11-27T21:29:33Z",
+   "body": [
+    "The Ryzen 9 9950X3D2 has an MSRP of $900, but it launched at $1,000 before settling back down to $900. Although we've occasionally seen $50 off the CPU here and there, this is the first time we've seen this steep of a discount. The processor is on sale for $799 at most retailers, knocking $100 off its list price. On Amazon, however, an on-page coupon knocks off an additional $40, bringing the price down to $759.",
+    "The Ryzen 9 9950X3D2 is AMD's first dual-CCD CPU with 3D V-Cache. It sports 16 cores and 192 MB of L3 cache, and it can boost up to 5.6 GHz.",
+    "The Ryzen 9 9950X3D features 128MB of L3 cache, which enables it to claim the title of the fastest gaming chip on the market. It features 16 Zen 5 cores and 32 threads of computing power, reaching a peak clock speed of 5.7 GHz.",
+    "The Ryzen 9 9950X3D, which features the stacked cache on a single CCD, is also on sale for $115 off, bringing its list price of $699 down to $583.55. For most people, the Ryzen 9 9950X3D is the better buy. Outside of a few niche applications, it performs identically to the Ryzen 9 9950X3D2 across games and productivity workloads."
+   ]
+  },
+  {
+   "id": "c48932b51d",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "GHRZznzN4MWuAwQHTgyDQj",
+   "url": "https://www.tomshardware.com/monitors/gaming-monitors/samsungs-49-inch-oled-gaming-monitor-returns-to-its-lowest-price-ever-at-amazon-take-your-gpu-on-an-ultrawide-odyssey-for-usd854",
+   "title": "Samsung's 49-inch OLED gaming monitor drops to a new low price of $854",
+   "summary": "Amazon is offering the Samsung Odyssey G9 G93SC at a price of $854, a new all-time low. The gaming monitor often sells for above $1,20",
+   "categories": [
+    "Gaming Monitors",
+    "Monitors"
+   ],
+   "published_at": "2026-11-27T21:06:27Z",
+   "body": [
+    "The Odyssey G9 G93SC is a massive 49-inch OLED display, offering a stunning resolution of 5,120 x 1,440 pixels. The 1800R curved OLED screen will help bring your games to life with vivid colors and deep blacks, making every moment more immersive. Designed with serious gamers in mind, the Odyssey G9 G93SC features other impressive gaming features, including a 240 Hz refresh rate, a fast 0.03 ms (GtG) response time, and support for both AMD's FreeSync Premium Pro and Nvidia's G-Sync, for a smooth gaming experience.",
+    "The Samsung Odyssey G9 G93SC is currently available at an all-time low price. Featuring a 49-inch curved OLED display, the G93SC is an exceptional gaming monitor equipped with features such as a 240 Hz refresh rate and a 0.03 ms (GtG) response time.",
+    "The Odyssey G9 G93SC is not just for gaming; it's also a fantastic productivity companion. Its generous 49-inch OLED panel provides ample space, allowing you to have several windows open at once, making multitasking a breeze. Plus, with the Picture-by-Picture (PBP) feature, it's like having two monitors in one, but without any distracting bezels in between."
+   ]
+  },
+  {
+   "id": "9406dfe2df",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "bwDMbK9dqFaP9iC8K63HxG",
+   "url": "https://www.tomshardware.com/pc-components/protect-your-pc-console-or-tv-with-a-cyberpower-st900u-ups-for-just-usd99-95-or-17-percent-off-a-complement-of-12-outlets-available-with-surge-protection",
+   "title": "Protect your PC, console, or TV with a CyberPower ST900U UPS for just $99.95, or 17% off",
+   "summary": "Protect your PC, console, or TV with a CyberPower ST900U UPS for just $99.95, or 20% off — a complement of 12 outlets available with surge protection",
+   "categories": [
+    "PC Components"
+   ],
+   "published_at": "2026-11-27T20:30:00Z",
+   "body": [
+    "If you're wondering why you need a UPS, then you definitely need a UPS.",
+    "This box o' watts is capable of delivering 500W over its battery-powered connectors. That's enough for most common pieces of gear short of a gaming PC. Even large TVs have a hard time going over a couple hundred watts, and likewise with consoles and PCs that don't have high-end graphics cards. Monitors in particular have much lower power draws than you'd expect. Additionally, CyberPower offers a limited lifetime $125,000 connected equipment guarantee for added peace of mind.",
+    "The CyberPower ST900U UPS is an exceedingly practical unit with 500W of peak capacity and a complement of 12 outlets in a clever arrangement.",
+    "The party trick here is the number and layout of outlets. There are a total of 12 connectors, and they're laid out in two rows of 1+4+1 on each side, with the ones on the corners separated from the rest. That's a boon for anyone who's had a fun time playing Wall Wart Tetris™️, trying to get all power supplies wired while keeping them from overlapping empty sockets. Even right now I'm looking at the eight-port outlet at my feet and disappointed in my life choices on this matter."
+   ]
+  },
+  {
+   "id": "e76832517d",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "k7pQkPRjYPPJbFTfkk2xGb",
+   "url": "https://www.tomshardware.com/pc-components/get-a-sony-wh-1000-mx5-headset-with-anc-for-only-usd169-99-aural-bliss-for-your-games-and-movies",
+   "title": "Get a Sony WH-1000 XM5 headset with ANC for only $169.99 — aural bliss for your games and movies",
+   "summary": "Get a Sony WH-1000 XM5 headset with ANC for only $169.99 — aural bliss for your games and movies",
+   "categories": [
+    "PC Components"
+   ],
+   "published_at": "2026-11-27T19:49:01Z",
+   "body": [
+    "Hardware EQ puts this set a cut above many other pricier, fruitier offerings.",
+    "The Sony XM line of headsets is known for its top-notch active noise cancellation (ANC), and I can attest to that as the proud owner of the XM4s. This later model has a much slimmer headband and improved noise control. As with other ANC sets, it's an over-ear, closed-back design that insulates you from the world outside. The driver units have 30-mm drivers backed by light and efficient neodymium magnets, with a carbon fiber composite dome.",
+    "The Sony XM line of headsets is known for its top-notch active noise cancellation (ANC), and the WH-1000XM5s deliver on front, along with top-notch audio quality, support for lossless codecs, and a hardware equalizer.",
+    "Sony says that the frequency response is an oddly wide 4 Hz to 44 kHz, though from personal experience I have no trouble believing they cover pretty much the entire range of human hearing (20 Hz to 20 kHz), judging by how deep the bass can go in my XM4s.",
+    "The onboard equalizer is hardware-based, meaning your EQ settings will be kept in the headphones and apply if you connect them to another device, or through the 3.5-mm jack — something even some super-expensive headsets fail at, cough AirPod Max cough. The noise cancellation is configurable, and there's an air pressure optimizer good for plane travel, as well as speak-to-chat functionality that lets ambient sound through on request if you need to talk to someone."
+   ]
+  },
+  {
+   "id": "f61cedb13e",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "JRLBpPWXerjnETu8ujBt7h",
+   "url": "https://www.tomshardware.com/pc-components/gpus/get-the-cheapest-rtx-5070-around-this-black-friday-with-gigabytes-usd839-gaming-oc-card-midrange-blackwell-continues-to-shine-with-dlss-4-5-and-dlss-5",
+   "title": "Get the cheapest RTX 5070 around this Black Friday with Gigabyte's $839 Gaming OC card",
+   "summary": "Looking for a midrange RTX 50-series upgrade this Black Friday? The Gigabyte Gaming RTX 5070 gets you a big cooler and RGB flair for the lowest price we've seen this week.",
+   "categories": [
+    "GPUs",
+    "PC Components"
+   ],
+   "published_at": "2026-11-27T19:38:08Z",
+   "body": [
+    "This is the best deal we've seen on an RTX 5070 this Black Friday.",
+    "The RTX 5070 continues to impress thanks to strong baseline performance in raster and RT games, and its support for DLSS 4.5 upscaling and Multi Frame Generation lets you boost frame rates to taste in almost any game. And if that's not enough, you can increase the realism of a small but growing number of games with DLSS 5 neural rendering. However you want to play games in 2026, the RTX 5070 lets you get there.",
+    "This triple-fan RTX 5070 is a great deal for 1440p DLSS gaming. Grab the Newegg on-page code for the lowest price.",
+    "In our 2026 GPU Hierarchy testing, the RTX 5070 delivers a geomean of 74 FPS across all our raster and RT testing at 1440p, and that's before you dial in DLSS 4.5's range of enhancements.",
+    "If you're not a fan of RT, the RTX 5070 turns in an even stronger showing, putting up a geomean of 96.4 FPS across our raster titles. That makes it a great pairing for a high-refresh-rate, variable-refresh-rate gaming monitor."
+   ]
+  },
+  {
+   "id": "8e9d23aa60",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "XvStkCp2UknTthc9UrcYfb",
+   "url": "https://www.tomshardware.com/pc-components/ssds/this-silicon-power-ssd-is-selling-for-a-stunning-10-cents-per-gb-at-only-usd209-this-is-the-best-2tb-ssd-deal-on-newegg",
+   "title": "This Silicon Power SSD is selling for a stunning 10 cents per GB — at only $209, this is the best 2TB SSD deal on Newegg",
+   "summary": "Grab 2TB of storage for 10 cents per GB at Newegg. Silicon Power's P34A60 is one of the best-value SSD deals during the Black Friday sales.",
+   "categories": [
+    "SSDs",
+    "PC Components",
+    "Storage"
+   ],
+   "published_at": "2026-11-27T19:35:21Z",
+   "body": [
+    "This Silicon Power SSD is a PCIe NVMe m.2 SSD with Gen 3 x 4 bandwidth. The drive performs at speeds of up to 2,200 MB/s read and 1,600 MB/s write. For a budget drive with a DRAM-less design, it's more than fast enough to use as a game drive for your Steam library.",
+    "Perfect as a storage drive for your Steam library, this PCIe 3.0 drive can reach read/write speeds of up to 2200/1600 MB/s, respectively.",
+    "We reviewed the Silicon Power P34A60 and ran it through our suite of benchmarking tests. As you can see from the table below, this Gen 3 SSD puts in solid performance against the competition when testing load speeds in Final Fantasy XIV.",
+    "This budget drive doesn't have the raw transfer speeds of a faster Gen 4 or Gen 5 SSD, but for pure gaming, the speed of the 2TB drive is more than capable. It's an excellent deal for the price, against the backdrop of the current high storage and component pricing.",
+    "Silicon Power lists the P34A60 with an endurance of 2,000,000 MBTF hours. If you're interested in more SSD deals, then check out our list of the best Black Friday SSD deals."
+   ]
+  },
+  {
+   "id": "88148ec962",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "K2rWdiGYgRtKhZ9utji5Si",
+   "url": "https://www.tomshardware.com/pc-components/get-a-29-percent-discount-on-the-280-000-rpm-miaepic-z3-electric-air-duster-keeping-your-pc-clean-doesnt-have-to-be-pricey",
+   "title": "Get a 29% discount on the 280,000-RPM MiaEpic Z3 electric air duster",
+   "summary": "The MiaEpic Z3 electric air duster comes with four nozzles and two brush attachments, allowing you to use it for your PC, accessories, and other things around the house. It also has a massive battery and digital display, helping you keep track of its battery levels, so you never run out of power.",
+   "categories": [
+    "PC Components"
+   ],
+   "published_at": "2026-11-27T19:20:00Z",
+   "body": [
+    "A high-performance blower is one of the more efficient tools you can use to clean your PC, with the MiaEpic Z3 giving you a great balance of cost and functionality. Even though it may be cheaper than some of the options that you could find on Amazon, it can reach speeds of up to 280,000 RPM, allowing it to blow dust and other debris from your fans, filters, and other PC components with little effort. It also comes with enough battery power to run continuously for 90 to 150 minutes, while sporting a fast-charging USB-C port that can take it from flat empty to full in about three hours. You also don’t have to guess when you need to charge the blower, as it comes with a screen showing its remaining battery level.",
+    "The MiaEpic Z3 electric air duster offers four speeds, from 80,000 RPM all the way to 280,000 RPM, allowing you to quickly and efficiently clean your PC. It also comes with four nozzles and two brush attachments, making it a versatile cleaning machine.",
+    "The MiaEpic Z3 goes beyond keeping your desktop PC clean."
+   ]
+  },
+  {
+   "id": "1bfb01e8c4",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/origin-code-teases-vortex-evo-ddr5-memory-with-dual-6000-cl26-and-8000-cl34-expo-profiles",
+   "url": "https://videocardz.com/newz/origin-code-teases-vortex-evo-ddr5-memory-with-dual-6000-cl26-and-8000-cl34-expo-profiles",
+   "title": "Origin Code teases Vortex Evo DDR5 memory with dual 6000 CL26 and 8000 CL34 EXPO profiles",
+   "summary": "Second-generation Vortex memory features tighter timings and redesigned cooling Origin Code is preparing to launch its second-generation Vortex DDR5 memory series. The new Vortex Evo will debut as a 48GB...",
+   "categories": [],
+   "published_at": "2026-11-27T18:55:22Z",
+   "body": [
+    "Origin Code is preparing to launch its second-generation Vortex DDR5 memory series. The new Vortex Evo will debut as a 48GB (2×24GB) kit in Meteorite Black, featuring selected SK hynix M-die memory chips and a redesigned custom PCB.",
+    "Much like its predecessor, the Vortex Evo features two AMD EXPO profiles. Users can choose between DDR5-6000 with CL26-35-35-66 timings at 1.45V and DDR5-8000 with CL34-47-47-102 timings at 1.5V. Both configurations offer tighter timings than the original Vortex series.",
+    "The DDR5-8000 profile now has a theoretical CAS latency of 8.5 ns, down from 9 ns on the original CL36 kit. Origin Code has also equipped the new modules with a PMIC designed to handle higher current.",
+    "The Vortex Evo kit carries AMD EXPO ULL (Ultra Low Latency) certification. This is not a new feature for Origin Code, as the company previously announced ULL support for its existing Vortex memory. The certification covers memory configurations optimized for lower latency on AMD Ryzen platforms.",
+    "Origin Code has also redesigned the heat spreader, which now uses an adhesive-free assembly with laser engraving and RGB lighting. The company is retaining active memory cooling with a detachable metal fan assembly. We previously covered the original Vortex series, which featured three 40 mm fans capable of operating at up to 8,000 RPM."
+   ]
+  },
+  {
+   "id": "49bea43698",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "Z2DWCtHDJysrEtu7EUmbmY",
+   "url": "https://www.tomshardware.com/video-games/retro-gaming/here-are-the-best-retro-tech-deals-weve-found-for-black-friday-deals-on-retro-tech-for-the-modern-pc-setup",
+   "title": "Here are the best retro tech deals we've found for Black Friday",
+   "summary": "Retro tech is cool, and we've scoured the internet for the best deals on nostalgic technology.",
+   "categories": [
+    "Retro Gaming",
+    "Video Games"
+   ],
+   "published_at": "2026-11-27T18:30:12Z",
+   "body": [
+    "Retro gaming consoles, handhelds, and even replica arcade cabinets are on sale. Relive the glory years when your high score reigned supreme, and you could get a meal for $5 and still have change for the arcades!",
+    "Do you prefer gaming on your PC? Then we have retro-inspired gaming peripherals and keyboards, as well as mice for you. We also cover retro and nostalgic décor for your gaming setup, including a rather fabulous LEGO Game Boy and some genuinely \"floppy\" disks.",
+    "This bright yellow Atari 2600+ brings back memories of playing Pac-Man with my family at Christmas. Compatible with Atari 2600 and 7800 cartridges from back in the day and modern cartridges, this console comes with a double-feature cartridge that contains a new arcade-style version of Pac-Man and the original 2600 version. You also get one wireless Atari game controller. Additional controllers can be purchased in the colors of Pac-Man ghosts.",
+    "It looks like a retro computer, but this is really a 90s-inspired mini Bluetooth speaker with a smart pixel screen, an alarm clock, and focus tools. It looks like a retro computer, but this is really a 90s-inspired mini Bluetooth speaker with a smart pixel screen, an alarm clock, and focus tools. Play your tunes via Bluetooth, USB audio, or via TF card. The 1.77-inch screen can show pixel art, time, and more via a companion app. This is a tiny retro PC for those who want to show their love for a long-since-passed era."
+   ]
+  },
+  {
+   "id": "794d0d3293",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "2rk787FBQicjCtbFLUmGoP",
+   "url": "https://www.tomshardware.com/desktops/gaming-pcs/get-a-staggering-usd1-400-off-an-rtx-5070-powered-hp-omen-35l-gaming-desktop-sporting-an-intel-core-ultra-7-cpu-and-32gb-of-ddr5-at-38-percent-discount-this-performant-mid-tower-prebuilt-pc-packs-a-punch",
+   "title": "Get 38% off an RTX 5070-powered HP Omen 35L gaming desktop sporting an Intel Core Ultra 7 CPU and 32GB of DDR5",
+   "summary": "TKTK",
+   "categories": [
+    "Gaming PCs",
+    "Desktops"
+   ],
+   "published_at": "2026-11-27T18:20:00Z",
+   "body": [
+    "Alongside the CPU GPU, and RAM, you also get a 1TB PCIe Gen 4 drive for all of the games you'll download onto the system, and there's also a spare slot, in case you want to expand the capacity in the future, and whenever the price of RAM comes down, you might also wish to populate the two empty DIMM slots over on the motherboard.",
+    "Get an RTX 5070-powered PC, paired with an Intel Core Ultra 7 265F, 32GB of Kingston Fury DDR5-6000 RAM, and a 1TB SSD; the system also offers plenty of space to upgrade storage and memory capacities in the future. Expect a solid mid-tower chassis with an 850W power supply and an Intel B860 chipset motherboard.",
+    "Intel has not specified the make or manufacturer of the B860 motherboard contained within the system, but we do get further details about its I/O and connectivity options. Expect a Realtek connectivity chipset with support for WI-Fi 6 and Bluetooth 5.3 for all your controllers and peripherals, alongside a host of ports, including 2x USB-C 10Gbps, 4x USB-A ports at 5Gbps, and a further 4x USB-A 2.0 ports."
+   ]
+  },
+  {
+   "id": "8d88161862",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "rsFgiqHeRzQVzfWjdVBTe8",
+   "url": "https://www.tomshardware.com/pc-components/tons-of-motherboards-are-on-sale-right-now-some-over-40-percent-off-we-sorted-through-them-for-you-and-picked-out-a-few-of-the-best-deals",
+   "title": "Tons of motherboards are on sale right now, some over 40% off – we sorted through them for you and picked out a few of the best deals",
+   "summary": "We collated all of the motherboards down to these few which offer the some of the best combinations of hardware and cost during Black Friday",
+   "categories": [
+    "PC Components"
+   ],
+   "published_at": "2026-11-27T18:00:00Z",
+   "body": [
+    "Find the best of the best Black Friday motherboard deals from around the web",
+    "It can be difficult to sort through all of the options, so we’ve picked out a few of the best deals while still keeping other considerations in mind. While it’s nice to pay less, a deal doesn’t really benefit you if you don’t have the functionality you need. It’s still critical to understand your wants and needs prior to buying and making sure you have everything you need before clicking the ‘buy’ button.",
+    "Gigabyte's Z890 Aorus Master, which we covered back in 2024, is a great all-around motherboard for Intel's Arrow Lake and Arrow Lake refresh chips. Not only does it look good, with full coverage of M.2 sockets and the signature Gigabyte Aorus design elements, but it also brings the latest hardware for the platform.",
+    "It offers fast networking with 10 GbE and integrated Wi-Fi 7 (320 MHz), ample storage with five M.2 sockets (2x PCIe 5.0) and four SATA ports, loads of USB ports (14) on the rear I/O including 40 Gbps Thunderbolt 4, a premium audio solution with a last-gen flagship-class Realtek ALC1220 codec and ESS DAC chip, and fast memory support, up to DDR5-9500+ (OC). And we can't forget the EZ features, either. At almost half the original MSRP, this is one of the best deals on a premium Intel motherboard."
+   ]
+  },
+  {
+   "id": "bdb53bffbb",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/ayaneo-launches-game-boy-advance-inspired-handheld-in-ice-blue-starting-at-109",
+   "url": "https://videocardz.com/newz/ayaneo-launches-game-boy-advance-inspired-handheld-in-ice-blue-starting-at-109",
+   "title": "AYANEO launches Game Boy Advance-inspired handheld in Ice Blue, starting at $109",
+   "summary": "KONKR Pocket ADVANCE gets a translucent blue edition AYANEO has announced the Ice Blue Special Edition of its KONKR Pocket ADVANCE gaming handheld. The new model features a translucent blue...",
+   "categories": [],
+   "published_at": "2026-11-27T17:53:59Z",
+   "body": [
+    "AYANEO has announced the Ice Blue Special Edition of its KONKR Pocket ADVANCE gaming handheld. The new model features a translucent blue shell reminiscent of Nintendo’s Glacier Game Boy Advance, originally released in 2001.",
+    "The handheld retains its MediaTek Helio G90T processor, which features two Cortex-A76 cores, six Cortex-A55 cores and Mali-G76 MC4 graphics. The device runs Android 12 and is designed primarily for retro gaming and emulation.",
+    "The KONKR Pocket ADVANCE features a 3.5-inch IPS display with a 960 × 640 resolution and a 3:2 aspect ratio. This resolution allows integer scaling of Game Boy Advance games at four times their native 240 × 160 resolution.",
+    "The Ice Blue edition comes in two memory configurations. The base model features 3GB of RAM and 32GB of storage, while the more expensive version doubles both capacities to 6GB and 64GB, respectively.",
+    "Other specifications remain unchanged, including a 4,000 mAh battery, USB 2.0 Type-C connectivity, microSD storage expansion and a 3.5 mm headphone jack.",
+    "The Ice Blue Special Edition starts at $109, with the 6GB model available for $139. Both configurations reportedly carry a $20 promotional discount. AYANEO has not specified when the promotion ends."
+   ]
+  },
+  {
+   "id": "d57248e67b",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "8vk7UTV2kd7SSN2jDHhpCQ",
+   "url": "https://www.tomshardware.com/desktops/gaming-pcs/ibuypowers-black-friday-offers-net-you-usd650-off-powerful-rtx-5080-prebuilt-pc-stackable-offer-code-can-net-you-a-bargain-bundle-with-a-free-monitor-and-peripherals",
+   "title": "iBuyPower’s Black Friday offers net you $650 off powerful RTX 5080 prebuilt PC",
+   "summary": "Prebuilt PC extraordinaires iBuyPower is having a huge Black Friday sale across a whole range of products, including a powerful bundle on an all-AMD Ryzen 9 7800X3D / RX 9070 XT build, which will also net you free bundled extras, including a set of Asus peripherals and a 144Hz FHD MSI gaming monitor, and a total of $650 off an RTX 5080 gaming PC",
+   "categories": [
+    "Gaming PCs",
+    "Desktops"
+   ],
+   "published_at": "2026-11-27T17:30:00Z",
+   "body": [
+    "The code applies several tiers of discounts across its range of products and is valid until November 29. The aforementioned pricing tiers come in at the following discounts on top of their Black Friday offers.",
+    "The codes do appear to knock off a decent chunk of change from their range of prebuilts, which offer some great value when you stack the discounts on top of one another. One such highlight is the RDY Y50 R02, which drops to $3,249 and is equipped with high-end components like an RTX 5080, AMD Ryzen 7 9800X3D, 32GB of DDR5-6000 memory, and 2TB of storage.",
+    "The iBuyPower RDY Y50 R02 sports an RTX 5080 16GB GPU, Ryzen 7 9800X3D GPU, 32GB of DDR5-6000 RAM, 2TB of NVMe storage, and sports an Asus X870 Max Gaming motherboard.",
+    "For those wanting to go the all-AMD route, you can also get the aforementioned RDY Element 9 Pro R08V2 system listed on their site, which is just a smidgle less powerful, while offering an AMD Ryzen 7 7800X3D, Radeon RX 9070 XT 16GB GPU, 32GB of DDR5-6000 memory, a 2TB PCIe Gen 4 NVMe and a 360mm liquid cooler for $2,449 after applying the code."
+   ]
+  },
+  {
+   "id": "ea31d40313",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "Cg5r7JGgJzSgqwuDFfEzDZ",
+   "url": "https://www.tomshardware.com/laptops/gaming-laptops/the-hyperx-omen-max-16-gaming-laptop-with-a-rtx-5090-and-a-core-i9-ultra-can-be-yours-for-an-amazing-usd1-200-off-highest-end-gear-for-26-percent-off-less-than-a-comparable-desktop-pc",
+   "title": "The HyperX Omen Max 16 laptop with a RTX 5090 and a Core i9 Ultra can be yours for amazing $1,200 off",
+   "summary": "The HyperX Omen Max 16 laptop with a RTX 5090 and a Core i9 Ultra can be yours for just $3,799 — highest-end gear for less price than a comparable desktop",
+   "categories": [
+    "Gaming Laptops",
+    "Laptops"
+   ],
+   "published_at": "2026-11-27T17:20:00Z",
+   "body": [
+    "This price for this much hardware is a ghost from pre-AI days past.",
+    "The processor is an Intel Core 9 Ultra 290HX Plus, with a complement of 24 cores clocking at up to 5.5 GH. It's a good accompaniment to the fastest graphics chip on a laptop, the mobile RTX 5090.",
+    "The nice thing about this machine is that with both a top-tier CPU and GPU, it's just comfortable for gaming at Mach 5 frames per second while it is performing heavy-duty AI work. The 24 GB of VRAM lets you comfortably fit a number of local LLMs and avoid costly subscriptions — just ensure that Sam Altman doesn't get wind of this, or he'll come for your laptop.",
+    "Get a laptop that can go head-on with the fastest desktops. The HyperX Omen Max 16\" with an RTX 5090 GPU and a Core i9 Ultra processor is capable of anything you can throw at it, both gaming and AI work.",
+    "When you want to let off some steam in AAA titles, you'll be quite happy with the 16\" 2560x1600 display (188 PI) that refreshes at 240 Hz and has a VESA ClearMR rating of 9000 for clear, blur-free gaming. As with most OLED displays, it'll cover 100% of the DCI-P3 color gamut. The cherry on top? It's extremely bright, at up to 500 nits in standard mode, and capable of reaching 1100 nits in HDR."
+   ]
+  },
+  {
+   "id": "10558656f9",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "Ecym9bY3scdWw22j3eUEqi",
+   "url": "https://www.tomshardware.com/tech-industry/manufacturing/chinas-ai-hardware-push-is-moving-beyond-gpus-to-the-pcbs-underneath-them-beijing-races-to-corner-the-market-on-copper-foil-and-micro-drill-bits-as-board-complexity-explodes",
+   "title": "China’s AI hardware push is moving beyond GPUs to the PCBs underneath them — Beijing races to corner the market on copper foil and micro-drill bits as board complexity explodes",
+   "summary": "AI hardware bottlenecks are expanding beyond GPUs to the PCBs underneath them. As AI servers like Rubin Ultra push PCB layers toward 78 layers using denser laminates, drill bits are wearing out 10 times faster than normal, while high-speed signalling stretches the demand for smooth copper foil.",
+   "categories": [
+    "Manufacturing",
+    "Tech Industry"
+   ],
+   "published_at": "2026-11-27T17:00:00Z",
+   "body": [
+    "More than 20 Chinese PCB manufacturers announced major expansion plans in the first half of 2026. Three recent reports from HSBC and J.P. Morgan suggest the shortages could extend to products as unglamorous as drill bits and copper foil. Having a plentiful and regular supply of those components in the manufacturing process is important because the tiny drill bit used to make the circuit boards inside AI servers could be worn out after drilling fewer than 200 holes, according to HSBC, compared with around 2,000 holes for older materials.",
+    "It’s all part of a manufacturing process which stresses every part of the supply and manufacturing chain, beyond obvious components.",
+    "PCBs are built by layering copper and insulating material together, then drilling holes through them to connect their circuits. But the complexity of those boards is increasing as AI servers are designed to handle more data, including more layers than those seen in ordinary computers. HSBC estimates that a notebook PCB has four to eight layers, compared with more than 20 for Nvidia's H100 generation of GPUs.",
+    "But that’s just the beginning of the process."
+   ]
+  },
+  {
+   "id": "24b3f64d2b",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "XF34d7CN8q6TWkmAL5AkHi",
+   "url": "https://www.tomshardware.com/monitors/gaming-monitors/best-gaming-monitor-deals-oled",
+   "title": "Best Cyber Monday gaming monitor deals 2026",
+   "summary": "Save big with one of these great Cyber Monday monitor deals. We’re hard at work updating this list with the best deals across all your favorite big tech retailers.",
+   "categories": [
+    "Gaming Monitors",
+    "Monitors"
+   ],
+   "published_at": "2026-11-27T16:59:53Z",
+   "body": [
+    "Gaming Monitors Best Cyber Monday gaming monitor deals 2026 — huge Black Friday discounts on OLED panels, 4K, gaming, and productivity screens, and more that you can still get Deals By Stewart Bendle Contributions by Ben Stockton last updated 28 November 2026 Upgrade your view with these elite Cyber Monday discounts on PC productivity and gaming monitors.",
+    "Upgrading to a larger screen or opting for a curved panel can provide a more immersive experience, allowing you to view more content simultaneously. If you're into content creation or streaming, you'll want to pick up a second or third display, too.",
+    "We're checking deals around the clock to find the best options and keep this page up to date. We constantly comb through the best deals across multiple retailers, selecting the best based on in-depth knowledge gained from our thorough reviews, extensive benchmarks, and comprehensive historical price analysis, and keep an updated list here. We've checked all the best deals below to ensure they provide valuable savings and notable discounts. Whether you're shopping for one of the best gaming monitors or just an inexpensive secondary or portable screen, check out the highlighted monitor deals below."
+   ]
+  },
+  {
+   "id": "7bab40b29e",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/gpu-demo-gallery-brings-44-classic-nvidia-ati-and-3dfx-demos-to-the-browser",
+   "url": "https://videocardz.com/newz/gpu-demo-gallery-brings-44-classic-nvidia-ati-and-3dfx-demos-to-the-browser",
+   "title": "GPU Demo Gallery brings 44 classic NVIDIA, ATI and 3dfx demos to the browser",
+   "summary": "From 3dfx Voodoo to GeForce 8, 44 classic GPU demos get browser ports GPU Demo Gallery lists 44 unofficial browser ports of graphics tech demos from 1997 to 2006. Developer...",
+   "categories": [],
+   "published_at": "2026-11-27T16:53:09Z",
+   "body": [
+    "GPU Demo Gallery lists 44 unofficial browser ports of graphics tech demos from 1997 to 2006. Developer Archit Khode, known as arkits on GitHub, rebuilt demos including NVIDIA’s Dawn, ATI’s Pipe Dream and 3dfx’s Valley of Ra. The gallery lets visitors filter by vendor and year. Some ports require files from the original releases.",
+    "The collection includes Bubble for the GeForce 256, which renders reflections on a bubble that deforms when clicked. ATI’s Dolphin demo for the Radeon 8500 used TruForm to smooth the geometry of its animated models. At the other end of the date range, Box of Smoke for the GeForce 8 series lets users stir a fluid simulation with the pointer.",
+    "In case you don’t remember, we previously covered a GeForce FX 5950 Ultra display kiosk that ran NVIDIA’s Dawn and Dusk demos on a loop. The browser port of Dawn lets users orbit the camera, switch between animations and change the character’s facial expression.",
+    "The ports recreate the demos using assets from the original releases. The Bubble port is written in Rust and uses the wgpu graphics library to render through WebGPU or WebGL 2. It extracts the reflection textures from NVIDIA’s original executable."
+   ]
+  },
+  {
+   "id": "3fb330587a",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "pHVx5cS82yPA4rPnq3avB3",
+   "url": "https://www.tomshardware.com/pc-components/gpus/this-usd619-powercolor-radeon-rx-9070-gre-is-the-cheapest-around-this-black-friday-grab-a-great-1080p-or-1440p-gaming-upgrade-for-a-great-price",
+   "title": "This $619 PowerColor Radeon RX 9070 GRE is the cheapest around this Black Friday",
+   "summary": "PowerColor's Radeon RX 9070 GRE is just $619 at Amazon this Black Friday — a rare midrange gaming GPU deal in today's tough market.",
+   "categories": [
+    "GPUs",
+    "PC Components"
+   ],
+   "published_at": "2026-11-27T16:41:32Z",
+   "body": [
+    "I use PowerColor's Reaper RX 9070 and RX 9070 XT in the Tom's Hardware labs as the representative samples of those cards for our GPU Hierarchy testing, and this RX 9070 GRE uses a similar cooler design. They're cool and quiet, and their slim two-slot heatsinks with full-length metal backplates will fit into even SFF systems with ease. You don't get any RGB LED flair, but many will consider that an advantage nowadays.",
+    "In other words, these cards give you everything you need and nothing you don't.",
+    "The Radeon RX 9070 GRE offers great 1080p and 1440p gaming performance for a low price in today's crazy market, and it gives you access to AMD's high-quality FSR 4 upscaler for a performance boost when you need it.",
+    "In our 2026 GPU Hierarchy testing, the RX 9070 GRE delivers a solid 90 FPS average across all our raster and RT testing at 1080p and clears the 60 FPS average bar for 1440p. That's impressive performance for a relatively inexpensive card today.",
+    "If you favor raster gaming, the 9070 GRE looks even better. It can churn out a high-refresh-rate-ready 120 FPS at 1080p and 90 FPS at 1440p. And all that is before you add in high-quality FSR 4 upscaling, which boosts performance and looks better than most games' native TAA implementations."
+   ]
+  },
+  {
+   "id": "c944efb26d",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "EG5Nk3EEHo4kYfnJfCz3p4",
+   "url": "https://www.tomshardware.com/peripherals/gaming-mice/these-are-the-best-black-friday-gaming-mouse-deals-weve-found-so-far-even-the-newer-generations-are-on-sale",
+   "title": "These are the best Black Friday gaming mouse deals we've found so far",
+   "summary": "We've rounded up the best Black Friday deals on gaming mice for every type of gamer — whether you're looking for ultra-lightweight, tons of buttons, or even modular mice, we've got you covered.",
+   "categories": [
+    "Gaming Mice",
+    "Peripherals",
+    "Mice"
+   ],
+   "published_at": "2026-11-27T16:40:42Z",
+   "body": [
+    "It's time to buy that ultra-lightweight / 16-button / modular gaming mouse you've been eyeing.",
+    "Some of our favorite gaming mice are currently on sale — both the current generation and the last generation, and, let's face it: a lot of last-gen gaming mice are very, very similar to the current generation. So now is the time to pick up a gaming mouse or two, as there's almost certainly something on sale that will work for you, whether you're looking for an ultra-lightweight, stripped-down mouse for competitive eSports, or a multi-functional, multi-button mouse for MMOs (and some productivity on the side).",
+    "If the allure of the DeathAdder V4 Pro's upgraded sensor and significantly improved battery life are calling your name, great news — this mouse is also currently on sale for just $137.74 at Amazon — or $129.99, if you don't mind the Niko-branded version. The DeathAdder V4 Pro features Razer's Focus Pro 45K Gen-2 optical sensor, which has a maximum resolution of 45,000 DPI and a maximum speed of 900 IPS, and can handle up to 85G's of force. It weighs just 56g and has the same shape and size as its predecessor."
+   ]
+  },
+  {
+   "id": "8d2701b036",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "fkqx6qXyrax4WR6kCQsm2J",
+   "url": "https://www.tomshardware.com/laptops/gaming-laptops/these-are-the-best-gaming-laptop-deals-weve-found-this-black-friday-to-suit-all-budgets-save-up-to-usd1-200-off-a-range-of-portable-powerhouses",
+   "title": "These are the best gaming laptop deals we've found this Black Friday to suit all budgets",
+   "summary": "Looking to grab yourself a gaming laptop this Black Friday? These are the best deals that we've found so far, and you can net up to $1200 off MSRP on a range of systems across all reasonable budgets.",
+   "categories": [
+    "Gaming Laptops",
+    "Laptops"
+   ],
+   "published_at": "2026-11-27T16:12:07Z",
+   "body": [
+    "You don't always need to spend big to get a killer gaming laptop",
+    "So we're here to cut through the noise and nonsense to bring you our picks of the best deals we've found thus far. We also have our Black Friday Gaming Laptop Deals Live Blog in action, so check that out if you want more options.",
+    "The Asus ROG Strix G16 comes with a 16-inch screen, with an 1900 x 1200 pixel resolution, a 16:10 aspect ratio, and refresh and response rates of 165Hz and 3ms, respectively. Hardware inside this gaming laptop includes Nvidia's GeForce RTX 5070 Ti laptop GPU, an AMD Ryzen 9 8940HX processor, 16GB of DDR5 RAM, and a 1TB SSD for storage.",
+    "This Asus ROG Strix G16 gaming laptop offers a solid price-to-performance ratio and comes with AMD's Ryzen 9 8940HX CPU, sporting 16 cores and 32 threads. Packing in the gaming punch is the included RTX 5070 Ti 12GB, with GDDR7 memory and a total graphics power of 115W; this is the full-fat variant of the chip, and dynamic boost can also see this rise to up to 140W. When paired with a relatively modest screen resolution and display, it certainly bodes well for getting solid performance from modern titles. And you should be able to saturate the display's refresh rate when turning on features like Multi Frame Generation in single-player titles."
+   ]
+  },
+  {
+   "id": "97ef3e7f8c",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "qLdVpfQLwz9mDKR2TErPx6",
+   "url": "https://www.tomshardware.com/peripherals/gaming-chairs/grab-a-new-secretlab-gaming-chair-or-desk-to-upgrade-your-setup-in-its-black-friday-sale-with-up-to-usd537-off-individual-discounts-and-big-bundle-deals-mean-you-can-score-huge-savings-on-top-models-including-the-titan-evo-and-magnus-pro",
+   "title": "Grab a new Secretlab gaming chair or desk to upgrade your setup in its Black Friday sale with up to $537 off",
+   "summary": "Grab a new gaming chair or desk in this Secretlab Black Friday sale.",
+   "categories": [
+    "Gaming Chairs",
+    "Peripherals"
+   ],
+   "published_at": "2026-11-27T16:02:59Z",
+   "body": [
+    "Elsewhere, though, there are savings of up to $150 off individual chairs and tables, along with accessories for the entire setup. Free shipping is available across the week, too.",
+    "Secretlab is built with gaming in mind, with striking aesthetics and heavy branding across the lot. Its flagship chair, the Titan Evo, is available in a whole set of colors and sizes, and is discounted below. Discounts do vary across the range, and with the bundles and codes, you'll need to dig deep, as you might score a significant saving by buying a chair and table together.",
+    "These discounts are set to run until December 4, 2026. If you decide to pick up one of these bargains, you won't be disappointed, with one of our favorite chairs from our best gaming chair guide, the Secretlab Titan Evo, on the sale list. The Secretlab Magnus Pro, the company's sturdy and spacious sit-stand desk with an integrated control panel, has dropped in price by $200, although you'll be able to save more with those bulk-buy discounts.",
+    "If you're ready to upgrade your comfort, here are some of the best deals you can score from Secretlab during Black Friday."
+   ]
+  },
+  {
+   "id": "683318305a",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "c3cGwZqwB8tZwtwB3vJyfF",
+   "url": "https://www.tomshardware.com/pc-components/this-clever-usd11-external-pc-power-switch-lets-you-boot-your-rig-without-reaching-under-your-desk-this-must-buy-upgrade-for-your-desk-has-rgb-mechanical-keys-and-a-two-meter-cable-a-perfect-gift-for-a-techie",
+   "title": "This clever $11 external PC power switch lets you boot your rig without reaching under your desk",
+   "summary": "This $11 desk gadget means you don't have to bend down to turn your PC on or off. It's a must-buy option for anyone with a gaming PC under their desk.",
+   "categories": [
+    "PC Components"
+   ],
+   "published_at": "2026-11-27T15:43:07Z",
+   "body": [
+    "We'd normally run through all of the big, important specs here, but we don't really need to do that here because, well, there isn't any. You're buying an external power button. It connects to your PC. It turns it off, it turns it on, it restarts it (if you want it to). It has a two-meter cable that you can use to connect it to your PC, either using your PC's front panel with the supplied splitter or directly to your motherboard. It's also, by design, got a pair of mechanical keyboard keys: these'll be the ones you press to turn your rig on or off.",
+    "This gaming-friendly external power button has a 2-meter (78.74 inch) cable, along with a splitter that lets you connect both buttons to your case's front panel buttons. It also includes adhesive pads and zip-ties.",
+    "Simple enough, then, but that's not to downplay what you're getting here, or how it's been made. Mechanical keyboard keys are an interesting choice, because they look like they've been plucked straight from a top-spec gaming keyboard, especially with the RGB lighting underneath. It's a showstopper by design. SinLoon could have just gone for a big, round button, but by going for a design that uses mechanical keyboard keys, they're making sure this button has longevity."
+   ]
+  },
+  {
+   "id": "a4df2ba9b9",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/nvidia-agrees-to-290-million-settlement-over-geforce-crypto-mining-disclosures",
+   "url": "https://videocardz.com/newz/nvidia-agrees-to-290-million-settlement-over-geforce-crypto-mining-disclosures",
+   "title": "NVIDIA agrees to $290 million settlement over GeForce crypto mining disclosures",
+   "summary": "NVIDIA's 2018 lawsuit over GeForce mining sales ends in $290 million settlement NVIDIA has agreed to pay $290 million to settle a US shareholder lawsuit over how it reported the...",
+   "categories": [],
+   "published_at": "2026-11-27T15:39:11Z",
+   "body": [
+    "NVIDIA has agreed to pay $290 million to settle a US shareholder lawsuit over how it reported the impact of cryptocurrency mining on GeForce sales. The parties filed the agreement on November 24, 2026. The settlement still requires court approval.",
+    "The lawsuit began in December 2018 and covers eligible investors who acquired NVIDIA common stock between August 10, 2017 and November 15, 2018. NVIDIA and CEO Jensen Huang deny the allegations. The agreement includes no admission of wrongdoing.",
+    "The case centers on the GeForce GTX 10 series. Investors alleged that miners bought GeForce cards and that NVIDIA counted those sales as gaming revenue. They said NVIDIA and Huang gave investors the impression that most crypto-related sales came from dedicated mining products reported under its OEM business.",
+    "In November 2018, NVIDIA lowered its revenue outlook and said excess GPU inventory was weighing on its results after the crypto boom. NVIDIA shares fell 28.5% over the next two trading sessions, according to the plaintiffs’ filing.",
+    "A federal court dismissed the case in 2021, but the Ninth Circuit revived part of it in 2023. The US Supreme Court dropped its review in December 2024, leaving the appeals court ruling in place. The motion for preliminary approval lists February 4, 2027 as the hearing date."
+   ]
+  },
+  {
+   "id": "c8eca1577e",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "TFzsvuCaivN8XPynqqAXHk",
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/beijings-ai-ambitions-are-under-threat-as-models-may-fall-behind-by-up-to-nine-months-versus-competitors-chinese-ai-labs-are-under-heavy-fire-from-export-controls-maturing-chip-stacks-and-a-distillation-crackdown",
+   "title": "Beijing’s AI ambitions are under threat as models may fall behind by up to nine months versus competitors — Chinese AI labs are under heavy fire from export controls, maturing chip stacks and a distillation crackdown",
+   "summary": "This week, several reports have detailed how closing GPU rental loopholes across Asia may have had an impact on the development of Chinese AI models.",
+   "categories": [
+    "Artificial Intelligence",
+    "Tech Industry"
+   ],
+   "published_at": "2026-11-27T15:00:00Z",
+   "body": [
+    "Zhipu AI, the developer of the GLM series of models, has allegedly pushed its release calendar back as a result of reduced access to advanced AI accelerators, Reuters said. It's an open secret that data centers located in Asia have been renting compute capacity to Chinese entities for some time. In light of the recent Nvidia scandal involving Jensen Huang and Megaspeed, the U.S. Department of Commerce has since tightened its rules over how data centers lend their compute capacity to Chinese entities. This has created an environment where there is, in fact, an excess of compute capacity available in the region, Bloomberg reported.",
+    "These curbs have a knock-on effect on how companies train their AI models, with Nvidia's AI accelerators being the most coveted; not having access to them stifles the development of AI in the region. However, this isn't entirely true across the industry. DeepSeek is attempting to wean itself off foreign silicon and instead adopting Huawei's Ascend AI chips, and porting its libraries away from CUDA and onto the open-source CANN. However, this hasn't stopped Chinese AI labs from facing another issue: tightened security against the distillation of AI models."
+   ]
+  },
+  {
+   "id": "0afdb01030",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "P6D7uMwovCz7v2X9u9D25k",
+   "url": "https://www.tomshardware.com/3d-printing/the-ultimate-black-friday-3d-printer-gift-guide-bargains-from-bambu-lab-prusa-research-and-elegoo-plus-usd199-kid-friendly-printers",
+   "title": "The ultimate Black Friday 3D printer gift guide",
+   "summary": "We’ve got our sights set on Black Friday sales, and the bargains for some of the best 3D printers are hot!",
+   "categories": [
+    "3D Printing"
+   ],
+   "published_at": "2026-11-27T14:41:55Z",
+   "body": [
+    "We’ve got our sights set on Black Friday sales, and the bargains for some of the best 3D printers are hot!",
+    "If you need help selecting a new printer for a kid or teen, we have a whole list of recommendations for beginners of every age. One of our favorite pint-sized printers for young makers is the Kidoodle from Sunlu, which is on sale for $199.",
+    "If you’re shopping for someone who already has a printer, filament is always a safe bet. Anycubic has four-color bundles of PLA for only $39.99, but if you want to gift a gourmet filament, then CookieCad never disappoints with its fun, glitter gradients that come in PLA, TPU, and ABS.",
+    "We’re finding plenty of great deals on the best 3D printers, even more filament and snazzy new build plates to fill up Santa’s sleigh. It's a great time to stock up on 3D printing gifts so you can spend more time 3D printing ornaments for your tree.",
+    "Bambu Lab has eight 3D printers on sale, with deals like $300 off the H2C Combo, $150 off the H2S Combo, and $100 off the P2S Combo. Bambu Lab repeatedly makes our Best of 3D printers list, with the X2D currently our favorite pick for Best Overall 3D printer."
+   ]
+  },
+  {
+   "id": "85e6872e5c",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/xsemu-brings-multiple-xbox-series-emulators-into-a-single-pc-launcher",
+   "url": "https://videocardz.com/newz/xsemu-brings-multiple-xbox-series-emulators-into-a-single-pc-launcher",
+   "title": "XSEmu brings multiple Xbox Series emulators into a single PC launcher",
+   "summary": "Xbox Series X/S emulation gets a dedicated game launcher The number of Xbox Series emulation projects continues to grow following the leak of the GTA VI Xbox build. Developer Zortos...",
+   "categories": [],
+   "published_at": "2026-11-27T14:37:19Z",
+   "body": [
+    "The number of Xbox Series emulation projects continues to grow following the leak of the GTA VI Xbox build. Developer Zortos has announced XSEmu, a project that combines its own Xbox compatibility layer with several third-party emulator forks under a single graphical interface.",
+    "XSEmu is based on the XCL translation layer. It executes Xbox Series game code directly on x86-64 processors rather than emulating the console hardware. The software translates Xbox-specific Direct3D 12.X calls into standard Direct3D 12 calls and recompiles RDNA2 shaders for PC graphics cards.",
+    "According to the developer, the XSEmu core is currently optimized for NVIDIA graphics cards in the GeForce RTX 3080 performance class and below. AMD Radeon users will have access to alternative emulator forks through the same launcher. Native AMD support for the XSEmu core is planned for later.",
+    "The launcher allows users to select Xbox Series S or Series X mode and assign a different runner to each game. It also features shader pipeline precompilation with pause and resume functionality. Compilation automatically pauses when available system memory drops below 1GB.",
+    "1/4Meet XSEmu: an Xbox Series emulator and launcher built for every PC."
+   ]
+  },
+  {
+   "id": "3ae06d3921",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/another-rtx-5070-suffers-from-a-melted-power-connector-but-this-one-is-on-the-user",
+   "url": "https://videocardz.com/newz/another-rtx-5070-suffers-from-a-melted-power-connector-but-this-one-is-on-the-user",
+   "title": "Another RTX 5070 suffers from a melted power connector, but this one is on the user",
+   "summary": "RTX 5070 owner reports melted power cable Another GeForce RTX 5070 owner has reported a melted power connector, but this time the damage occurred on the power supply side. Reddit...",
+   "categories": [],
+   "published_at": "2026-11-27T13:36:32Z",
+   "body": [
+    "Another GeForce RTX 5070 owner has reported a melted power connector, but this time the damage occurred on the power supply side. Reddit user lil_zoghi shared a photo of a damaged 8-pin modular connector on an ASUS ROG Strix 650W power supply. The graphics card itself remains functional, according to the owner.",
+    "The system uses an MSI GeForce RTX 5070 SHADOW 2X with a 16-pin power adapter. The owner claims the graphics card was undervolted and consumed no more than 180W, compared to its default 250W power rating.",
+    "What makes this case interesting is that this is reportedly the second power supply to suffer such damage in the same user’s system. The owner had previously used the ASUS power supply with a GeForce RTX 3070 without encountering similar problems.",
+    "The owner later confirmed that only one modular PCIe connection on the power supply was used to feed the 16-pin adapter. NVIDIA recommends using two separate PCIe 8-pin cables with the RTX 5070 adapter. The user acknowledged overlooking the instructions included with the graphics card.",
+    "We have previously covered a similar RTX 5070 case involving an incorrect cable configuration. While the exact cause of the latest failure has not been confirmed, it is clear that even the 250-180W cards can suffer from melted connectors."
+   ]
+  },
+  {
+   "id": "2dbbb12544",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "nBVjcrmxbAX7zrj8d3tezG",
+   "url": "https://www.tomshardware.com/pc-components/ssds/best-ssd-deals-discounts-2026",
+   "title": "Best Cyber Monday SSD deals 2026",
+   "summary": "We've rounded up the best Cyber Monday SSD deals to help you expand your PC's storage without breaking the bank.",
+   "categories": [
+    "SSDs",
+    "PC Components",
+    "Storage"
+   ],
+   "published_at": "2026-11-27T13:35:12Z",
+   "body": [
+    "Storage SSDs Best Black Friday SSD deals for 2026 — big savings on Samsung, WD, Sandisk, MSI, and other SSDs at Amazon, Newegg, and others Deals By Stewart Bendle Contributions by Ben Stockton last updated 28 November 2026 Save big on Black Friday storage with these great SSD deals",
+    "We're keeping a close eye on all the best Black Friday SSD discounts and keeping a constantly updated list here. Buying SSDs is not as cheap as it used to be, but there are still savings to be had, especially on newer drives. We're updating this list constantly to find you the best deals to be had.",
+    "External factors, such as tariffs and geopolitical issues, along with chip shortages, are pushing prices upward. In fact, it appears that shortages driven by AI data centers could persist for several years. That means prices will go up significantly in the foreseeable future. Luckily, for now, there are discounts available on some SSD models.",
+    "As always, you'll need to stay alert when you're choosing SSDs, as not every drive is born equal and worthy of your money or a place of honor in your PC or PS5. We're constantly combing through the best deals across multiple retailers, selecting the best of them based on the in-depth knowledge we've gained from our thorough reviews, extensive benchmarks, and comprehensive historical price analysis."
+   ]
+  },
+  {
+   "id": "3de742a9b6",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "r6nkzyVek2Ddwh9JfsSBp9",
+   "url": "https://www.tomshardware.com/desktops/pc-building/the-swiss-army-knife-of-dvd-drives-is-back-on-sale-usb-docking-hybrid-also-available-with-a-built-in-m-2-ssd-slot-or-sata-hard-drive-dock-usd28-for-the-dvd-writer-and-hub-usd37-gets-an-added-sata-dock-or-pay-usd39-for-the-m-2-version",
+   "title": "The Swiss Army knife of USB docking DVD drives is on sale, also available with a built-in M.2 SSD slot or SATA hard drive dock",
+   "summary": "Portable DVD writers with flash media reading, M.2, and SATA drive docking abilities are great Black Friday Deals with 20% off every model.",
+   "categories": [
+    "PC Building",
+    "Desktops"
+   ],
+   "published_at": "2026-11-27T13:02:56Z",
+   "body": [
+    "Several essential peripherals-in-1 for media hoarders, with all models offering 20% off.",
+    "The most expensive of the bunch, this optical CD/DVD writer from SUIDEK upgrades the SATA dock to an M.2 NVMe SSD dock, but keeps the SD card reader, USB-A, and USB-C hub.",
+    "Desktops and laptops are almost certain to omit an optical drive in 2026. So, keeping a USB optical drive and docking solution around is a great idea to retain access to your collection of old software and media for generations to come. With the obvious utility value of one of these USB-attached optical drives we've selected a few flexible solutions on sale at Amazon that we felt we just had to share as they feature in the Black Friday sales: The External CD/DVD Drive for Laptop, DVD Player for Laptop, 8 in 1 USB 3.0 Ultra-Slim Portable at $28.79.The External CD DVD Drive, Portable CD DVD Driver +/-RW Burner with 2.5-inch SATA, SD Card Reader and USB A Type C 2.0 Hub at just $37.59. This model adds the convenience of a SATA drive dock to the equation. There's also an External SUIDEK portable CD/DVD burner with USB hub and M.2 NVMe Dock for $39.99; this model swaps the SATA dock for an M.2 NVMe SSD dock, if you prefer."
+   ]
+  },
+  {
+   "id": "a03f4d7c2b",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "pW9gw4orJxC8jPxEHDUJAD",
+   "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-gives-a-sneap-peak-at-ai-design-kit-agentic-ai-with-foundry-expertise",
+   "title": "TSMC gives a sneap peak at AI Design Kit: Agentic AI with foundry expertise",
+   "summary": "TSMC brings agentic AI to chip design as A14 design rule count hits 3.6X that of N5 while customers demand 33% shorter development cycle.",
+   "categories": [
+    "Semiconductors",
+    "Tech Industry",
+    "Manufacturing"
+   ],
+   "published_at": "2026-11-27T13:00:00Z",
+   "body": [
+    "TSMC's ADK promises to cut accelerate chip development as nodes get more complex.",
+    "At its 2026 Europe OIP Ecosystem Workshop in Munich, TSMC this week unveiled its AI Design Kit (ADK), a collection of process-specific technical information, implementation guidelines, and design methodologies that enables AI agents to automate and optimize chip development flows.",
+    "The ADK complements the foundry's traditional process design kits (PDKs) and enables AI agents to use TSMC's process-specific expertise, knowledge of electronic design automation (EDA) tools, and customers' proprietary design methodologies to automate physical implementation and optimization of chips. Ultimately, the initiative aims to reduce development cycles, improve design productivity, and simplify adoption of TSMC's advanced process technologies.",
+    "\"The ADK complements our traditional PDK, and it brings in capabilities to augment the EDA and other design flows,\" said Aveek Sarkar, Head of Ecosystem and Alliance Management at TSMC. \"Our goal with these agentic flows is to bring in the technology-specific learning we have at TSMC and layer that with your orchestration layer, with your design expertise, and to support the next generation of EDA or design flows and methodologies that you have.\""
+   ]
+  },
+  {
+   "id": "8551c2c3b8",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/intel-moon-lake-reportedly-features-a-19-smaller-compute-die-than-wildcat-lake",
+   "url": "https://videocardz.com/newz/intel-moon-lake-reportedly-features-a-19-smaller-compute-die-than-wildcat-lake",
+   "title": "Intel Moon Lake reportedly features a 19% smaller compute die than Wildcat Lake",
+   "summary": "Intel Wildcat Lake Refresh reportedly uses 18A-P with 21% larger compute die, Moon Lake is 19% smaller Intel's three budget mobile architectures will share the same platform controller die. Intel...",
+   "categories": [],
+   "published_at": "2026-11-27T12:11:34Z",
+   "body": [
+    "Intel’s three budget mobile architectures will share the same platform controller die.",
+    "Intel is reportedly preparing two new processor designs for entry-level laptops based on the Wildcat Lake platform. Hardware leaker Jaykihn has now shared compute die sizes and manufacturing nodes for Wildcat Lake, Wildcat Lake Refresh and Moon Lake.",
+    "The information reveals that Wildcat Lake Refresh will use Intel 18A-P, an enhanced version of the manufacturing process used for the current Wildcat Lake series. The compute die will measure 93.30 mm², up from 77.42 mm², representing a 20.5% increase in silicon area.",
+    "As we reported in June, Wildcat Lake Refresh will feature up to four Cougar Cove P-cores and four Darkmont LP-E cores. Jaykihn confirmed that the additional 15.88 mm² accommodates two extra Performance cores and 6MB of L3 cache. According to the leaker, Intel is developing the refreshed design because the current Wildcat Lake series is not competitive enough against Apple’s MacBook Neo.",
+    "Moon Lake uses a smaller 62.79 mm² compute dieMoon Lake goes in the opposite direction. The processor reportedly removes both Performance cores and retains four Darkmont LP-E cores. Its Intel 18A compute die measures 62.79 mm², making it 18.9% smaller than Wildcat Lake. As we reported last month, Moon Lake is designed for a default power configuration of 6W."
+   ]
+  },
+  {
+   "id": "52daf65c8d",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "fsfTmG4D8tvL4w6TsesTYn",
+   "url": "https://www.tomshardware.com/desktops/pc-building/hotos-incredible-25-piece-electric-screwdriver-kit-for-pc-builders-and-diyers-crashes-to-all-time-low-price-equip-yourself-with-the-essential-cordless-kit-for-less-than-usd30",
+   "title": "Hoto’s incredible 25-piece electric screwdriver kit for PC builders and DIYers crashes to all-time low price",
+   "summary": "Hoto's magnetic electronic screwdriver kit is on sale at Amazon for less than $30, its lowest price ever, with 43% off in this slobberknocker of a deal.",
+   "categories": [
+    "PC Building",
+    "Desktops"
+   ],
+   "published_at": "2026-11-27T12:09:49Z",
+   "body": [
+    "This is the latest model from Hoto, and it comes finished in a smart royal blue, made from a tough plastic, soft-touch rubber, and hardened steel across all of its components. The magnetic hex chuck is a standard quarter-inch, meaning that you should have wide compatibility with other bits that you might have lying around in the house, so long as they're magnetic. But with as many bits as you get in this kit, you might as well throw away the old bits to make way for the new, ultra-hard bits rated at 60HRC that come with this bundle.",
+    "This Hoto magnetic electronic screwdriver is powered by a 1,500 mAh battery, allowing you to drive over 1,000 screws on a single USB-C charge. It weighs 250g, features three different torque settings, and includes 25 ultra-hard screw bits, rated for 60HRC hardness on the Rockwell scale.",
+    "The screwdriver charges over a single USB-C port and also boasts features such as a three-stage setting for torque, making it perfectly suited to PC hardware builds, building furniture, or general household projects all year round. The electric motor spins at up to 220 RPM and weighs just 250g. You'll also get Hoto's magnetic case to keep the litter of bits contained and safe while it's not in use."
+   ]
+  },
+  {
+   "id": "47b6d736c8",
+   "source": "tomshardware",
+   "source_name": "Tom's Hardware",
+   "guid": "MStjGJpNqDow5oniXejPjn",
+   "url": "https://www.tomshardware.com/pc-components/ssds/kioxias-3rd-gen-xl-flash-hits-optane-class-3-microsecond-read-latency-with-70-percent-higher-density-samples-march-2027-ahead-of-18-million-iops-gp2-ssds",
+   "title": "Kioxia's 3rd-gen XL-Flash hits Optane-class 3-microsecond read latency with 70% higher density",
+   "summary": "Kioxia showed an XL-Flash Generation 3 prototype at KIOXIA Forum in Tokyo and named the upcoming GP2 SSD as its first product.",
+   "categories": [
+    "SSDs",
+    "PC Components",
+    "Storage"
+   ],
+   "published_at": "2026-11-27T12:00:00Z",
+   "body": [
+    "Its first home is the GP2 SSD, rated for more than 18 million random reads per second.",
+    "The low-latency XL-Flash fills “a new memory tier” to bridge the gap between DRAM and regular flash memory, in a way that can complement or replace some DRAM to help drive down costs, especially in AI servers and data centers. This has some similarities to Optane, which used 3D XPoint instead, as a storage class memory (SCM) option to reach higher IOPS. Intel and Micron’s 3D XPoint stored bits as changes in the cell material’s resistance rather than as trapped charge like NAND, and Intel exited the Optane business in 2022. The XL-Flash NAND is built on BiCS flash technology, but it’s tuned for low read latency and high write endurance.",
+    "The first generation was SLC with under-5 µs reads, arriving in 2019. By 2022, Gen 2 added 2-bit MLC as an option for lower bit cost, trading some like-for-like performance for better price-to-density. Gen 3 is reported to use SLC, and its 3 µs average read latency challenges the first gen’s sub-5 µs rating while being more than ten times faster than the 40 µs of standard BiCS8 TLC. This is within the same ballpark as Optane SSDs. The flash also reportedly has SLC endurance at 150,000 to 250,000 P/E cycles, at least 50x standard TLC, running at a 4.8 Gb/s interface speed."
+   ]
+  },
+  {
+   "id": "62030747c1",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/gta-vi-comes-full-circle-now-running-on-ps5-based-crypto-mining-hardware",
+   "url": "https://videocardz.com/newz/gta-vi-comes-full-circle-now-running-on-ps5-based-crypto-mining-hardware",
+   "title": "GTA VI comes full circle, now running on PS5-based crypto mining hardware",
+   "summary": "From console gaming to crypto mining and back to gaming There is some irony in the latest development surrounding the unofficial PC version of Grand Theft Auto VI. The leaked...",
+   "categories": [],
+   "published_at": "2026-11-27T11:45:48Z",
+   "body": [
+    "There is some irony in the latest development surrounding the unofficial PC version of Grand Theft Auto VI. The leaked PlayStation 5 version of the game is now reportedly running on AMD BC-250 hardware, a cryptocurrency mining board based on the very same silicon developed for Sony’s console.",
+    "As some of our readers may remember, we first covered the BC-250 in 2022. AMD repurposed PS5 silicon for cryptocurrency mining systems manufactured by ASRock. The board features six Zen 2 CPU cores, 24 RDNA 2 Compute Units and 16GB of GDDR6 memory.",
+    "Following the decline of GPU cryptocurrency mining, these boards found their way into the hands of PC enthusiasts. Community-developed drivers and modifications have since turned the BC-250 into an inexpensive Linux gaming system. We previously covered such hardware running GTA V and Cyberpunk 2077.",
+    "Now, developer djaye has demonstrated GTA VI running on the BC-250. Interestingly, the developer clarified that this is not based on the Kyty project. The exact method and performance characteristics have yet to be detailed.",
+    "So here we are. Silicon originally designed to run PlayStation 5 games, repurposed by AMD for cryptocurrency mining and later converted into a PC by enthusiasts, is now running a PlayStation 5 game that has yet to receive an official PC release."
+   ]
+  },
+  {
+   "id": "72f0062a0e",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/intel-razor-lake-ax-reportedly-features-two-variants-96gb-mop-and-192gb-mob",
+   "url": "https://videocardz.com/newz/intel-razor-lake-ax-reportedly-features-two-variants-96gb-mop-and-192gb-mob",
+   "title": "Intel Razor Lake-AX reportedly features two variants: 96GB MoP and 192GB MoB",
+   "summary": "Intel Razor Lake-AX to feature two memory configurations Intel is reportedly developing two separate product lines based on its Razor Lake-AX processor. According to hardware leaker Jaykihn, Intel plans to...",
+   "categories": [],
+   "published_at": "2026-11-27T10:27:12Z",
+   "body": [
+    "Intel is reportedly developing two separate product lines based on its Razor Lake-AX processor. According to hardware leaker Jaykihn, Intel plans to offer variants with Memory-on-Package (MoP) and Memory-on-Motherboard (MoB). The latter is said to support up to 192GB of memory.",
+    "Yesterday, we reported on a leaked Razor Lake-AX prototype featuring four memory chips installed directly on the processor package. According to our information, Intel intends to let OEM and ODM partners install the memory themselves. Jaykihn claims that the MoP product line officially supports up to 96GB, although I will mention that I heard about 128GB config as well.",
+    "Jaykihn also shared two silicon configurations for Razor Lake-AX. The smaller variant features 4 P-cores, 8 E-cores, 4 low-power E-cores and 16 Xe3 graphics cores. The larger variant features 8 P-cores, 16 E-cores, 4 low-power E-cores and 32 Xe3 graphics cores.",
+    "128GB/256GB respectively between MoP/MoB are unofficially supported, but Intel believes the allocation required is practically impossible for the OEM. There are no projected suppliers available for the required 32GB package.",
+    "The distinction between these configurations is separate from the two memory product lines. However, Intel currently plans to use only the larger 28-core configuration for the MoB series. According to the leaker, this product line is still being defined."
+   ]
+  },
+  {
+   "id": "760f77ca44",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/amd-rdna-5-graphics-support-is-coming-to-linux-7-5",
+   "url": "https://videocardz.com/newz/amd-rdna-5-graphics-support-is-coming-to-linux-7-5",
+   "title": "AMD RDNA 5 graphics support is coming to Linux 7.5",
+   "summary": "AMD prepares Linux kernel support for its next-generation Radeon GPUs AMD has submitted another round of AMDGPU driver updates targeting the upcoming Linux 7.5 kernel. The November 26 pull request...",
+   "categories": [],
+   "published_at": "2026-11-27T09:15:55Z",
+   "body": [
+    "AMD has submitted another round of AMDGPU driver updates targeting the upcoming Linux 7.5 kernel. The November 26 pull request for DRM-Next includes early support for Graphics Core 13 (GC13), the graphics architecture expected to power AMD’s RDNA 5 GPUs.",
+    "As we reported earlier this month, AMD had already published eight patches adding more than 12,600 lines of driver code for GFX13. Those patches covered two graphics IP versions, GFX 13.0.1 and GFX 13.0.4. The latest submission puts this work on track for inclusion in Linux 7.5.",
+    "The pull request includes support and updates for several hardware blocks associated with AMD’s next-generation graphics architecture:",
+    "AMD has also started preparing GFX13 support for the RadeonSI OpenGL and RADV Vulkan drivers in Mesa. Both kernel and userspace driver development are now underway for the upcoming graphics architecture.",
+    "Linux 7.5 is expected to reach stable release in the first quarter of 2027. The GFX13 support is still experimental and more driver updates will be required before the hardware becomes commercially available.",
+    "AMD has yet to announce its next-generation Radeon graphics cards. According to previous leaks, the first RDNA 5 products could arrive in the second half of 2027, with more models following in 2028."
+   ]
+  },
+  {
+   "id": "6d856a76c0",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/modders-add-multiplayer-to-unofficial-gta-vi-pc-port",
+   "url": "https://videocardz.com/newz/modders-add-multiplayer-to-unofficial-gta-vi-pc-port",
+   "title": "Modders add multiplayer to unofficial GTA VI PC port",
+   "summary": "GTA VI multiplayer reportedly running on PC at 25-30 FPS Apparently, PC gamers are getting GTA VI Online before GTA VI Online. Modders have demonstrated multiplayer functionality in an unofficial...",
+   "categories": [],
+   "published_at": "2026-11-27T08:04:53Z",
+   "body": [
+    "Apparently, PC gamers are getting GTA VI Online before GTA VI Online. Modders have demonstrated multiplayer functionality in an unofficial PC port of Grand Theft Auto VI, just one week after Rockstar Games released the game exclusively for PlayStation 5 and Xbox Series X|S.",
+    "A developer known as TeK shared footage showing multiple players interacting within the same game world. According to the developer, the mod already supports character and vehicle synchronization as well as proximity voice chat. The game reportedly runs at a stable 25-30 FPS.",
+    "PortWatch VI, a community tracker monitoring unofficial GTA VI PC projects, claims to have verified the authenticity of the footage. The multiplayer implementation is based on a private fork of CGBJ’s build. The developers have only recently started working on multiplayer, and the code is not publicly available.",
+    "As we reported yesterday, modders have already demonstrated in-game modification menus and support for upscaling and frame generation. These developments continue despite Take-Two’s copyright takedown requests, which have affected more than 3,000 GitHub repositories.",
+    "Meanwhile Rockstar Games is silent on PC version and mulitplayer plansWhat makes this development unusual is that Rockstar has yet to launch its own multiplayer mode, let alone announce a release date for the PC version. While this community implementation is nowhere near a full GTA Online experience, modders are already testing multiplayer on a platform that Rockstar does not officially support."
+   ]
+  },
+  {
+   "id": "cae5e39a79",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/g-skill-says-this-pcb-corner-mark-is-enough-to-void-your-lifetime-ram-warranty",
+   "url": "https://videocardz.com/newz/g-skill-says-this-pcb-corner-mark-is-enough-to-void-your-lifetime-ram-warranty",
+   "title": "G.Skill says this PCB corner mark is enough to void your lifetime RAM warranty",
+   "summary": "G.Skill customer denied lifetime warranty over scratch A Redditor has shared their experience with G.Skill's limited lifetime memory warranty. The company reportedly rejected an RMA request for a Ripjaws V...",
+   "categories": [],
+   "published_at": "2026-11-26T19:02:44Z",
+   "body": [
+    "A Redditor has shared their experience with G.Skill’s limited lifetime memory warranty. The company reportedly rejected an RMA request for a Ripjaws V DDR4-3200 16GB (2x8GB) memory kit manufactured in May 2023, citing physical damage to the PCB.",
+    "According to the customer, the memory passes memory tests but causes system crashes after three to four hours of gaming. G.Skill provided a close-up photo showing damage to the outer corner of the PCB as justification for rejecting the warranty claim. The customer requested another evaluation, but the RMA department upheld its decision after consulting a manager.",
+    "To be fair, this is still physical damage, so G.Skill has grounds to dispute the warranty claim. However, the damage appears to be limited to the outer edge of the PCB, away from any visible traces, contacts or components. We doubt that this mark alone would cause memory instability, although a photo cannot rule out internal PCB damage.",
+    "We also asked an expert and repair technican VIK-on. Basically said that perhaps the user is not telling the full story.",
+    "The situation is more complex than it might seem at first glance."
+   ]
+  },
+  {
+   "id": "8ee8d44dc7",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/dxvk-3-2-brings-smoother-frame-pacing-to-linux-gaming",
+   "url": "https://videocardz.com/newz/dxvk-3-2-brings-smoother-frame-pacing-to-linux-gaming",
+   "title": "DXVK 3.2 brings smoother frame pacing to Linux gaming",
+   "summary": "DXVK 3.2 adds Vulkan present timing support for smoother gaming on Wayland DXVK 3.2 has been released with support for the VK_EXT_present_timing Vulkan extension. The feature allows DXVK to achieve...",
+   "categories": [],
+   "published_at": "2026-11-26T18:09:06Z",
+   "body": [
+    "DXVK 3.2 has been released with support for the VK_EXT_present_timing Vulkan extension. The feature allows DXVK to achieve more consistent frame pacing when using its built-in FPS limiter or running games at non-native refresh rates in fullscreen mode. The latter is important on Wayland, where DXVK cannot directly change the display mode and must emulate lower refresh rates.",
+    "The feature requires vertical synchronization and a compatible graphics driver and compositor. It works with recent Gamescope builds or Wayland-enabled Proton builds such as Proton-GE when used with a compositor supporting the commit-timing-v1 protocol. The developer notes that manually setting DXVK’s FPS limiter may also improve frame pacing in games that already have their own 60 FPS limit.",
+    "If sufficiently supported by the compositor and graphics driver, VK_EXT_present_timing can now be used to achieve more consistent frame pacing in the following scenarios:",
+    "DXVK 3.2 improves its VRAM eviction logic, which should benefit games running on graphics cards with limited video memory. The update also changes how Direct3D 11 resources are uploaded to reduce stuttering. Shader code generation has been improved in several cases."
+   ]
+  },
+  {
+   "id": "2143758f98",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/github-promotes-ps5-to-pc-translation-layer-amid-gta-vi-pc-port-takedowns-then-deletes-the-post",
+   "url": "https://videocardz.com/newz/github-promotes-ps5-to-pc-translation-layer-amid-gta-vi-pc-port-takedowns-then-deletes-the-post",
+   "title": "GitHub promotes PS5-to-PC translation layer amid GTA VI PC port takedowns, then deletes the post",
+   "summary": "Microsoft-owned GitHub promotes AnyPS5 just days after removing over 3,000 GTA VI PC repositories GitHub has published and subsequently deleted a post promoting AnyPS5, one the largests PlayStation 5-to-PC translation...",
+   "categories": [],
+   "published_at": "2026-11-26T17:00:21Z",
+   "body": [
+    "GitHub has published and subsequently deleted a post promoting AnyPS5, one the largests PlayStation 5-to-PC translation project on its platform by star count. Interestingly, GitHub used the launch of Grand Theft Auto VI to highlight the project’s popularity, despite actively processing copyright takedown requests targeting unofficial PC ports of the same game.",
+    "The official GitHub account on X celebrated AnyPS5 reaching 58,000 stars since its August launch. The accompanying video also highlighted developers working on the translation layer ahead of the GTA VI release. GitHub even asked its followers whether changing the platform on which games run crosses a legal line.",
+    "As we reported two months ago, AnyPS5 takes a different approach from traditional console emulators. It converts PS5 executables into native Windows and Linux programs and replaces the console’s system libraries with its own implementations. The project has now reached 61,900 stars, 6,000 forks and over 51,000 commits. However, AnyPS5 has yet to demonstrate GTA VI running on PC.",
+    "Just two days ago, GitHub processed a DMCA notice from Take-Two covering the entire Leonida repository network. As we reported yesterday, this resulted in the removal of 3,007 repositories associated with an unofficial PC port based on the Xbox version of GTA VI."
+   ]
+  },
+  {
+   "id": "6ce51c49cf",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/thermal-grizzly-launches-first-cpu-delidding-accessory-with-intel-nova-lake-support",
+   "url": "https://videocardz.com/newz/thermal-grizzly-launches-first-cpu-delidding-accessory-with-intel-nova-lake-support",
+   "title": "Thermal Grizzly launches first CPU delidding accessory with Intel Nova Lake support",
+   "summary": "Delid-Heat-Mate already supports LGA-1954 processors Thermal Grizzly has launched its Delid-Heat-Mate, a new accessory designed to assist in removing integrated heat spreaders (IHS) from processors. What makes this release interesting...",
+   "categories": [],
+   "published_at": "2026-11-26T16:25:20Z",
+   "body": [
+    "Thermal Grizzly has launched its Delid-Heat-Mate, a new accessory designed to assist in removing integrated heat spreaders (IHS) from processors. What makes this release interesting is that Thermal Grizzly already lists support for Intel’s upcoming LGA-1954 socket, which will be used by Nova Lake-S desktop CPUs.",
+    "This is not the first Thermal Grizzly product to support the upcoming Intel platform. Back in September, we covered the launch of the Mycro Pro Stainless Steel CPU water blocks with LGA-1954 support. However, this appears to be the first commercially available delidding accessory to explicitly support Nova Lake.",
+    "Interestingly, Thermal Grizzly confirms that Nova Lake CPUs will require the same two-stage delidding process as Arrow Lake. While heating is optional for AMD AM5 and Intel LGA-1700 processors, the company states that it is necessary for both LGA-1851 and LGA-1954 CPUs.",
+    "The Delid-Heat-Mate works in combination with a separately sold Delid-Die-Mate tool. Once the adhesive and solder bonds have been mechanically loosened, the processor is placed upside down in the new accessory and heated in an oven at 165-175°C. The indium solder melts at approximately 157°C, allowing the heat spreader to detach under its own weight. The process typically takes 10 to 15 minutes."
+   ]
+  },
+  {
+   "id": "820725d6cf",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/amd-ryzen-7-9800x3d-and-9850x3d-hit-all-time-low-online-prices-of-369-and-399",
+   "url": "https://videocardz.com/newz/amd-ryzen-7-9800x3d-and-9850x3d-hit-all-time-low-online-prices-of-369-and-399",
+   "title": "AMD Ryzen 7 9800X3D and 9850X3D hit all-time low online prices of $369 and $399",
+   "summary": "Both Zen 5 gaming CPUs now cost less than $400 AMD Ryzen X3D processors have reached new online price lows in the United States ahead of Black Friday. Amazon is...",
+   "categories": [],
+   "published_at": "2026-11-26T15:27:29Z",
+   "body": [
+    "AMD Ryzen X3D processors have reached new online price lows in the United States ahead of Black Friday. Amazon is now offering the Ryzen 7 9800X3D for $369.99 and the Ryzen 7 9850X3D for $399.99 after applying coupons.",
+    "While we have seen lower prices at Micro Center, including its current $349.99 offer for the 9800X3D, those promotions require in-store pickup. This appears to be the first time the 9800X3D has been available for less than $390 with delivery.",
+    "The newer Ryzen 7 9850X3D has also dropped below $400 for the first time at Amazon. The processor launched in January at $499 and offers a 400 MHz higher maximum boost clock than the 9800X3D. The price difference between the two processors is now just $30.",
+    "There is also a deal for existing AM4 users. The re-released Ryzen 7 5800X3D is available for $319.99 after applying a $19.96 coupon. All three processors feature eight cores and 96 MB of L3 cache.",
+    "Set as Preferred Source Follow on GoogleSource: Amazon (9800X3D) Amazon (9850X3D) Amazon (5800X3D)"
+   ]
+  },
+  {
+   "id": "e4100287e9",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/apple-could-launch-redesigned-macbook-air-with-oled-as-early-as-2027",
+   "url": "https://videocardz.com/newz/apple-could-launch-redesigned-macbook-air-with-oled-as-early-as-2027",
+   "title": "Apple could launch redesigned MacBook Air with OLED as early as 2027",
+   "summary": "Apple reportedly preparing two MacBook Air updates Apple may launch its first MacBook Air with an OLED display as early as next year. Bloomberg's Mark Gurman revealed in the latest...",
+   "categories": [],
+   "published_at": "2026-11-26T13:39:42Z",
+   "body": [
+    "Apple may launch its first MacBook Air with an OLED display as early as next year. Bloomberg’s Mark Gurman revealed in the latest episode of his Power On podcast that Apple is preparing a major redesign of its thin-and-light laptop for late 2027 or 2028.",
+    "Before that happens, Apple plans to refresh its MacBook Air lineup with the M6 processor in spring 2027. The new 13-inch and 15-inch models, internally known as J913 and J915, respectively, will reportedly launch alongside the second-generation MacBook Neo. Gurman does not expect major design changes for this generation.",
+    "Apple introduced the current MacBook Air design in 2022 with the M2 processor, replacing the wedge-shaped chassis with a uniform thickness design. The company expanded the series with a 15-inch model in 2023.",
+    "Gurman previously suggested that Apple would introduce OLED displays to the MacBook Air series in 2028 at the earliest. Last month, the reporter confirmed that Apple was internally testing OLED-equipped MacBook Air and iMac models. The latest information suggests the MacBook Air redesign could arrive earlier.",
+    "Launching two MacBook Air generations in one year would be unusual, but Apple did precisely that with its MacBook Pro series in 2026. The company released its M5 Pro and M5 Max refresh in March before introducing redesigned models with PROLED XDR displays in October."
+   ]
+  },
+  {
+   "id": "d5777de9cc",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/nvidia-goes-full-grinch-with-its-holiday-promotion-offering-no-rtx-50-gpus-at-msrp",
+   "url": "https://videocardz.com/newz/nvidia-goes-full-grinch-with-its-holiday-promotion-offering-no-rtx-50-gpus-at-msrp",
+   "title": "NVIDIA goes full Grinch with its Holiday promotion, offering no RTX 50 GPUs at MSRP",
+   "summary": "NVIDIA goes full Grinch with its holiday promotion, offering no RTX 50 GPUs at MSRP NVIDIA celebrates Black Friday with GeForce RTX 5090 cards selling at over 3x MSRP. NVIDIA...",
+   "categories": [],
+   "published_at": "2026-11-26T12:47:48Z",
+   "body": [
+    "NVIDIA celebrates Black Friday with GeForce RTX 5090 cards selling at over 3x MSRP.",
+    "NVIDIA has launched its annual holiday shopping campaign ahead of Black Friday. The company is promoting its GeForce RTX 50 series graphics cards alongside RTX Spark PCs, DGX Spark systems, G-SYNC monitors and GeForce NOW subscriptions. There is just one problem with this year’s promotion: we could not find a single new GeForce RTX 50 series graphics card selling at or below its original MSRP at the retailers we checked.",
+    "NVIDIA lists several major US retailers as partners for its holiday campaign, including Amazon, Newegg, Best Buy, Walmart and Costco. The company’s dedicated holiday website does not advertise any specific graphics card discounts. Instead, it directs customers to its marketplace and retail partners.",
+    "We checked Amazon and Newegg for holiday offers. NVIDIA’s dedicated Amazon holiday storefront primarily promotes gaming laptops and prebuilt desktop PCs. Newegg does have standalone graphics cards listed as Black Friday deals, but those discounts are based on already inflated retail prices.",
+    "At Newegg, the GeForce RTX 5090 is listed at $6,499.99, more than three times its original $1,999 MSRP. The RTX 5080 costs $2,199.99, while the RTX 5070 Ti is available for $1,469.99. Both launched at roughly half their current retail prices."
+   ]
+  },
+  {
+   "id": "34c4a6773e",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/modders-unlock-gta-vi-at-up-to-60-fps-on-jailbroken-ps5-consoles",
+   "url": "https://videocardz.com/newz/modders-unlock-gta-vi-at-up-to-60-fps-on-jailbroken-ps5-consoles",
+   "title": "Modders unlock GTA VI at up to 60 FPS on jailbroken PS5 consoles",
+   "summary": "GTA VI modders remove 30 FPS limit on PS5 and PS5 Pro It took modders just one week to introduce an unofficial 60 FPS mode to Grand Theft Auto VI....",
+   "categories": [],
+   "published_at": "2026-11-26T11:45:56Z",
+   "body": [
+    "It took modders just one week to introduce an unofficial 60 FPS mode to Grand Theft Auto VI. The patch works on jailbroken PlayStation 5 and PlayStation 5 Pro consoles, removing the game’s default 30 FPS limit.",
+    "As we reported earlier today, the PlayStation 5 version of GTA VI has already been demonstrated running on consoles with older firmware. Modders are now taking advantage of this to modify the game’s performance settings.",
+    "No son 60 FPS en el GTA de los Mares del SUR en PS5 pero NADA MAL CHAVALES!! pic.twitter.com/L63ALb7JAu",
+    "The patch sets the frame rate limit to half the display’s refresh rate. This means players with a 120 Hz display can target 60 FPS. According to footage the PS5 Pro can reportedly maintain over 50 FPS during gameplay without relying on external frame generation.",
+    "PS5 GTA6 60 FPS Patch. No animation or physics issues. byu/a_Criminai inPS5_Jailbreak",
+    "The patch also fixes game timing issues when running above 30 FPS. The author reports no animation or physics issues and lower input latency. However, the patch does not guarantee a stable 60 FPS experience."
+   ]
+  },
+  {
+   "id": "812759f07b",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/free-oled-engine-windows-app-offers-burn-in-protection-for-up-to-five-monitors",
+   "url": "https://videocardz.com/newz/free-oled-engine-windows-app-offers-burn-in-protection-for-up-to-five-monitors",
+   "title": "Free OLED Engine Windows app offers burn-in protection for up to five monitors",
+   "summary": "OLED protection without manufacturer-specific software A Redditor has released OLED Engine, a free Windows application designed to reduce the risk of OLED burn-in. The software also works with non-OLED displays...",
+   "categories": [],
+   "published_at": "2026-11-26T10:57:21Z",
+   "body": [
+    "A Redditor has released OLED Engine, a free Windows application designed to reduce the risk of OLED burn-in. The software also works with non-OLED displays and supports up to five monitors, each with independently configurable protection settings.",
+    "OLED Engine can automatically dim or switch idle displays to pure black, effectively turning off individual pixels on OLED panels. The software can also hide desktop icons, the Windows taskbar and the mouse cursor. Users can configure automatic display shutdown, track screen usage and receive pixel refresh reminders.",
+    "We previously covered Monarch, another community-developed Windows application that allows users to disable individual monitors through keyboard shortcuts. OLED Engine expands on a similar concept with automated display management based on user activity.",
+    "The application supports different idle timers for desktop use, gaming, competitive gaming and paused video playback. It can detect video playback and controller input to avoid unwanted dimming. Users can also configure individual application profiles, brightness levels, dimming speeds and keyboard shortcuts.",
+    "OLED Engine supports automatic HDR and SDR switching, including an option to disable HDR when launching competitive games. GeForce owners can also configure automatic G-SYNC switching through NVIDIA Profile Inspector, although this feature requires administrator privileges and additional configuration."
+   ]
+  },
+  {
+   "id": "d6d44a0f9e",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/no-mans-sky-finally-gets-amd-fsr-4-support-thanks-to-vulkan-sdk-update",
+   "url": "https://videocardz.com/newz/no-mans-sky-finally-gets-amd-fsr-4-support-thanks-to-vulkan-sdk-update",
+   "title": "No Man’s Sky finally gets AMD FSR 4 support thanks to Vulkan SDK update",
+   "summary": "Another Vulkan game gets AMD machine learning upscaling Hello Games has released update 7.15 for No Man's Sky, adding support for AMD FSR 4 upscaling. The game is among the...",
+   "categories": [],
+   "published_at": "2026-11-26T09:58:36Z",
+   "body": [
+    "Hello Games has released update 7.15 for No Man’s Sky, adding support for AMD FSR 4 upscaling. The game is among the first Vulkan titles to receive native support for AMD’s machine learning-based upscaling technology.",
+    "Back in September, No Man’s Sky engine programmer Martin Griffiths explained why the game did not support FSR 4. The PC version uses a Vulkan renderer, while AMD’s technology was restricted to DirectX 12 at the time. Griffiths publicly expressed interest in bringing FSR 4 to the game once AMD added Vulkan support.",
+    "AMD recently added Vulkan support to their FSR SDK 2.4, allowing us to bring FSR 4 to #NoMansSky. It’s available today as part of our 7.15 update! https://t.co/bnFqnYhin4",
+    "AMD addressed this limitation with the release of FSR Redstone SDK 2.4 on October 28. The SDK introduced Vulkan support alongside FSR Upscaling 4.1.2, extending machine learning-based upscaling to Radeon RX 6000 graphics cards and select Ryzen APUs.",
+    "As we reported last week, DOOM: The Dark Ages became the first Vulkan game to support both FSR Upscaling 4.1 and Frame Generation 4. No Man’s Sky now follows with its own upscaling implementation, although Hello Games has not announced support for AMD’s latest frame generation technology."
+   ]
+  },
+  {
+   "id": "bd13e0bf74",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/first-mods-for-unofficial-gta-vi-pc-port-have-officially-dropped",
+   "url": "https://videocardz.com/newz/first-mods-for-unofficial-gta-vi-pc-port-have-officially-dropped",
+   "title": "First mods for unofficial GTA VI PC port have officially dropped",
+   "summary": "GTA VI unofficial PC build gets mod support It has been less than a week since Rockstar Games released Grand Theft Auto VI, and the community continues to make progress...",
+   "categories": [],
+   "published_at": "2026-11-26T08:50:33Z",
+   "body": [
+    "It has been less than a week since Rockstar Games released Grand Theft Auto VI, and the community continues to make progress on bringing the game to PC. Over the past 24 hours, several developments have been reported despite Take-Two’s efforts to shut down unofficial PC projects.",
+    "The PlayStation 5 version of GTA VI has now leaked online. A video posted on Reddit shows the game booting on a jailbroken PS5 running firmware 13.40. The author also claims compatibility with firmware 13.60. Until now, unofficial PC development had largely focused on the leaked Xbox Series build.",
+    "Unofficial GTA VI PC version gets its own launcherBrazilian streamer Suco has shared footage of a dedicated launcher developed for the unofficial PC version of GTA VI. The streamer also reported that the game averages 10 FPS on a system equipped with a Radeon RX 7900 XTX and 64 GB of RAM, with performance dropping to 2 FPS. While performance is still far from playable, developers are already working on making the game easier to launch.",
+    "GTA VI gets PC mods before an official PC releaseThe first GTA VI PC mods are already being demonstrated on social media. One video shows an in-game mod menu resembling those available for GTA V. According to a community member familiar with the project, these tools were developed for debugging purposes, with experienced GTA modders now contributing to the project."
+   ]
+  },
+  {
+   "id": "10b8b39880",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/gta-6-reportedly-boots-on-a-9-year-old-radeon-rx-580-but-its-a-slideshow",
+   "url": "https://videocardz.com/newz/gta-6-reportedly-boots-on-a-9-year-old-radeon-rx-580-but-its-a-slideshow",
+   "title": "GTA 6 reportedly boots on a 9-year-old Radeon RX 580, but it’s a slideshow",
+   "summary": "GTA 6 running at 1 FPS on AMD Polaris The unofficial GTA 6 PC projects are now targeting graphics cards without hardware ray tracing support. A video shared on Reddit...",
+   "categories": [],
+   "published_at": "2026-11-26T07:47:39Z",
+   "body": [
+    "The unofficial GTA 6 PC projects are now targeting graphics cards without hardware ray tracing support. A video shared on Reddit reportedly shows the game running on a Radeon RX 580, a graphics card that AMD released in April 2017.",
+    "The 22-second video shows what can best be described as a slideshow rather than gameplay. The Redditor who shared the footage admitted that they did not even expect the game to get past the loading screens.",
+    "Another developer has reportedly managed to run GTA 6 on the same GPU using a custom branch of the VIctory project with a compute-based fallback for mesh shaders. The developer is using a Core i5-9600K processor, 32GB of RAM and a Radeon RX 580 8GB running Windows 10. The game runs in Xbox Series S mode at low settings with performance of around 1 FPS.",
+    "The developer plans to release a package targeting the Radeon RX 580 and older graphics cards once the software is stable. There is no release date yet, and the project is not publicly available.",
+    "As we reported yesterday, several groups are working on unofficial GTA 6 PC builds despite Take-Two’s efforts to remove related repositories. While the latest footage is far from playable and has yet to be independently verified, it suggests that developers are already experimenting with hardware that predates both current-generation consoles and consumer GPUs with hardware ray tracing."
+   ]
+  },
+  {
+   "id": "dcd2fa7f27",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/intel-razor-lake-ax-prototype-leaks-out-features-four-on-package-memory-modules",
+   "url": "https://videocardz.com/newz/intel-razor-lake-ax-prototype-leaks-out-features-four-on-package-memory-modules",
+   "title": "Intel Razor Lake-AX prototype leaks out, features four on-package memory modules",
+   "summary": "Intel Razor Lake-AX to support up to 128GB of on-package memory An alleged Intel Razor Lake-AX prototype has surfaced online. Someone appears to be selling a used processor sample that...",
+   "categories": [],
+   "published_at": "2026-11-26T05:01:22Z",
+   "body": [
+    "An alleged Intel Razor Lake-AX prototype has surfaced online. Someone appears to be selling a used processor sample that is either damaged or was discarded during development. It is unclear whether the processor is still functional. However, the photograph appears to confirm one of the rumored features of Razor Lake-AX: on-package memory.",
+    "The processor features four memory ICs installed directly on the same package as the CPU. In this regard, Razor Lake-AX is expected to compete with AMD’s Halo series of processors, which are predominantly used in systems equipped with LPDDR5X memory.",
+    "According to our information, Razor Lake-AX currently supports memory configurations ranging from 32GB to 128GB. What makes Intel’s approach different is that the company plans to supply the processor to OEM and ODM partners without memory installed. Partners will be responsible for installing the four DRAM ICs during manufacturing.",
+    "We have also learned that Razor Lake-AX is expected to feature up to 32 GPU cores and a quad-channel memory interface. Intel is reportedly targeting the third quarter of 2027 for the first Razor Lake-AX products, although this schedule is subject to change."
+   ]
+  },
+  {
+   "id": "f103f29a87",
+   "source": "videocardz",
+   "source_name": "VideoCardz",
+   "guid": "https://videocardz.com/newz/asus-rog-xg-station-3-thunderbolt-5-egpu-dock-officially-costs-e399",
+   "url": "https://videocardz.com/newz/asus-rog-xg-station-3-thunderbolt-5-egpu-dock-officially-costs-e399",
+   "title": "ASUS ROG XG Station 3 Thunderbolt 5 eGPU dock officially costs €399",
+   "summary": "ASUS ROG XG Station 3 goes on sale 18 months after its debut ASUS has officially launched its ROG XG Station 3 external graphics card dock in Europe. The company...",
+   "categories": [],
+   "published_at": "2026-11-25T16:46:06Z",
+   "body": [
+    "ASUS has officially launched its ROG XG Station 3 external graphics card dock in Europe. The company has confirmed a recommended retail price of €399 including VAT in Germany and Austria, with Swiss pricing set at CHF 399. This price does not include a graphics card or a power supply.",
+    "We first covered the XG Station 3 at Computex 2025 in May last year. ASUS took nearly 18 months to bring the product to market. The company announced the final product earlier this month but did not confirm pricing at the time.",
+    "The XG Station 3 features an open design with support for desktop graphics cards up to 360 mm long and 93 mm thick. One of its main features is the GC-HPWR connector, which allows compatible ASUS BTF graphics cards such as the ROG Astral GeForce RTX 5090 BTF Edition to operate without an external GPU power cable.",
+    "The dock uses a Thunderbolt 5 interface with up to 80 Gbps of bidirectional bandwidth and up to 140W of laptop charging. It also features a secondary Thunderbolt 5 port with 36W power delivery and support for up to three 4K displays. ASUS has included two additional 10 Gbps USB Type-C ports."
+   ]
+  }
+ ]
+}
